@@ -1,0 +1,250 @@
+{
+  "task": "template",
+  "annotators": [
+    "Annotator A",
+    "Annotator B",
+    "Annotator C"
+  ],
+  "labels": [
+    "equivalent",
+    "relation_mismatch",
+    "scope_mismatch",
+    "unnatural_ko",
+    "unnatural_en"
+  ],
+  "n_complete": 37,
+  "n_dropped_partial": 0,
+  "fleiss_calibration": 0.127,
+  "fleiss_calibration_parts": {
+    "p_o": 0.6333,
+    "p_e": 0.58,
+    "n": 10,
+    "ci": [
+      -0.1111,
+      0.3023
+    ]
+  },
+  "fleiss_calibration_equivalent": 0.1477,
+  "fleiss_calibration_equivalent_n": 22,
+  "fleiss_calibration_equivalent_parts": {
+    "p_o": 0.6667,
+    "p_e": 0.6089
+  },
+  "fleiss_calibration_relation_mismatch": -0.0345,
+  "fleiss_calibration_relation_mismatch_n": 1,
+  "fleiss_calibration_relation_mismatch_parts": {
+    "p_o": 0.9333,
+    "p_e": 0.9356
+  },
+  "fleiss_calibration_scope_mismatch": 0.1667,
+  "fleiss_calibration_scope_mismatch_n": 6,
+  "fleiss_calibration_scope_mismatch_parts": {
+    "p_o": 0.7333,
+    "p_e": 0.68
+  },
+  "fleiss_calibration_unnatural_ko": null,
+  "fleiss_calibration_unnatural_ko_n": 0,
+  "fleiss_calibration_unnatural_ko_parts": {
+    "p_o": 1.0,
+    "p_e": 1.0
+  },
+  "fleiss_calibration_unnatural_en": -0.0345,
+  "fleiss_calibration_unnatural_en_n": 1,
+  "fleiss_calibration_unnatural_en_parts": {
+    "p_o": 0.9333,
+    "p_e": 0.9356
+  },
+  "ac1_calibration": {
+    "ac1": 0.5903,
+    "p_a": 0.6333,
+    "p_e": 0.105,
+    "q": 5,
+    "n": 10,
+    "ci": [
+      0.3019,
+      0.8604
+    ]
+  },
+  "specific_agreement_calibration": {
+    "flag_any": {
+      "def": "equivalent 이외 전부 (어색함 포함)",
+      "psa": 0.375,
+      "ci": [
+        0.0,
+        0.5
+      ],
+      "n_flags": 8,
+      "n_items_any": 5,
+      "n_items_all": 0
+    },
+    "flag_meaning": {
+      "def": "relation_mismatch 또는 scope_mismatch (의미 불일치만)",
+      "psa": 0.4286,
+      "ci": [
+        0.2,
+        0.5
+      ],
+      "n_flags": 7,
+      "n_items_any": 4,
+      "n_items_all": 0
+    },
+    "per_label": {
+      "equivalent": {
+        "psa": 0.7727,
+        "n_flags": 22
+      },
+      "relation_mismatch": {
+        "psa": 0.0,
+        "n_flags": 1
+      },
+      "scope_mismatch": {
+        "psa": 0.3333,
+        "n_flags": 6
+      },
+      "unnatural_ko": {
+        "psa": null,
+        "n_flags": 0
+      },
+      "unnatural_en": {
+        "psa": 0.0,
+        "n_flags": 1
+      }
+    }
+  },
+  "fleiss_main": 0.6424,
+  "fleiss_main_parts": {
+    "p_o": 0.9012,
+    "p_e": 0.7238,
+    "n": 27,
+    "ci": [
+      -0.0385,
+      0.9232
+    ]
+  },
+  "fleiss_main_equivalent": 0.6335,
+  "fleiss_main_equivalent_n": 68,
+  "fleiss_main_equivalent_parts": {
+    "p_o": 0.9012,
+    "p_e": 0.7305
+  },
+  "fleiss_main_relation_mismatch": -0.0253,
+  "fleiss_main_relation_mismatch_n": 2,
+  "fleiss_main_relation_mismatch_parts": {
+    "p_o": 0.9506,
+    "p_e": 0.9518
+  },
+  "fleiss_main_scope_mismatch": 0.7896,
+  "fleiss_main_scope_mismatch_n": 11,
+  "fleiss_main_scope_mismatch_parts": {
+    "p_o": 0.9506,
+    "p_e": 0.7653
+  },
+  "fleiss_main_unnatural_ko": null,
+  "fleiss_main_unnatural_ko_n": 0,
+  "fleiss_main_unnatural_ko_parts": {
+    "p_o": 1.0,
+    "p_e": 1.0
+  },
+  "fleiss_main_unnatural_en": null,
+  "fleiss_main_unnatural_en_n": 0,
+  "fleiss_main_unnatural_en_parts": {
+    "p_o": 1.0,
+    "p_e": 1.0
+  },
+  "ac1_main": {
+    "ac1": 0.8939,
+    "p_a": 0.9012,
+    "p_e": 0.069,
+    "q": 5,
+    "n": 27,
+    "ci": [
+      0.7841,
+      0.9743
+    ]
+  },
+  "specific_agreement_main": {
+    "flag_any": {
+      "def": "equivalent 이외 전부 (어색함 포함)",
+      "psa": 0.6923,
+      "ci": [
+        0.0,
+        0.9375
+      ],
+      "n_flags": 13,
+      "n_items_any": 7,
+      "n_items_all": 3
+    },
+    "flag_meaning": {
+      "def": "relation_mismatch 또는 scope_mismatch (의미 불일치만)",
+      "psa": 0.6923,
+      "ci": [
+        0.0,
+        0.9375
+      ],
+      "n_flags": 13,
+      "n_items_any": 7,
+      "n_items_all": 3
+    },
+    "per_label": {
+      "equivalent": {
+        "psa": 0.9412,
+        "n_flags": 68
+      },
+      "relation_mismatch": {
+        "psa": 0.0,
+        "n_flags": 2
+      },
+      "scope_mismatch": {
+        "psa": 0.8182,
+        "n_flags": 11
+      },
+      "unnatural_ko": {
+        "psa": null,
+        "n_flags": 0
+      },
+      "unnatural_en": {
+        "psa": null,
+        "n_flags": 0
+      }
+    }
+  },
+  "kappa_gate": {
+    "kappa": 0.6424,
+    "gate": 0.6,
+    "pass": true
+  },
+  "cohen_pairwise": {
+    "Annotator A|Annotator B": 0.7188,
+    "Annotator A|Annotator C": 0.7097,
+    "Annotator B|Annotator C": 0.5304
+  },
+  "cohen_pairwise_parts": {
+    "Annotator A|Annotator B": {
+      "p_o": 0.9259,
+      "p_e": 0.7366,
+      "n": 27
+    },
+    "Annotator A|Annotator C": {
+      "p_o": 0.9259,
+      "p_e": 0.7449,
+      "n": 27
+    },
+    "Annotator B|Annotator C": {
+      "p_o": 0.8519,
+      "p_e": 0.6845,
+      "n": 27
+    }
+  },
+  "n_gold": 36,
+  "n_tie": 1,
+  "label_dist_main": {
+    "equivalent": 24,
+    "scope_mismatch": 3
+  },
+  "draft_agreement": {
+    "n": 9,
+    "agree": 8,
+    "rate": 0.8889,
+    "note": "초안 라벨은 작성자 판단이며 정답이 아니다. 참고용."
+  }
+}

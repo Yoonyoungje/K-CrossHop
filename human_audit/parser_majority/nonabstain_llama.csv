@@ -1,0 +1,76 @@
+idx,parser_class,stratum,stratum_pop,config,qid,hop,pattern,gold_lang,gold_entity,gold_in_passages,parser_source,parse_issue,marker_count,generated_text,human_label,notes
+1,nonabstain,short,1843,llama,kch_000325,0,a,ko,343 인더스트리,True,answer_section_short,,1,답변: 343 인더스트리,answer,
+2,nonabstain,short,1843,llama,kch_000021,1,c,en,Tim Sweeney,True,fallback_cleaned,,0,Tim Sweeney,answer,
+3,nonabstain,short,1843,llama,kch_000411,1,d,en,Katsuyama,False,fallback_cleaned,,0,Kagoshima,answer,
+4,nonabstain,normal,74,llama,kch_000140,1,d,en,Aérospatiale,True,fallback_cleaned,,0,"Henri Ziegler, Roger Béteille, Felix Kracht",answer,
+5,nonabstain,normal,74,llama,kch_000961,1,b,ko,아카데미 남우조연상,True,answer_section,,1,"답변: 아카데미상, 골든 글로브상, BAFTA, 칸 영화제의 남우주연상과 5번의 고야상, 두 번의 유럽 영화상, 베네치아 국제 영화제의 남우주연상",answer,
+6,nonabstain,short,1843,llama,kch_000075,0,c,ko,베이징시,False,answer_section_short,,1,답변: 베이징,answer,
+7,nonabstain,normal,74,llama,kch_000988,0,b,en,Mistwalker,True,answer_section,,1,"답변: Mistwalker, Artoon, Microsoft Game Studios Japan",answer,
+8,nonabstain,normal,74,llama,kch_000204,1,d,en,Brisbane,False,fallback_cleaned,,0,"Eyüp (Eyüpsultan) municipality and district of Istanbul Province, Turkey",answer,
+9,nonabstain,normal,74,llama,kch_000517,0,b,en,Auckland,True,answer_section,,1,"Auckland과 Wellington 공항에서 운영하는 Qantas 항공편을 담당합니다.
+
+답변: Auckland과 Wellington 공항",answer,
+10,nonabstain,short,1843,llama,kch_000447,1,b,ko,오웬즈버러,False,fallback_short,,0,미국,answer,
+11,nonabstain,normal,74,llama,kch_000304,0,b,en,Valentina Cervi,True,answer_section_short,,1,"Derek Luke, Michael Ealy, Laz Alonso, Omar Benson Miller, Pierfrancesco Favino 
+
+답변: Derek Luke",answer,
+12,nonabstain,short,1843,llama,kch_000515,1,a,ko,부다페스트,True,fallback_short,,0,헝가리,answer,
+13,nonabstain,short,1843,llama,kch_000281,1,b,ko,존 워녹,False,fallback_cleaned,,0,Nothing,unclear,
+14,nonabstain,short,1843,llama,kch_000731,1,d,en,Pacific League,False,fallback_cleaned,,0,KBO 리그,answer,
+15,nonabstain,short,1843,llama,kch_000557,1,b,ko,일본 레코드 대상,False,answer_section,,1,답변: Grammy Hall of Fame,answer,
+16,nonabstain,short,1843,llama,kch_000675,0,d,en,George Peabody,True,fallback_cleaned,,0,George Peabody,answer,
+17,nonabstain,normal,74,llama,kch_000513,1,c,en,Pritzker Architecture Prize,True,fallback_cleaned,,0,"Pritzker Architecture Prize, Stirling Prize, Royal Gold Medal",answer,
+18,nonabstain,short,1843,llama,kch_000710,1,a,ko,프리미어리그,False,fallback_short,,0,분데스리가,answer,
+19,nonabstain,short,1843,llama,kch_000933,0,b,en,Walter Hill,True,fallback_cleaned,,0,Warren Lee Tamahori,answer,
+20,nonabstain,normal,74,llama,kch_000006,1,d,en,Auckland Region,True,fallback_cleaned,,0,"Wellington 
+
+(Wellington Airport는 6 kilometres (3.7 mi) south-east of the city centre에 위치하고 있습니다.)",answer,
+21,nonabstain,normal,74,llama,kch_000393,0,d,en,Vachirawit Chiva-aree,True,fallback_cleaned,,0,"Vachirawit Chivaaree, Metawin Opas-iamkajorn, Tontawan Tantivejakul, Hirunkit Changkham, Jirawat Sutivanichsak",answer,
+22,nonabstain,normal,74,llama,kch_000185,0,d,en,Hugh Jackman,True,fallback_cleaned,,0,"Deadpool: Ryan Reynolds, Wolverine: Hugh Jackman",answer,
+23,nonabstain,normal,74,llama,kch_000546,0,a,ko,어도비 시스템즈,True,answer_section_short,,1,"Adobe Device Central은 Adobe Systems가 만들고 출시한 소프트웨어 프로그램입니다.
+
+답변: 어도비 시스템즈",answer,
+24,nonabstain,short,1843,llama,kch_000470,1,c,en,United States,False,fallback_short,,0,아메리칸,answer,
+25,nonabstain,normal,74,llama,kch_000719,0,d,en,Nobel Peace Prize,True,answer_section,,1,"답변: Order of Lenin, Order of the October Revolution, Order of the Red Banner of Labour, Order of Friendship of Peoples, Order of Merit for the Fatherland, PM pistol award, Sword inscribed ""East"", Diploma of the President of the Russian Federation, Order ""For merits before Republic of Tatarstan"", Order ""Honor and Glory"", Order of Holy Prince Daniel of Moscow, Order of St. Sergius, Breastplate of the Foreign Ministry of Russia, Diploma of the Government of the Russian Federation, State Prize for peace and progress of the First President of the Republic of Kazakhstan, Honorary Citizen of Kazan",answer,
+26,nonabstain,normal,74,llama,kch_000939,0,d,en,Jayne Brook,True,answer_section,,1,"답변: Matthew Modine, Randy Quaid, Paul Reiser, Janeane Garofalo, Amy Brenneman, Eliza Dushku, Rob Reiner, Amber Benson, Lindsay Crouse",answer,
+27,nonabstain,short,1843,llama,kch_000905,0,c,ko,기드온 사르,False,answer_section_short,,1,답변: 이낙연,answer,
+28,nonabstain,short,1843,llama,kch_000005,1,b,ko,중화인민공화국,True,fallback_short,,0,중국,answer,
+29,nonabstain,short,1843,llama,kch_000577,1,b,ko,앙드레 시트로엥,True,fallback_cleaned,,0,앙드레-귀스타브 시트로엥,answer,
+30,nonabstain,short,1843,llama,kch_000247,1,a,ko,페르디난트 포르셰,True,fallback_cleaned,,0,공학박사 페르디난트 포르셰,answer,
+31,nonabstain,normal,74,llama,kch_000210,1,c,en,Elon Musk,False,fallback_cleaned,,0,"Leroy Randle ""Roy"" Grumman, Jake Swirbul, William Schwendler",answer,
+32,nonabstain,normal,74,llama,kch_000445,0,d,en,Tottenham Hotspur F.C.,False,answer_section,,1,"답변: FC Seoul, PSV Eindhoven, Tottenham Hotspur, Gangwon FC",answer,
+33,nonabstain,normal,74,llama,kch_000395,0,d,en,Takeshi Kaneshiro,False,fallback_cleaned,,0,"Turner & Hooch의 주인공은 Tom Hanks입니다.
+
+그러나 Turner & Hooch가 아닌, Turner Left와 Turner Light에 출연한 배우는 없습니다.",answer,
+34,nonabstain,short,1843,llama,kch_000125,0,b,en,Sonny Chiba,False,answer_section_short,,1,답변: Meg Ryan,answer,
+35,nonabstain,normal,74,llama,kch_000711,0,c,ko,어도비 시스템즈,True,answer_section_short,,1,"Adobe Device Central은 Adobe Systems가 만들고 출시한 소프트웨어 프로그램입니다.
+
+답변: 어도비 시스템즈",answer,
+36,nonabstain,normal,74,llama,kch_000126,0,b,en,Hugh Jackman,True,fallback_cleaned,,0,"Deadpool: Ryan Reynolds, Wolverine: Hugh Jackman",answer,
+37,nonabstain,normal,74,llama,kch_000200,0,b,en,Audi AG,False,fallback_cleaned,,0,"SAIC-VW 공동 사업
+
+또는
+Audi-SAIC joint venture",answer,
+38,nonabstain,short,1843,llama,kch_000039,0,b,en,Leigh Whannell,True,fallback_cleaned,,0,Leigh Whannell,answer,
+39,nonabstain,normal,74,llama,kch_000254,1,b,ko,칸 영화제 각본상,False,fallback_cleaned,,0,"제목, Ben Stiller의 수상 목록을 포함한 여러 영화와 TV 프로그램에서 Ben Stiller의 역할과 공헌을 기념하는 상을 받았다.
+
+상은 다음과 같습니다.
+- 제1회 AACTA 인터네셔널 어워즈
+- 제2회 AACTA 인터네셔널 어워즈
+- 제3회 AACTA 인터네셔널 어워즈
+- 제4회 AACTA 인터네셔널 어워즈
+- 제5회 AACTA 인터네셔널 어워즈
+- 제6회 AACTA 인터네셔널 어",answer,
+40,nonabstain,short,1843,llama,kch_000885,0,d,en,Valve Corporation,True,fallback_cleaned,,0,발브 코퍼레이션,answer,
+41,nonabstain,short,1843,llama,kch_000749,1,d,en,Italy,True,fallback_cleaned,,0,Italia,answer,
+42,nonabstain,short,1843,llama,kch_000518,0,d,en,TSMC,True,fallback_short,,0,TSMC,answer,
+43,nonabstain,short,1843,llama,kch_000643,1,d,en,Yokohama National University,True,fallback_cleaned,,0,Yokohama National University,answer,
+44,nonabstain,normal,74,llama,kch_000565,1,d,en,Academy Award for Best Supporting Actor,True,fallback_cleaned,,0,"Academy Award, BAFTA Award, Golden Globe Award, Critics' Choice Movie Award, Screen Actors Guild Awards, Goya Awards",answer,
+45,nonabstain,normal,74,llama,kch_000178,1,b,ko,J리그 디비전 1,False,answer_section_short,,1,"K리그1은 대한민국의 축구 리그 시스템에서 남자 축구 최상위 리그에 해당하는 축구 대회이다.
+
+답변: K리그1",answer,
+46,nonabstain,normal,74,llama,kch_000328,0,b,en,Richard Harris,True,fallback_cleaned,,0,"Daniel Radcliffe, Rupert Grint, Emma Watson",answer,
+47,nonabstain,normal,74,llama,kch_000019,0,a,ko,데이비드 오옐러워,True,fallback_cleaned,,0,"매슈 매코너헤이, 잭 에프론, 니콜 키드먼, 데이비드 오옐러워, 존 큐색, 메이시 그레이 등",answer,
+48,nonabstain,normal,74,llama,kch_000174,1,d,en,Pritzker Architecture Prize,True,fallback_cleaned,,0,"Pritzker Architecture Prize, Royal Gold Medal, Praemium Imperiale, Mies Crown Hall Americas Prize, Honorary Doctorates",answer,
+49,nonabstain,short,1843,llama,kch_000624,0,d,en,Naughty Dog,True,answer_section,,1,답변: Naughty Dog,answer,
+50,nonabstain,short,1843,llama,kch_000187,0,b,en,Chris Pine,True,fallback_cleaned,,0,Florence Pugh,answer,

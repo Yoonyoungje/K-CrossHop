@@ -1,0 +1,420 @@
+idx,parser_class,stratum,stratum_pop,config,qid,hop,pattern,gold_lang,gold_entity,gold_in_passages,parser_source,parse_issue,marker_count,generated_text,human_label,notes
+1,abstain,gold_in_passage,114,exaone,kch_000663,1,c,en,Bundesliga,True,fallback_abstain,,0,모르겠습니다,abstain,
+2,abstain,long,45,exaone,kch_000754,1,a,ko,스웨덴 아카데미,False,fallback_abstain,,0,"한국소설문학상 - 한국소설가협회  
+오늘의 젊은 예술가상 - 문화관광부  
+이상문학상 대상 - 문학사상사  
+국제 부커상 - 부커 그룹 (주관), 북 트러스트 후원  
+노벨 문학상 - 스웨덴 왕립 학술원 및 프랑스 아카데미 문학 부문 (공식적으로는 명시되지 않음)",answer,
+3,abstain,gold_in_passage,114,exaone,kch_000907,1,c,en,New York University,True,fallback_abstain,,0,"New York University (NYU) - 하지만 정확히 언급된 것은 아니고, 그의 학업 완료 여부도 명시되지 않았습니다. 주어진 정보로는 가장 가까운 답변이지만 완전한 졸업 학교명을 확인하기엔 부족합니다: NYU",answer,
+4,abstain,gold_in_passage,114,exaone,kch_000088,1,b,ko,리드 칼리지,True,fallback_abstain,,0,"리드 칼리지 (Reed College) - 부분적으로 언급되었으나 정확한 졸업 정보는 제한적입니다. 명확한 졸업 학교로 명시된 내용은 부족합니다. 하지만 주어진 맥락에서 가장 관련 있는 답변으로:
+
+모르겠습니다만, 문서에 명확한 졸업 학교가 명시되어 있지 않음을 알려드립니다. 다만 스티브 잡스의 경우 리드 칼리지로 언급됨이 확인됩니다.",abstain,
+5,abstain,gold_in_passage,114,exaone,kch_000340,1,b,ko,미국,True,fallback_abstain,,0,모르겠습니다만,abstain,
+6,abstain,gold_in_passage,114,exaone,kch_000040,1,c,en,Chiyoda,True,fallback_abstain,,0,모르겠습니다,abstain,
+7,abstain,gold_in_passage,114,exaone,kch_000927,1,c,en,Suwon,True,fallback_abstain,,0,"Yeongtong District, Suwon, South Korea (삼성전자 본사 위치) 
+
+*참고: 삼성전자의 주요 본사는 언급된 지역에 있지만, 글로벌 파트너십과 관련된 구체적인 파트너들의 본사 위치는 제공된 문서에서 명시되지 않았습니다.*",answer,
+8,abstain,clean,282,exaone,kch_000777,1,d,en,Taiwan,False,fallback_abstain,,0,모르겠습니다,abstain,
+9,abstain,clean,282,exaone,kch_000523,1,c,en,Japan,False,fallback_abstain,,0,모르겠습니다,abstain,
+10,abstain,long,45,exaone,kch_000718,1,b,ko,노벨 문학상,False,fallback_abstain,,0,모르겠습니다만 (주어진 문서에는 해당 작품의 수상 경력에 대한 구체적인 정보가 명시되어 있지 않음),abstain,
+11,abstain,gold_in_passage,114,exaone,kch_000008,0,c,ko,포트 데트릭,True,fallback_abstain,,0,"메릴랜드주 포트 데트릭 (임시 설립지 언급되었으나, 최종 본사 위치 명시 없음 - 가장 가까운 정보 제공)
+모르겠습니다만, 문서에서 최종 본사 위치가 명확히 명시되어 있지 않아 정확한 답변이 어렵습니다. 하지만 임시 설립지로 메릴랜드주 포트 데트릭을 언급하고 있습니다.",abstain,
+12,abstain,long,45,exaone,kch_000707,1,a,ko,브리즈번,False,fallback_abstain,,0,"서울특별시 서대문구 홍제동 (추정 위치 기반 답변) 
+
+*참고: 정확한 행정구역은 학교 내 특정 건물이나 부서를 지칭할 수 있으나, 일반적으로 이화여자대학교가 위치한 지역을 제공합니다.* 모르겠습니다만, 문서에서 구체적인 행정구역을 명시하지 않았습니다.",answer,
+13,abstain,gold_in_passage,114,exaone,kch_000682,1,b,ko,퍼시픽 리그,True,fallback_abstain,,0,"퍼시픽 리그 및 아메리칸 리그 각각 소속 (Lotte Giants와 Orix Buffaloes는 퍼시픽 리그, Fukuoka SoftBank Hawks는 센트럴 리그, Seattle Mariners는 아메리칸 리그) 
+
+단, 가장 직접적으로 언급된 단일 리그로 간략히 답하자면:
+
+모르겠습니다만 (정확한 단일 리그 소속을 문서에서 명확히 구분하기 어려움)",abstain,
+14,abstain,long,45,exaone,kch_000156,1,c,en,K League 1,False,answer_section_abstain,,1,"2. Bundesliga (현역 선수 시기 언급됨) 
+
+*참고: 문서는 울산 현대와 관련된 현역 은퇴 후의 정보를 제공하지 않으므로, 리그 소속은 Luizinho의 경력 중 언급된 시기로 추정합니다.* 하지만 정확한 은퇴 후 소속팀에 대한 답변을 요구하시므로 완벽한 답을 드리기 어렵습니다. 주어진 정보만으로는 확실한 답변이 불가능함을 알려드립니다.
+
+답변: 모르겠습니다만",abstain,
+15,abstain,gold_in_passage,114,exaone,kch_000812,0,d,en,Nobel Prize in Literature,True,fallback_abstain,,0,모르겠습니다,abstain,
+16,abstain,long,45,exaone,kch_000844,1,b,ko,에번스턴,False,answer_section_abstain,,1,"답변: Nicole Kidman - 오스트레일리아와 미국  
+Reese Witherspoon - 미국  
+Shailene Woodley 정보 없음",answer,
+17,abstain,gold_in_passage,114,exaone,kch_000669,1,a,ko,로스앤젤레스,True,answer_section_abstain,,1,"답변: 플로렌스 퓨 - 잉글랜드 런던 (문서에서 정확한 출생지는 명시되어 있지 않으나 잉글랜드 배우임을 알 수 있음), 해리 스타일스 - 모르겠습니다, 크리스 파인 - 캘리포니아주 로스앤젤레스, 제마 챈 - 모르겠습니다",answer,
+18,abstain,long,45,exaone,kch_000531,0,b,en,FC Gifu,False,fallback_abstain,,0,"Gimhae City FC (문서에서 직접적인 정보는 없으나, 가장 최근 활동과 관련하여 Park Gi-Dong의 팀 소속을 묻고 있으므로 주어진 정보 내에서 가장 가까운 답변 형태로 제공합니다. 주의: 문서에 정확한 최신 팀 명시가 없습니다.)
+
+모르겠습니다만",abstain,
+19,abstain,clean,282,exaone,kch_000419,1,d,en,Fukuoka,False,fallback_abstain,,0,모르겠습니다,abstain,
+20,abstain,no_abstain_kw,4,exaone,kch_000836,0,a,ko,언노운 월드 엔터테인먼트,True,fallback_abstain,,0,언노운 월드 엔터테인먼트 (Unknown Worlds Entertainment),answer,
+21,abstain,clean,282,exaone,kch_000122,1,b,ko,브리즈번,False,fallback_abstain,,0,모르겠습니다,abstain,
+22,abstain,gold_in_passage,114,exaone,kch_000976,0,d,en,Madhav Kumar Nepal,True,answer_section_abstain,,1,"모르겠습니다만 (정확한 설립자 이름은 제공된 문서에서 명시되지 않았습니다.) 
+
+답변: 모르겠습니다만",abstain,
+23,abstain,gold_in_passage,114,exaone,kch_000464,1,b,ko,중화인민공화국,True,fallback_abstain,,0,모르겠습니다,abstain,
+24,abstain,long,45,exaone,kch_000714,0,b,en,Takeshi Kitano,False,answer_section_abstain,,1,"답변: Shinjiro Nakata (Kitano Shinjiro로 추정되나, 정확한 이름이 직접 언급되지 않았습니다.) 
+
+*참고: 주어진 텍스트에서 ""하나비""의 감독으로 명확하게 이름이 언급된 것은 아니지만, 내용상으로 Kitano가 연관되어 있으며, 그 중 한 인물인 Shinjiro Nakata와 연결 짓는다면 이에 가깝다고 볼 수 있으나, 정확한 정보를 제공하기 어렵습니다. 문서 내에서 가장 관련성이 높아 보이는 답변을 제공하였습니다.*
+
+정확성 확보를 위해:",answer,
+25,abstain,gold_in_passage,114,exaone,kch_000127,0,d,en,Hayao Miyazaki,True,fallback_abstain,,0,모르겠습니다만,abstain,
+26,abstain,gold_in_passage,114,exaone,kch_000060,1,c,en,Fukuoka,True,fallback_abstain,,0,"Ichikawa, Chiba Prefecture 또는 Funabashi, Chiba (문서에서 특정 인물 '치바 신이치'에 대한 정확한 출생지 정보는 제공되어 있지 않음) 
+
+모르겠습니다만 (정확한 이름 일치로 인한 정보 부족)",abstain,
+27,abstain,gold_in_passage,114,exaone,kch_000187,1,b,ko,로스앤젤레스,True,fallback_abstain,,0,모르겠습니다,abstain,
+28,abstain,gold_in_passage,114,exaone,kch_000917,0,a,ko,기예르모 델 토로,True,fallback_abstain,,0,모르겠습니다,abstain,
+29,abstain,clean,282,exaone,kch_000748,0,a,ko,ABBYY,False,fallback_abstain,,0,모르겠습니다,abstain,
+30,abstain,gold_in_passage,114,exaone,kch_000188,0,c,ko,콜롬보,True,fallback_abstain,,0,모르겠습니다,abstain,
+31,abstain,gold_in_passage,114,exaone,kch_000485,1,b,ko,지요다구,True,fallback_abstain,,0,모르겠습니다,abstain,
+32,abstain,gold_in_passage,114,exaone,kch_000009,0,c,ko,항공자위대,True,fallback_abstain,,0,"모르겠습니다 (문서에서 명확한 운영 기관 명칭을 찾지 못함, 하지만 일반적인 맥락으로는 이바라키현이 주요 관리 주체일 것으로 추정됨) 
+
+정확한 답변 제한 내에서: 이바라키현",abstain,
+33,abstain,gold_in_passage,114,exaone,kch_000168,1,a,ko,대통령 자유 훈장,True,fallback_abstain,,0,모르겠습니다,abstain,
+34,abstain,clean,282,exaone,kch_000316,1,b,ko,뉴포트비치,False,fallback_abstain,,0,모르겠습니다,abstain,
+35,abstain,long,45,exaone,kch_000204,1,d,en,Brisbane,False,fallback_abstain,,0,"강남구 또는 서울특별시 중구 (문서에서 정확한 행정구역을 서울국립대학교와 에흐와 여성대학교의 위치로 특정하기 어려움) 
+
+*참고: 제공된 문서에는 서울국립대학교(SNU)와 에흐와 여성대학교에 대한 구체적인 위치 정보가 포함되어 있지 않습니다. 일반 지식으로는 에흐와 여성대학교가 서울특별시 중구에 위치하고, 서울대학교 국립대학들이 주로 강남구 또는 종로구 등에 분포해 있음을 알 수 있지만, 이 답변은 문서 기반이 아닙니다.*
+
+모르겠습니다만",answer,
+36,abstain,long,45,exaone,kch_000990,1,a,ko,메이저 리그 사커,False,fallback_abstain,,0,"카타르 프로리그 (문서에서 직접 명시되지 않았으나, 카타르의 주요 축구 클럽이 언급된 맥락으로 추론) 
+
+모르겠습니다만, 제공된 문서에는 알두하일 SC가 속한 특정 리그 이름은 명시적으로 언급되어 있지 않습니다. 하지만 카타르의 주요 클럽임을 고려할 때 카타르 프로리그와 연관 지을 수는 있으나 확실한 정보로 답하기 어렵습니다.",answer,
+37,abstain,gold_in_passage,114,exaone,kch_000710,0,a,ko,토트넘 홋스퍼 FC,True,fallback_abstain,,0,"토트넘 홋스퍼 FC, 보루시아 도르트문트 (현역 시절), 밴쿠버 화이트캡스 FC (마지막 팀) 
+
+현재 활동 상황은 명시되지 않았으므로 가장 최근의 팀을 포함했습니다. 정확한 현재 소속팀이 문서에서 명확히 언급되어 있지 않아 이 범위 내에서 답변 드립니다. 만약 은퇴 후 활동에 대한 최신 정보가 필요하다면 추가 확인이 필요합니다.",answer,
+38,abstain,gold_in_passage,114,exaone,kch_000469,1,b,ko,나콘빠톰,True,fallback_abstain,,0,모르겠습니다,abstain,
+39,abstain,clean,282,exaone,kch_000828,0,b,en,Nobuhiro Yamashita,False,fallback_abstain,,0,모르겠습니다만,abstain,
+40,abstain,long,45,exaone,kch_000783,0,a,ko,키런 다시스미스,False,fallback_abstain,,0,"아이스 큐브, 케빈 하트, 티카 섬프터 등 여러 배우들이 언급되었지만, 특정 작품 《케이브》(The Cave)의 출연진 명단은 제공된 텍스트에서 명확히 확인할 수 없습니다. 따라서 정확한 답변을 드리기 어렵습니다만:
+
+모르겠습니다",abstain,
+41,abstain,long,45,exaone,kch_000670,0,d,en,RC Strasbourg Alsace,False,fallback_abstain,,0,"Suwon Samsung Bluewings (2013년부터 클럽 매니저로 재임 중) 
+
+참고: 주어진 문서에서 서정원이 아닌 'Seo'에 대한 정보가 주로 포함되어 있으며, Seo의 경력 중 Suwon Samsung Bluewings와 관련된 부분만 해당 질문에 적용하였습니다. 정확한 이름 일치 여부를 확인할 수 없으나, 질문 형식과 가장 가까운 답변을 제공했습니다. 서정원에 대한 직접적인 정보는 주어진 문서에서 찾을 수 없었습니다. 만약 Seo가 서정원을 가리키는지 확실치 않다면:
+
+모르겠",answer,
+42,abstain,gold_in_passage,114,exaone,kch_000800,1,a,ko,멘로파크,True,fallback_abstain,,0,"멘로파크, 영국 런던, 맨해튼 등 여러 장소를 두고 있으나 특정 단일 본사 지정은 명시되지 않음  
+(더 구체적인 단일 본사 위치는 명확히 제시되어 있지 않습니다.) 
+
+모르겠습니다만 (단일 본사 위치에 대한 명확한 정보 부족)",abstain,
+43,abstain,long,45,exaone,kch_000658,0,c,ko,키런 다시스미스,False,fallback_abstain,,0,"아이스 큐브, 케빈 하트, 티카 섬프터 등 여러 배우들이 언급되었지만, 특정 작품 《케이브》(The Cave)의 출연진 명단은 제공된 텍스트에서 명확히 확인할 수 없습니다. 따라서 정확한 답변을 드리기 어렵습니다만:
+
+모르겠습니다",abstain,
+44,abstain,gold_in_passage,114,exaone,kch_000662,1,b,ko,에레디비시,True,fallback_abstain,,0,모르겠습니다만,abstain,
+45,abstain,gold_in_passage,114,exaone,kch_000195,1,c,en,Kirkland,True,fallback_abstain,,0,모르겠습니다,abstain,
+46,abstain,clean,282,exaone,kch_000297,1,c,en,Van Nuys,False,fallback_abstain,,0,모르겠습니다,abstain,
+47,abstain,clean,282,exaone,kch_000070,0,b,en,Kieran Darcy-Smith,False,fallback_abstain,,0,모르겠습니다,abstain,
+48,abstain,gold_in_passage,114,exaone,kch_000274,1,d,en,Chiyoda,True,fallback_abstain,,0,모르겠습니다,abstain,
+49,abstain,long,45,exaone,kch_000109,0,d,en,Ernest Hemingway,False,fallback_abstain,,0,"모르겠습니다만 (주어진 문서에는 해당 작품의 저자 정보가 명시되어 있지 않습니다.) 
+
+하지만 주어진 텍스트에서 유사한 제목이나 관련 작가를 찾을 수 없으므로 정확한 답변을 제공하기 어렵습니다. ""무기여 잘 있거라""에 대한 직접적인 언급이 없기 때문입니다. 다른 문맥이나 추가 정보가 필요합니다.",abstain,
+50,abstain,gold_in_passage,114,exaone,kch_000377,0,c,ko,샘 올트먼,True,fallback_abstain,,0,"샘 올트먼, 맥스 노벤트스턴, 알렉스 블라니아 (2019년 설립 당시 기여자들로 명시됨) 
+
+단, 월드 프로젝트의 정확한 설립자 단일 인물을 명확히 지정하기는 문서에서 직접적으로 확인되지 않음. 주요 기여자 언급만 가능합니다.",answer,
+51,abstain,long,45,exaone,kch_000972,0,b,en,Oliver Otis Howard,False,fallback_abstain,,0,"모르겠습니다만 (정확한 개인 설립자 명시 없음, 대신 Massachusetts General Court의 투표로 설립됨을 언급함)",abstain,
+52,abstain,long,45,exaone,kch_000189,1,a,ko,오웬즈버러,False,fallback_abstain,,0,"조니 뎁: 미국 켄터키주 오언즈버러  
+모건 프리먼 정보 없음 (문서에서 출생지 미상)",answer,
+53,abstain,gold_in_passage,114,exaone,kch_000116,1,d,en,Presidential Medal of Freedom,True,answer_section_abstain,,1,"모르겠습니다만 (주어진 문서에는 Joseph Lauder와 그의 배우자 Estée Lauder가 함께 받았던 특정 상에 대한 정보는 명시되어 있지 않음) 
+
+답변: 모르겠습니다만",abstain,
+54,abstain,gold_in_passage,114,exaone,kch_000727,1,c,en,Chiyoda,True,fallback_abstain,,0,모르겠습니다,abstain,
+55,abstain,gold_in_passage,114,exaone,kch_000273,1,b,ko,리그 1,True,fallback_abstain,,0,모르겠습니다,abstain,
+56,abstain,gold_in_passage,114,exaone,kch_000634,0,a,ko,뉴캐슬 유나이티드 제츠 FC,True,fallback_abstain,,0,"FC 서울 (마지막으로 언급된 국내 복귀 팀) 또는 샤르자 FC (2016년 이적팀, UAE 리그 소속이었으나 가장 최근의 국내 활동은 명시되지 않음) 
+
+가장 최신 정보로는: 모르겠습니다만, 문서에서 가장 최근의 국내 활동 팀을 명확히 지정하기 어렵습니다. 송진형의 마지막으로 언급된 국내 활동은 제주 유나이티드로의 이적(2012년)이지만, 이후의 정확한 소속팀에 대한 정보가 제공되지 않았습니다.",abstain,
+57,abstain,long,45,exaone,kch_000791,1,c,en,Owensboro,False,fallback_abstain,,0,"모르겠습니다만 (문서에서 조니 뎁과 모건 프리먼의 정확한 출생지 정보를 찾을 수 없음) 
+
+하지만 주어진 정보로는:
+- 조니 뎁의 출생지 명시 없음
+- 모건 프리먼은 Memphis, Tennessee 언급되나 이는 그가 태어난 곳이 아닌 초기 생활지로 보임",abstain,
+58,abstain,gold_in_passage,114,exaone,kch_000154,1,c,en,University of Illinois Urbana-Champaign,True,fallback_abstain,,0,모르겠습니다,abstain,
+59,abstain,long,45,exaone,kch_000613,1,d,en,Malaysia,False,answer_section_abstain,,1,"모르겠습니다만 (제공된 문서에는 이 이름과 관련된 정보가 없음) 
+
+하지만 일반적인 맥락에서 ""모르겠습니다만""은 한국어 표현으로, 특정 개인의 국적을 묻는 질문에 대한 답변 형식이 아니라 말버릇이나 표현 방식입니다. 주어진 문서 내 인물들 중 명확한 국적을 확인할 수 있는 이름 외에는 해당 표현과 직접 연관된 정보가 없으므로 정확한 국적을 제공하기 어렵습니다. 
+
+답변: 모르겠습니다만 (문서 내 특정 인물에 대한 답변으로 제한)",abstain,
+60,abstain,gold_in_passage,114,exaone,kch_000292,1,a,ko,미나토구,True,fallback_abstain,,0,모르겠습니다,abstain,
+61,abstain,clean,282,exaone,kch_000098,1,d,en,Russian Empire,False,fallback_abstain,,0,모르겠습니다,abstain,
+62,abstain,long,45,exaone,kch_000930,1,d,en,Atlanta,False,fallback_abstain,,0,"March 20, 1957 (출생일 포함된 정보로 정확한 장소 명시 없음)  
+**모르겠습니다** (문서에서 정확한 출생지 위치를 명확히 하지 않았습니다.)",abstain,
+63,abstain,long,45,exaone,kch_000569,0,d,en,Mohammed bin Salman Al Saud,False,answer_section_abstain,,1,"사우디 크라운 프린스 모하메드 빈 살만과 함께 Neom 보드 의장으로 언급되지만, 구체적인 공동 설립자 명단은 명확히 제시되지 않았습니다. 주어진 정보로는 정확한 공동 설립자 이름을 지정하기 어렵습니다.
+
+답변: 모르겠습니다",abstain,
+64,abstain,long,45,exaone,kch_000019,1,a,ko,옥스퍼드,False,answer_section_abstain,,1,"답변: 매슈 매코너헤이 - 미국 (문서에서 정확한 출생지 미상)  
+잭 에프론 - 캘리포니아주 샌루이스오비스포  
+니콜 키드먼 - 모르겠습니다",answer,
+65,abstain,gold_in_passage,114,exaone,kch_000653,0,b,en,Sam Altman,True,fallback_abstain,,0,"Edward Daly (문서에서 명시적으로 언급됨, 하지만 정확한 창립자로서의 정보는 모호함 주의) 
+
+*참고: 문서에는 World Airways의 경우 Benjamin Pepper가 설립했으나 Edward Daly가 주요 인물로 언급되며, 월드(World Network 프로젝트에 대한 질문으로 해석될 수 있음)와 관련된 명확한 설립자 이름은 제공되지 않았습니다.*",answer,
+66,abstain,gold_in_passage,114,exaone,kch_000964,0,a,ko,후쿠오카 소프트뱅크 호크스,True,fallback_abstain,,0,"롯데 자이언츠, 오릭스 버펄로스, 후쿠오카 소프트뱅크 호크스, 시애틀 매리너스 (과거 소속팀들 중 일부 언급) 
+
+주요 현재 활동 팀은 명시되지 않았습니다. 제공된 정보로는 정확한 현재 소속팀을 특정할 수 없습니다.",answer,
+67,abstain,clean,282,exaone,kch_000755,0,c,ko,SC 브라가,False,fallback_abstain,,0,"삼성 라이온즈 (2018년 트레이드 이전 기준, 이후 정보 없음)",answer,
+68,abstain,clean,282,exaone,kch_000557,1,b,ko,일본 레코드 대상,False,fallback_abstain,,0,모르겠습니다,abstain,
+69,abstain,gold_in_passage,114,exaone,kch_000180,0,d,en,Colin MacLaurin,True,answer_section_abstain,,1,"Joseph Black, William Cullen, John Walker (간접적으로 연관되나 직접 설립자로 명시되지 않음)  
+**Edinburgh Philosophical Society로의 진화 과정에서 핵심 역할 언급됨** 
+
+하지만 가장 직접적인 초기 형태의 설립과 관련해서는 명확한 단일 설립자 이름이 문서에 명시되어 있지 않습니다. 따라서 정확한 단일 설립자를 지목하기 어렵습니다:
+
+답변: 모르겠습니다",abstain,
+70,abstain,gold_in_passage,114,exaone,kch_000466,1,a,ko,문화훈장,True,fallback_abstain,,0,"문화훈장, 일본 골든 디스크 대상 수상 등 여러 상을 받았으나 구체적인 연도별 상의 명칭은 명시되지 않음: 문화훈장 (1940년), 일본 골든 디스크 대상 수상 경력 있음 (구체적 항목 미상) 
+
+더 구체적인 상 이름이 필요하다면 문서 정보로는 정확히 답변 불가.",abstain,
+71,abstain,long,45,exaone,kch_000262,0,b,en,Nintendo Software Planning & Development,False,fallback_abstain,,0,"Nintendo SPD Production Group 1 및 Tsunku's TNX (리듬 세상 시리즈 전체 맥락에서의 개발사 언급이 있으나, 특정 게임 '리듬 세상 더 베스트 플러스'에 대한 명시적 정보는 제공되지 않음)
+
+모르겠습니다만, 문서 내에서 Rhythm Heaven Megamix와 관련된 개발사 정보가 주어져 있지만, 정확히 ""Rhythm World: The Best Plus""의 개발사를 명시적으로 언급하고 있지 않아 정확한 답변을 드리기 어렵습니다. 하지만 시리즈 맥락상 Nintendo와 밀접하게 연관되어 있음을 추측할",abstain,
+72,abstain,clean,282,exaone,kch_000281,0,b,en,Adobe,False,fallback_abstain,,0,모르겠습니다,abstain,
+73,abstain,clean,282,exaone,kch_000228,1,b,ko,마쓰도시,False,fallback_abstain,,0,모르겠습니다,abstain,
+74,abstain,gold_in_passage,114,exaone,kch_000297,0,c,ko,게리 록우드,True,fallback_abstain,,0,"키어 둘리, 게리 록우드, 윌리엄 실베스터 등이 출연했습니다. 
+
+주요 인물로는:
+- 윌리엄 실베스터 (윌리엄 스틴버그 역 추정)
+- 게리 록우드 (캐릭터 명시 없음)
+- 키어 둘리 (캐릭터 명시 없음)
+
+구체적인 캐릭터 이름은 문서에서 명확히 언급되지 않았습니다. 주요 배우들만 나열했습니다.",abstain,
+75,abstain,gold_in_passage,114,exaone,kch_000762,0,c,ko,토트넘 홋스퍼 FC,True,fallback_abstain,,0,"토트넘 홋스퍼 FC, 보루시아 도르트문트 (현역 시절), 밴쿠버 화이트캡스 FC (마지막 팀) 
+
+현재 활동 상황은 명시되지 않았으므로 가장 최근의 팀을 포함했습니다. 정확한 현재 소속팀이 문서에서 명확히 언급되어 있지 않아 이 범위 내에서 답변 드립니다. 만약 은퇴 후 활동에 대한 최신 정보가 필요하다면 추가 확인이 필요합니다.",answer,
+76,abstain,clean,282,exaone,kch_000440,0,d,en,Sadawo Abe,False,fallback_abstain,,0,모르겠습니다,abstain,
+77,abstain,gold_in_passage,114,exaone,kch_000444,0,a,ko,포트 데트릭,True,fallback_abstain,,0,"메릴랜드주 포트 데트릭 (임시 설립지 언급되었으나, 최종 본사 위치 명시 없음 - 가장 가까운 정보 제공)
+모르겠습니다만, 문서에서 최종 본사 위치가 명확히 명시되어 있지 않아 정확한 답변이 어렵습니다. 하지만 임시 설립지로 메릴랜드주 포트 데트릭을 언급하고 있습니다.",answer,
+78,abstain,gold_in_passage,114,exaone,kch_000464,0,b,en,Chengdu,True,fallback_abstain,,0,모르겠습니다,abstain,
+79,abstain,gold_in_passage,114,exaone,kch_000609,1,a,ko,뉴포트비치,True,fallback_abstain,,0,모르겠습니다,abstain,
+80,abstain,gold_in_passage,114,exaone,kch_000840,1,b,ko,중화인민공화국,True,fallback_abstain,,0,모르겠습니다,abstain,
+81,abstain,long,45,exaone,kch_000879,0,d,en,FC Gifu,False,fallback_abstain,,0,"Gimhae City FC (문서에서 직접적인 정보는 없으나, 가장 최근 활동과 관련하여 Park Gi-Dong의 팀 소속을 묻고 있으므로 주어진 정보 내에서 가장 가까운 답변 형태로 제공합니다. 주의: 문서에 정확한 최신 팀 명시가 없습니다.)
+
+모르겠습니다만",abstain,
+82,abstain,gold_in_passage,114,exaone,kch_000880,1,a,ko,칸 영화제 각본상,True,fallback_abstain,,0,"칸 영화제 각본상 후보 (아카데미 작품상, 아카데미 감독상, 아카데미 각본상 후보 포함) 
+
+(참고로 정확한 수상 내역은 문서에서 명시적으로 언급되지 않았으나 주요 후보 및 인정을 제공합니다.)",answer,
+83,abstain,gold_in_passage,114,exaone,kch_000435,0,d,en,Ford Motor Company,True,fallback_abstain,,0,모르겠습니다,abstain,
+84,abstain,clean,282,exaone,kch_000340,0,b,en,John Ford,False,fallback_abstain,,0,모르겠습니다만,abstain,
+85,abstain,gold_in_passage,114,exaone,kch_000379,0,d,en,Amsterdam,True,fallback_abstain,,0,"The Hague (네덜란드 왕궁의 주요 거주지 중 하나로 언급되나, 정확한 '본사' 위치는 명시되지 않음)  
+모르겠습니다만",abstain,
+86,abstain,gold_in_passage,114,exaone,kch_000510,1,d,en,Yokohama,True,answer_section_abstain,,1,"답변: Yokohama (Arc System Works), unspecified location for Others in given text  (Eighting 및 Neople의 정확한 본사 위치는 제공된 텍스트에서 명시되지 않음) 
+
+*참고: 주어진 문서에는 Eighting과 Neople의 본사 위치에 대한 정보가 포함되어 있지 않습니다.*",answer,
+87,abstain,gold_in_passage,114,exaone,kch_000093,1,a,ko,지요다구,True,fallback_abstain,,0,모르겠습니다,abstain,
+88,abstain,gold_in_passage,114,exaone,kch_000146,1,a,ko,K리그1,True,fallback_abstain,,0,모르겠습니다,abstain,
+89,abstain,gold_in_passage,114,exaone,kch_000582,0,a,ko,게리 록우드,True,fallback_abstain,,0,"키어 둘리, 게리 록우드, 윌리엄 실베스터 등이 출연했습니다. 
+
+주요 인물로는:
+- 윌리엄 실베스터 (윌리엄 스틴버그 역 추정)
+- 게리 록우드 (캐릭터 명시 없음)
+- 키어 둘리 (캐릭터 명시 없음)
+
+구체적인 캐릭터 이름은 문서에서 명확히 언급되지 않았습니다. 주요 배우들만 나열했습니다.",answer,
+90,abstain,gold_in_passage,114,exaone,kch_000550,1,a,ko,일본,True,fallback_abstain,,0,모르겠습니다,abstain,
+91,abstain,gold_in_passage,114,exaone,kch_000656,0,a,ko,콜린 매클로린,True,fallback_abstain,,0,"모르겠습니다만 (문서에서 특정 개인의 설립자 지정은 명확하지 않으나, 1783년 설립과 관련된 구체적인 설립자 이름은 명시되어 있지 않음)",abstain,
+92,abstain,gold_in_passage,114,exaone,kch_000847,1,c,en,New York University,True,fallback_abstain,,0,"New York University (NYU) - 하지만 정확히 언급된 것은 아니고, 그의 학업 완료 여부도 명시되지 않았습니다. 주어진 정보로는 가장 가까운 답변이지만 완전한 졸업 학교명을 확인하기엔 부족합니다: NYU",answer,
+93,abstain,long,45,exaone,kch_000126,1,b,ko,시드니,False,fallback_abstain,,0,"라이언 레이놀즈: 영국령 서인도 제도 네비스섬 (현재의 세인트키츠 네비스)  
+휴 잭맨: 모르겠습니다",abstain,
+94,abstain,long,45,exaone,kch_000926,0,c,ko,타이베이시,False,fallback_abstain,,0,"대만 타이베이 중산구 (첫 매장 위치 정보 기반 추정, 정확한 본사 위치 명시 없음) 
+
+모르겠습니다만, 제공된 문서에는 신광미츠코시의 정확한 본사 위치는 명시되어 있지 않으며, 첫 매장 위치만 언급하고 있습니다.",abstain,
+95,abstain,clean,282,exaone,kch_000601,0,b,en,Alejandro González Iñárritu,False,fallback_abstain,,0,모르겠습니다,abstain,
+96,abstain,gold_in_passage,114,exaone,kch_000222,1,b,ko,왕립연극학교,True,fallback_abstain,,0,"왕립연극학교 (Royal Academy of Dramatic Art, RADA) 또는 구체적으로 언급되지 않았으나 유사한 맥락에서 연극 관련 명문 학교로 추정됨  
+*참고: 정확한 학교 명칭은 문서에 명시되어 있지 않지만, 케네스 브래나 경의 배경과 역할을 고려할 때 왕립연극학교와 같은 유명 연극 학교를 연상시킵니다. 문서 내 직접적인 언급이 없으므로 가장 가까운 추정으로 답변 드립니다.* 
+
+모르겠습니다만 (정확한 명칭 미상)",abstain,
+97,abstain,gold_in_passage,114,exaone,kch_000998,0,b,en,Madhav Kumar Nepal,True,answer_section_abstain,,1,"모르겠습니다만 (정확한 설립자 이름은 제공된 문서에서 명시되지 않았습니다.) 
+
+답변: 모르겠습니다만",abstain,
+98,abstain,clean,282,exaone,kch_000336,1,b,ko,서울특별시,False,fallback_abstain,,0,모르겠습니다,abstain,
+99,abstain,gold_in_passage,114,exaone,kch_000372,0,c,ko,뉴캐슬 유나이티드 제츠 FC,True,fallback_abstain,,0,"FC 서울 (마지막으로 언급된 국내 복귀 팀) 또는 샤르자 FC (2016년 이적팀, UAE 리그 소속이었으나 가장 최근의 국내 활동은 명시되지 않음) 
+
+가장 최신 정보로는: 모르겠습니다만, 문서에서 가장 최근의 국내 활동 팀을 명확히 지정하기 어렵습니다. 송진형의 마지막으로 언급된 국내 활동은 제주 유나이티드로의 이적(2012년)이지만, 이후의 정확한 소속팀에 대한 정보가 제공되지 않았습니다.",answer,
+100,abstain,gold_in_passage,114,exaone,kch_000333,1,b,ko,대통령 자유 훈장,True,fallback_abstain,,0,모르겠습니다,abstain,
+101,abstain,no_abstain_kw,4,exaone,kch_000999,0,c,ko,언노운 월드 엔터테인먼트,True,fallback_abstain,,0,언노운 월드 엔터테인먼트 (Unknown Worlds Entertainment),answer,
+102,abstain,long,45,exaone,kch_000672,0,d,en,Oliver Otis Howard,False,fallback_abstain,,0,"모르겠습니다만 (정확한 개인 설립자 명시 없음, 대신 Massachusetts General Court의 투표로 설립됨을 언급함)",abstain,
+103,abstain,gold_in_passage,114,exaone,kch_000714,1,b,ko,메이지 대학,True,fallback_abstain,,0,모르겠습니다,abstain,
+104,abstain,gold_in_passage,114,exaone,kch_000258,1,d,en,Chiyoda,True,answer_section_abstain,,1,"답변: 게임 아츠 - 도쿄 치요다, 스튜디오 알렉스 정보 없음",answer,
+105,abstain,gold_in_passage,114,exaone,kch_000038,0,a,ko,알렉산드르 수보로프,True,fallback_abstain,,0,모르겠습니다,abstain,
+106,abstain,gold_in_passage,114,exaone,kch_000076,0,a,ko,샘 올트먼,True,fallback_abstain,,0,"샘 올트먼, 맥스 노벤트스턴, 알렉스 블라니아 (2019년 설립 당시 기여자들로 명시됨) 
+
+단, 월드 프로젝트의 정확한 설립자 단일 인물을 명확히 지정하기는 문서에서 직접적으로 확인되지 않음. 주요 기여자 언급만 가능합니다.",answer,
+107,abstain,gold_in_passage,114,exaone,kch_000708,0,b,en,Ford Motor Company,True,fallback_abstain,,0,모르겠습니다,abstain,
+108,abstain,gold_in_passage,114,exaone,kch_000163,1,a,ko,스톡홀름,True,fallback_abstain,,0,모르겠습니다,abstain,
+109,abstain,gold_in_passage,114,exaone,kch_000345,1,a,ko,지요다구,True,fallback_abstain,,0,모르겠습니다,abstain,
+110,abstain,clean,282,exaone,kch_000286,1,c,en,David Yang,False,fallback_abstain,,0,모르겠습니다,abstain,
+111,abstain,gold_in_passage,114,exaone,kch_000762,1,c,en,Premier League,True,answer_section_abstain,,1,"답변: Women's Super League (WSL) 또는 National League, 구체적 리그 소속 불명확 (토트넘 홋스퍼 FC는 WSL 언급, 도르트문트와 밴쿠버 화이트캡스는 문서에서 명시된 정보 없음)",answer,
+112,abstain,long,45,exaone,kch_000447,1,b,ko,오웬즈버러,False,answer_section_abstain,,1,"답변: Johnny Depp - 미국 켄터키주 오언즈버러  
+Morgan Freeman 정보 없음  
+Rebecca Hall 정보 없음  
+Paul Bettany 정보 없음  
+Kate Mara 정보 없음  
+Cillian Murphy 정보 없음  
+Cole Hauser 정보 없음",answer,
+113,abstain,gold_in_passage,114,exaone,kch_000070,1,b,ko,오스트레일리아,True,fallback_abstain,,0,모르겠습니다,abstain,
+114,abstain,gold_in_passage,114,exaone,kch_000196,1,b,ko,왕립연극학교,True,fallback_abstain,,0,"왕립연극학교 (Royal Academy of Dramatic Art, RADA) 또는 구체적으로 언급되지 않았으나 유사한 맥락에서 연극 관련 명문 학교로 추정됨  
+*참고: 정확한 학교 명칭은 문서에 명시되어 있지 않지만, 케네스 브래나 경의 배경과 역할을 고려할 때 왕립연극학교와 같은 유명 연극 학교를 연상시킵니다. 문서 내 직접적인 언급이 없으므로 가장 가까운 추정으로 답변 드립니다.* 
+
+모르겠습니다만 (정확한 명칭 미상)",abstain,
+115,abstain,gold_in_passage,114,exaone,kch_000364,1,a,ko,와세다 대학,True,fallback_abstain,,0,모르겠습니다,abstain,
+116,abstain,gold_in_passage,114,exaone,kch_000240,1,b,ko,솔트레이크시티,True,fallback_abstain,,0,모르겠습니다,abstain,
+117,abstain,gold_in_passage,114,exaone,kch_000554,0,b,en,Nobel Prize in Literature,True,fallback_abstain,,0,모르겠습니다,abstain,
+118,abstain,gold_in_passage,114,exaone,kch_000950,0,c,ko,콜린 매클로린,True,fallback_abstain,,0,"모르겠습니다만 (문서에서 특정 개인의 설립자 지정은 명확하지 않으나, 1783년 설립과 관련된 구체적인 설립자 이름은 명시되어 있지 않음)",abstain,
+119,abstain,long,45,exaone,kch_000976,1,d,en,Tribhuvan University,False,answer_section_abstain,,1,"답변: Horikoshi Gakuen, Meiji University's School of Commerce (Yamashita 관련) 
+
+* 주의: 제공된 모든 인물 중에서 명확한 학교 졸업 정보가 가장 잘 기록되어 있는 것은 Yamashita와 Matsumoto입니다. 하지만 질문이 ""모르겠습니다만""에 대한 답변을 요구하고, 특정 인물을 지정하지 않았으므로 일반적인 맥락에서 답을 제시했습니다. 만약 특정 인물을 묻는다면 추가 정보가 필요합니다. 주어진 문서 내에서 가장 명확한 예를 든 것입니다. 
+
+만약 특정 인물",answer,
+120,abstain,gold_in_passage,114,exaone,kch_000099,0,c,ko,기예르모 델 토로,True,fallback_abstain,,0,모르겠습니다,abstain,
+121,abstain,gold_in_passage,114,exaone,kch_000819,0,c,ko,후쿠오카 소프트뱅크 호크스,True,fallback_abstain,,0,"롯데 자이언츠, 오릭스 버펄로스, 후쿠오카 소프트뱅크 호크스, 시애틀 매리너스 (과거 소속팀들 중 일부 언급) 
+
+주요 현재 활동 팀은 명시되지 않았습니다. 제공된 정보로는 정확한 현재 소속팀을 특정할 수 없습니다.",abstain,
+122,abstain,gold_in_passage,114,exaone,kch_000674,0,b,en,Colin MacLaurin,True,answer_section_abstain,,1,"Joseph Black, William Cullen, John Walker (간접적으로 연관되나 직접 설립자로 명시되지 않음)  
+**Edinburgh Philosophical Society로의 진화 과정에서 핵심 역할 언급됨** 
+
+하지만 가장 직접적인 초기 형태의 설립과 관련해서는 명확한 단일 설립자 이름이 문서에 명시되어 있지 않습니다. 따라서 정확한 단일 설립자를 지목하기 어렵습니다:
+
+답변: 모르겠습니다",abstain,
+123,abstain,gold_in_passage,114,exaone,kch_000935,1,d,en,Mountain View,True,fallback_abstain,,0,모르겠습니다,abstain,
+124,abstain,long,45,exaone,kch_000282,1,d,en,Satoru Iwata,False,fallback_abstain,,0,"모르겠습니다만 (정확한 설립자 정보는 제공되지 않음) 
+
+하지만 주어진 문서에서 Rhythm Heaven 시리즈의 개발사로 Nintendo SPD Production Group과 Tsunku's TNX가 언급됩니다. ""Rhythm World""에 대한 특정 개발자나 설립자 이름은 명시적으로 주어지지 않았습니다.",abstain,
+125,abstain,gold_in_passage,114,exaone,kch_000947,0,d,en,Chengdu,True,fallback_abstain,,0,모르겠습니다,abstain,
+126,abstain,gold_in_passage,114,exaone,kch_000746,1,d,en,Kingdom of the Netherlands,True,fallback_abstain,,0,모르겠습니다,abstain,
+127,abstain,gold_in_passage,114,exaone,kch_000665,1,d,en,Fukuoka,True,answer_section_abstain,,1,"Fukuoka, Japan (문서에서 CyberConnect2이 처음 설립된 장소로 언급됨) 
+
+하지만 명확히 본사 위치를 명시한 문장은 없으므로 가장 정확한 답변을 위해:
+답변: Fukuoka (확인되지 않았으나 초기 설립지로부터의 추론 포함)",answer,
+128,abstain,no_abstain_kw,4,exaone,kch_000383,0,d,en,Unknown Worlds Entertainment,True,fallback_abstain,,0,Unknown Worlds Entertainment,answer,
+129,abstain,gold_in_passage,114,exaone,kch_000729,1,a,ko,잉글랜드,True,fallback_abstain,,0,"잉글랜드
+(문서에서 직접적인 위치 언급은 없으나, 플레이그라운드 게임스를 잉글랜드의 비디오 게임 개발사로 명시하고 있으므로 가장 가까운 답변으로 제공합니다.) 
+
+모르겠습니다만 더 구체적인 위치 정보는 주어진 문서에 명시되어 있지 않습니다. 하지만 일반적으로 알려진 정보와 함께 답변 드리자면:
+
+잉글랜드",answer,
+130,abstain,long,45,exaone,kch_000233,1,d,en,Amherst,False,answer_section_abstain,,1,"문서에는 Jo Eun-ji의 정확한 출생지 정보가 명시되어 있지 않습니다.
+
+답변: 모르겠습니다",abstain,
+131,abstain,gold_in_passage,114,exaone,kch_000229,1,d,en,Eredivisie,True,fallback_abstain,,0,"모르겠습니다만  (하지만 주어진 정보로는 특정 인물이나 팀의 이전 소속 리그를 확인할 수 없음) 
+
+만약 특정 인물이나 팀을 지칭하고 계신다면, 좀 더 구체적인 이름이나 맥락을 제공해 주시면 감사하겠습니다.",abstain,
+132,abstain,gold_in_passage,114,exaone,kch_000608,1,d,en,Mexico City,True,fallback_abstain,,0,모르겠습니다,abstain,
+133,abstain,gold_in_passage,114,exaone,kch_000393,1,d,en,Nakhon Pathom,True,fallback_abstain,,0,"태국 (문서에서 특정 도시는 명시되지 않음) 
+
+* Vachirawit Chivaaree: Nakhon Pathom Province 언급됨  
+나머지 인물들의 출생지 정보는 제공된 문서에는 없습니다.*",answer,
+134,abstain,gold_in_passage,114,exaone,kch_000944,0,a,ko,항공자위대,True,fallback_abstain,,0,"모르겠습니다 (문서에서 명확한 운영 기관 명칭을 찾지 못함, 하지만 일반적인 맥락으로는 이바라키현이 주요 관리 주체일 것으로 추정됨) 
+
+정확한 답변 제한 내에서: 이바라키현",abstain,
+135,abstain,clean,282,exaone,kch_000807,0,b,en,Unshō Ishizuka,False,fallback_abstain,,0,모르겠습니다,abstain,
+136,abstain,gold_in_passage,114,exaone,kch_000564,0,b,en,Hayao Miyazaki,True,fallback_abstain,,0,모르겠습니다만,abstain,
+137,abstain,long,45,exaone,kch_000873,1,c,en,Los Angeles,False,answer_section_abstain,,1,"답변: 플로렌스 퓨 - 옥스퍼드  
+해리 스타일스 - 정보 없음 (문서에서 출생지 미상)  
+크리스 파인 - 정보 없음 (문서에서 출생지 미상)  
+제마 챈 - 정보 없음 (문서에서 출생지 미상)",answer,
+138,abstain,gold_in_passage,114,exaone,kch_000988,1,b,ko,사카구치 히로노부,True,fallback_abstain,,0,모르겠습니다,abstain,
+139,abstain,gold_in_passage,114,exaone,kch_000068,1,a,ko,솔트레이크시티,True,fallback_abstain,,0,모르겠습니다,abstain,
+140,abstain,long,45,exaone,kch_000597,1,c,en,Seoul,False,fallback_abstain,,0,"서울특별시 서대문구 (추정 위치 기반 답변) 
+
+*참고: 정확한 행정구역을 문서에서 명시적으로 확인할 수 없으나, 연세대학교의 일반적인 위치를 바탕으로 추정했습니다.*  
+모르겠습니다만 (문서 내 명확한 정보 부족)",answer,
+141,abstain,long,45,exaone,kch_000179,1,b,ko,애머스트,False,answer_section_abstain,,1,"서울
+(참고: 제공된 문서에는 Jo Eun-ji의 정확한 출생지 정보가 명시되어 있지 않으나, 일반적인 정보로 서울을 제시합니다. 주어진 텍스트에서는 해당 인물의 출생지에 대한 직접적인 언급이 없습니다.) 
+
+답변: 모르겠습니다",abstain,
+142,abstain,gold_in_passage,114,exaone,kch_000860,1,b,ko,요코하마시,True,answer_section_abstain,,1,"답변: 일본 가나가와현 요코하마시 (Arc System Works), 미국 캘리포니아주 레드우드 시티 (Etlingging 정보 없음), 위치 미상 (Neople)",abstain,
+143,abstain,long,45,exaone,kch_000764,1,d,en,J1 League,False,fallback_abstain,,0,"K League 1 또는 K League 2 (문서에서 명확한 시기별 변동은 언급되지 않으나, 초기에는 다른 팀들의 리그 분류가 주어져 있어 추정)
+
+정확성을 위해 가장 확실한 정보로 답변 드리자면:
+모르겠습니다만 (문서 내 특정 시기의 리그 분류가 명확히 지정되지 않음)",abstain,
+144,abstain,gold_in_passage,114,exaone,kch_000488,1,a,ko,스즈키 유,True,fallback_abstain,,0,모르겠습니다,abstain,
+145,abstain,gold_in_passage,114,exaone,kch_000679,1,a,ko,사카구치 히로노부,True,answer_section_abstain,,1,"사카구치 히로노부, 안도 모모후쿠 (아툰은 문서에서 명시적으로 언급되지 않았습니다) 
+
+답변: 사카구치 히로노부, 모르겠습니다 (아툰 설립자 정보 부족)",abstain,
+146,abstain,gold_in_passage,114,exaone,kch_000782,1,b,ko,스톡홀름,True,answer_section_abstain,,1,"답변: Mojang Studios - 스웨덴 스톡홀름, Blackbird Interactive 정보 없음 (문서에서 언급되지 않음)",answer,
+147,abstain,gold_in_passage,114,exaone,kch_000813,0,d,en,Sam Altman,True,fallback_abstain,,0,"Edward Daly (문서에서 명시적으로 언급됨, 하지만 정확한 창립자로서의 정보는 모호함 주의) 
+
+*참고: 문서에는 World Airways의 경우 Benjamin Pepper가 설립했으나 Edward Daly가 주요 인물로 언급되며, 월드(World Network 프로젝트에 대한 질문으로 해석될 수 있음)와 관련된 명확한 설립자 이름은 제공되지 않았습니다.*",answer,
+148,abstain,gold_in_passage,114,exaone,kch_000443,1,b,ko,멘로파크,True,fallback_abstain,,0,"멘로파크, 영국 런던, 맨해튼 등 여러 장소를 두고 있으나 특정 단일 본사 지정은 명시되지 않음  
+(더 구체적인 단일 본사 위치는 명확히 제시되어 있지 않습니다.) 
+
+모르겠습니다만 (단일 본사 위치에 대한 명확한 정보 부족)",abstain,
+149,abstain,long,45,exaone,kch_000282,0,d,en,Nintendo Software Planning & Development,False,fallback_abstain,,0,"Nintendo SPD Production Group 1 및 Tsunku's TNX (리듬 세상 시리즈 전체 맥락에서의 개발사 언급이 있으나, 특정 게임 '리듬 세상 더 베스트 플러스'에 대한 명시적 정보는 제공되지 않음)
+
+모르겠습니다만, 문서 내에서 Rhythm Heaven Megamix와 관련된 개발사 정보가 주어져 있지만, 정확히 ""Rhythm World: The Best Plus""의 개발사를 명시적으로 언급하고 있지 않아 정확한 답변을 드리기 어렵습니다. 하지만 시리즈 맥락상 Nintendo와 밀접하게 연관되어 있음을 추측할",abstain,
+150,abstain,gold_in_passage,114,exaone,kch_000723,0,a,ko,기예르모 델 토로,True,fallback_abstain,,0,모르겠습니다,abstain,
+151,abstain,gold_in_passage,114,exaone,kch_000121,1,a,ko,3. 리가,True,fallback_abstain,,0,모르겠습니다,abstain,
+152,abstain,gold_in_passage,114,exaone,kch_000320,1,b,ko,마운틴뷰,True,fallback_abstain,,0,모르겠습니다,abstain,
+153,abstain,long,45,exaone,kch_000700,0,d,en,Takeshi Kitano,False,answer_section_abstain,,1,"답변: Shinjiro Nakata (Kitano Shinjiro로 추정되나, 정확한 이름이 직접 언급되지 않았습니다.) 
+
+*참고: 주어진 텍스트에서 ""하나비""의 감독으로 명확하게 이름이 언급된 것은 아니지만, 내용상으로 Kitano가 연관되어 있으며, 그 중 한 인물인 Shinjiro Nakata와 연결 짓는다면 이에 가깝다고 볼 수 있으나, 정확한 정보를 제공하기 어렵습니다. 문서 내에서 가장 관련성이 높아 보이는 답변을 제공하였습니다.*
+
+정확성 확보를 위해:",answer,
+154,abstain,long,45,exaone,kch_000812,1,d,en,Swedish Academy,False,answer_section_abstain,,1,"모르겠습니다 (문서에서 명확한 기관이 언급되지 않음) 
+
+하지만 주어진 정보 내에서 가장 관련 있는 예를 들자면, ""Goethe-Institut""가 특정 메달을 수여하긴 하지만 질문의 맥락에 정확히 부합하는지 확실치 않아 명확히 답변 드리기 어렵습니다. 제공된 문서들 중 명확한 답이 없으므로 이와 같이 대답합니다. 
+
+답변: 모르겠습니다",abstain,
+155,abstain,gold_in_passage,114,exaone,kch_000268,1,d,en,Redmond,True,fallback_abstain,,0,"Redmond, Washington (문서에서 명시적으로 언급되지 않았지만 Halo Studios 부분 참조) 
+
+정확한 정보로 수정하면:
+모르겠습니다 (제공된 문서에는 정확한 위치가 명시되어 있지 않음)",answer,
+156,abstain,long,45,exaone,kch_000193,0,b,en,Mohammed bin Salman Al Saud,False,answer_section_abstain,,1,"사우디 크라운 프린스 모하메드 빈 살만과 함께 Neom 보드 의장으로 언급되지만, 구체적인 공동 설립자 명단은 명확히 제시되지 않았습니다. 주어진 정보로는 정확한 공동 설립자 이름을 지정하기 어렵습니다.
+
+답변: 모르겠습니다",abstain,
+157,abstain,long,45,exaone,kch_000718,0,b,en,Ernest Hemingway,False,fallback_abstain,,0,"모르겠습니다만 (주어진 문서에는 해당 작품의 저자 정보가 명시되어 있지 않습니다.) 
+
+하지만 주어진 텍스트에서 유사한 제목이나 관련 작가를 찾을 수 없으므로 정확한 답변을 제공하기 어렵습니다. ""무기여 잘 있거라""에 대한 직접적인 언급이 없기 때문입니다. 다른 문맥이나 추가 정보가 필요합니다.",abstain,
+158,abstain,long,45,exaone,kch_000270,1,c,en,Santa Monica,False,answer_section_abstain,,1,"답변: Compton, California (문서에서 직접적인 위치 정보는 없으나, 첫 번째 회사 설명 부분을 참고) 
+
+*참고: 제공된 문서에는 NUT Co., Ltd.(너티 독으로 해석되나 정확한 영문 명칭과 본사 위치가 명시적으로 언급되어 있지 않음). 주어진 정보로는 정확한 위치를 확인할 수 없습니다. 하지만 첫 번째 회사 설명이 유사한 맥락에서 제공되었으므로 참고하였습니다.*
+
+모르겠습니다만, 문서에 명확한 위치 정보가 없습니다.",answer,
+159,abstain,long,45,exaone,kch_000541,1,d,en,United States,False,answer_section_abstain,,1,"모르겠습니다만 (제공된 문서에는 이 이름과 관련된 정보가 없음) 
+
+하지만 일반적인 맥락에서 ""모르겠습니다만""은 한국어 표현으로, 특정 개인의 국적을 묻는 질문에 대한 답변 형식이 아니라 말버릇이나 표현 방식입니다. 주어진 문서 내 인물들 중 명확한 국적을 확인할 수 있는 이름 외에는 해당 표현과 직접 연관된 정보가 없으므로 정확한 국적을 제공하기 어렵습니다. 
+
+답변: 모르겠습니다만 (문서 내 특정 인물에 대한 답변으로 제한)",abstain,
+160,abstain,gold_in_passage,114,exaone,kch_000968,0,b,en,David S. Ward,True,answer_section_abstain,,1,"답변: David S. Ward (단, 주의: 주어진 문서에는 Major League II의 특정 감독을 명시적으로 언급하고 있지 않으나, 원작인 ""Major League""를 감독한 사람으로 제시되었습니다.) 
+
+모르겠습니다만, 정확한 감독 정보는 제공된 문서에 명시되어 있지 않습니다.",abstain,
+161,abstain,clean,282,exaone,kch_000023,1,c,en,Saudi Arabia,False,fallback_abstain,,0,모르겠습니다,abstain,
+162,abstain,gold_in_passage,114,exaone,kch_000212,1,b,ko,마드리드 지방,True,fallback_abstain,,0,카스티야라만차 지방 또는 카스티야이레온 지방 (문서에서 정확히 어느 쪽인지는 명시되지 않음),answer,
+163,abstain,clean,282,exaone,kch_000125,1,b,ko,후쿠오카시,False,fallback_abstain,,0,모르겠습니다,abstain,
+164,abstain,long,45,exaone,kch_000713,1,d,en,Cleveland,False,answer_section_abstain,,1,"모르겠습니다만 (문서에서 모르겠습니다만의 출생지 정보를 찾을 수 없음) 
+하지만 주어진 문맥 내에서 특정 인물 '모르겠습니다만'에 대한 상세한 개인 정보, 특히 출생지는 제공된 텍스트에는 명시되어 있지 않아 정확한 답변이 불가능합니다. 질문의 맥락이나 추가 정보가 필요할 것 같습니다. 만약 다른 인물을 묻는다면 좀 더 구체적인 이름이나 배경 정보를 부탁드립니다. 
+
+답변: 모르겠습니다만 (문맥 내에서 해당 정보 제공 불가)",abstain,
+165,abstain,long,45,exaone,kch_000820,1,d,en,Van Nuys,False,answer_section_abstain,,1,"답변: Keir Atwood Dullea - Cleveland, Ohio; Gary Lockwood 정보 없음; William Sylvester 정보 없음; Douglas Rain 정보 없음 (문서에서 출생지 명시되지 않음)",abstain,
+166,abstain,gold_in_passage,114,exaone,kch_000916,0,b,en,BioWare,True,fallback_abstain,,0,모르겠습니다,abstain,
+167,abstain,gold_in_passage,114,exaone,kch_000725,0,c,ko,기예르모 델 토로,True,fallback_abstain,,0,모르겠습니다,abstain,
+168,abstain,gold_in_passage,114,exaone,kch_000156,0,c,ko,FC 서울,True,fallback_abstain,,0,"울산 현대 (현역 은퇴 후 언급되지 않았으나 마지막으로 언급된 팀)
+모르겠습니다만, 가장 최근의 정보로는 울산 현대로 이적했지만 현역 은퇴 이후의 구체적인 소속팀은 문서에서 확인 불가능합니다.",answer,
+169,abstain,gold_in_passage,114,exaone,kch_000149,1,d,en,United States,True,fallback_abstain,,0,"미국 텍사스주 (문서에서 직접 언급되지 않았으나, John Ford는 미국 영화 감독으로 알려져 있어 일반적으로 미국 국적으로 간주됨) 
+
+정확한 출생지 정보로 제한하면:
+미국 메인 주 (Cape Elizabeth 출신으로 명시됨)",answer,
+170,abstain,gold_in_passage,114,exaone,kch_000003,1,d,en,Owensboro,True,fallback_abstain,,0,모르겠습니다,abstain,
+171,abstain,clean,282,exaone,kch_000672,1,d,en,Bowdoin College,False,fallback_abstain,,0,모르겠습니다만,abstain,
+172,abstain,clean,282,exaone,kch_000956,0,a,ko,무하마드 빈 살만 알 사우드,False,fallback_abstain,,0,모르겠습니다,abstain,
+173,abstain,long,45,exaone,kch_000454,0,a,ko,타이베이시,False,fallback_abstain,,0,"대만 타이베이 중산구 (첫 매장 위치 정보 기반 추정, 정확한 본사 위치 명시 없음) 
+
+모르겠습니다만, 제공된 문서에는 신광미츠코시의 정확한 본사 위치는 명시되어 있지 않으며, 첫 매장 위치만 언급하고 있습니다.",answer,
+174,abstain,gold_in_passage,114,exaone,kch_000908,1,c,en,Barcelona,True,fallback_abstain,,0,모르겠습니다,abstain,
+175,abstain,gold_in_passage,114,exaone,kch_000100,0,a,ko,콜롬보,True,fallback_abstain,,0,모르겠습니다,abstain,
+176,abstain,gold_in_passage,114,exaone,kch_000308,0,c,ko,알렉산드르 수보로프,True,fallback_abstain,,0,모르겠습니다,abstain,
+177,abstain,gold_in_passage,114,exaone,kch_000516,0,d,en,David S. Ward,True,answer_section_abstain,,1,"답변: David S. Ward (단, 주의: 주어진 문서에는 Major League II의 특정 감독을 명시적으로 언급하고 있지 않으나, 원작인 ""Major League""를 감독한 사람으로 제시되었습니다.) 
+
+모르겠습니다만, 정확한 감독 정보는 제공된 문서에 명시되어 있지 않습니다.",abstain,
+178,abstain,gold_in_passage,114,exaone,kch_000736,0,b,en,Amsterdam,True,fallback_abstain,,0,"The Hague (네덜란드 왕궁의 주요 거주지 중 하나로 언급되나, 정확한 '본사' 위치는 명시되지 않음)  
+모르겠습니다만",abstain,
+179,abstain,no_abstain_kw,4,exaone,kch_000050,0,b,en,Unknown Worlds Entertainment,True,fallback_abstain,,0,Unknown Worlds Entertainment,answer,
+180,abstain,gold_in_passage,114,exaone,kch_000619,0,d,en,BioWare,True,fallback_abstain,,0,모르겠습니다,abstain,
+181,abstain,clean,282,exaone,kch_000793,0,d,en,Sega AM2,False,fallback_abstain,,0,모르겠습니다,abstain,
+182,abstain,gold_in_passage,114,exaone,kch_000878,1,c,en,Swedish Academy,True,answer_section_abstain,,1,"답변: 각 상의 수여 기관 명시되지 않음 (문서에서 구체적인 정보 제공 없음) 
+
+* 한국소설문학상 -  한국문인협회 등 추정 가능하지만 확실치 않음
+* 오늘의 젊은 예술가상 -  문화체육관광부 주최로 추정됨, 정확한 기관명 미상
+* 이상문학상 대상 -  이상문학상 재단 또는 관련 단체 추정되나 명확하지 않음
+* 국제 부커상 - Booker Prize Foundation 
+* 노벨 문학상 - 스웨덴 아카데미",answer,
+183,abstain,gold_in_passage,114,exaone,kch_000638,0,a,ko,FC 서울,True,fallback_abstain,,0,"울산 현대 (현역 은퇴 후 언급되지 않았으나 마지막으로 언급된 팀)
+모르겠습니다만, 가장 최근의 정보로는 울산 현대로 이적했지만 현역 은퇴 이후의 구체적인 소속팀은 문서에서 확인 불가능합니다.",abstain,
+184,abstain,gold_in_passage,114,exaone,kch_000220,1,c,en,Los Angeles,True,fallback_abstain,,0,모르겠습니다,abstain,
+185,abstain,long,45,exaone,kch_000950,1,c,en,University of Glasgow,False,fallback_abstain,,0,모르겠습니다만 (문서에서 해당 개인의 졸업 학교 정보가 제공되지 않았습니다.),abstain,
+186,abstain,long,45,exaone,kch_000273,0,b,en,RC Strasbourg Alsace,False,fallback_abstain,,0,"Suwon Samsung Bluewings (2013년부터 클럽 매니저로 재임 중) 
+
+참고: 주어진 문서에서 서정원이 아닌 'Seo'에 대한 정보가 주로 포함되어 있으며, Seo의 경력 중 Suwon Samsung Bluewings와 관련된 부분만 해당 질문에 적용하였습니다. 정확한 이름 일치 여부를 확인할 수 없으나, 질문 형식과 가장 가까운 답변을 제공했습니다. 서정원에 대한 직접적인 정보는 주어진 문서에서 찾을 수 없었습니다. 만약 Seo가 서정원을 가리키는지 확실치 않다면:
+
+모르겠",answer,
+187,abstain,gold_in_passage,114,exaone,kch_000715,1,d,en,Bundesliga,True,fallback_abstain,,0,모르겠습니다,abstain,
+188,abstain,gold_in_passage,114,exaone,kch_000317,1,a,ko,아일랜드,True,fallback_abstain,,0,모르겠습니다,abstain,

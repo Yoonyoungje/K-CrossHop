@@ -1,0 +1,55 @@
+{
+  "label": "bge",
+  "model": "BAAI/bge-m3",
+  "query_prefix": "",
+  "index_dir": "data/faiss_index",
+  "device": "cuda:0",
+  "dtype": "torch.float32",
+  "max_seq_length": 8192,
+  "query_encode_sec": 1.6,
+  "gold_entity_ub_overall": 0.991,
+  "hit_v3_overall": 0.987,
+  "verdict": "PASS",
+  "per_key": {
+    "a-hop0-ko": {
+      "ub": 0.988,
+      "ub_v3": 0.988,
+      "n": 250
+    },
+    "a-hop1-ko": {
+      "ub": 0.988,
+      "ub_v3": 0.972,
+      "n": 250
+    },
+    "d-hop0-en": {
+      "ub": 0.996,
+      "ub_v3": 0.996,
+      "n": 250
+    },
+    "d-hop1-en": {
+      "ub": 0.992,
+      "ub_v3": 0.992,
+      "n": 250
+    },
+    "c-hop0-ko": {
+      "ub": 0.988,
+      "ub_v3": 0.988,
+      "n": 250
+    },
+    "c-hop1-en": {
+      "ub": 0.992,
+      "ub_v3": 0.992,
+      "n": 250
+    },
+    "b-hop0-en": {
+      "ub": 0.996,
+      "ub_v3": 0.996,
+      "n": 250
+    },
+    "b-hop1-ko": {
+      "ub": 0.988,
+      "ub_v3": 0.972,
+      "n": 250
+    }
+  }
+}

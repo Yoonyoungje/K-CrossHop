@@ -1,0 +1,54 @@
+{
+  "model": "intfloat/multilingual-e5-large",
+  "passages_file": "data/corpus/passages.jsonl",
+  "n_total": 259097,
+  "limit": 512,
+  "passage_prefix": "passage: ",
+  "chunking": "utils/wiki_api.py _chunk_words(350 words, overlap 50) — 어절 기준",
+  "per_lang": {
+    "en": {
+      "prefixed": {
+        "n": 190891,
+        "median": 230.0,
+        "mean": 273.4,
+        "p90": 520.0,
+        "p99": 599.0,
+        "max": 1434,
+        "over_512_count": 22688,
+        "over_512_ratio": 0.1189
+      },
+      "raw": {
+        "n": 190891,
+        "median": 228.0,
+        "mean": 271.4,
+        "p90": 518.0,
+        "p99": 597.0,
+        "max": 1432,
+        "over_512_count": 21648,
+        "over_512_ratio": 0.1134
+      }
+    },
+    "ko": {
+      "prefixed": {
+        "n": 68206,
+        "median": 165.0,
+        "mean": 245.0,
+        "p90": 578.0,
+        "p99": 967.0,
+        "max": 2585,
+        "over_512_count": 8436,
+        "over_512_ratio": 0.1237
+      },
+      "raw": {
+        "n": 68206,
+        "median": 163.0,
+        "mean": 243.0,
+        "p90": 576.0,
+        "p99": 965.0,
+        "max": 2583,
+        "over_512_count": 8370,
+        "over_512_ratio": 0.1227
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+idx,parser_class,stratum,stratum_pop,config,qid,hop,pattern,gold_lang,gold_entity,gold_in_passages,parser_source,parse_issue,marker_count,generated_text,human_label,notes
+1,nonabstain,short,1689,qwen,kch_000068,0,a,ko,애벌랜치 소프트웨어,True,answer_section,,1,답변: 디즈니 인터랙티브 스튜디오,answer,
+2,nonabstain,short,1689,qwen,kch_000817,0,b,en,Halo Studios,False,answer_section,,1,답변: 343 Industries and Creative Assembly,answer,
+3,nonabstain,normal,106,qwen,kch_000336,0,b,en,Yonsei University,True,answer_section,,1,"답변: Yonsei University, University of California, San Diego, APLN, Global Asia",answer,
+4,nonabstain,normal,106,qwen,kch_000254,1,b,ko,칸 영화제 각본상,False,fallback_cleaned,,0,"Ben Stiller가 받은 상은 다음과 같습니다:
+
+1. **아카데미상 (Academy Award)**  
+   - 1981년: 남우주연상 (Best Actor in a Supporting Role)  
+     - 영화: *The Deer Hunter*  
+
+2. **골든글로브상 (Golden Globe Award)**  
+   - 1981년: 드라마 부문 남우주연상 (Best Supporting Actor - Motion Picture)  
+     - 영화: *The Deer Hunter*  
+   - 1981년: 드라마 부문",unclear,
+5,nonabstain,short,1689,qwen,kch_000299,0,b,en,Game Arts,True,answer_section_short,,1,답변: Game Arts,answer,
+6,nonabstain,normal,106,qwen,kch_000189,0,a,ko,조니 뎁,True,answer_section,,1,"답변: 조니 뎁, 모건 프리먼, 조슈아 더멜, 가브리엘 유니언, 클레어 크레이머, 니콜 빌더백, 차니나 조엘슨, 리니 벨",answer,
+7,nonabstain,short,1689,qwen,kch_000025,1,c,en,Mount Vernon,False,fallback_cleaned,,0,"밥 호스킨스, 덴절 워싱턴",answer,
+8,nonabstain,short,1689,qwen,kch_000670,1,d,en,Ligue 1,False,fallback_cleaned,,0,K League 2,answer,
+9,nonabstain,normal,106,qwen,kch_000957,0,d,en,Chris Pine,True,answer_section,,1,"답변: 퍼니, 해리 스타일스, 올리비아 와일드, 제마 찬, 키키 라인, 니크 크롤, 크리스 파인",answer,
+10,nonabstain,normal,106,qwen,kch_000099,1,c,en,University of Guadalajara,True,fallback_cleaned,,0,University of Guadalajara's Centro de Investigación y Estudios Cinematográficos,answer,
+11,nonabstain,short,1689,qwen,kch_000064,1,c,en,Mountain View,False,fallback_cleaned,,0,"</think>
+
+미쓰비시 중공업",answer,
+12,nonabstain,normal,106,qwen,kch_000635,1,b,ko,내셔널 북 어워드,False,answer_section,,1,"답변: 레지옹 도뇌르 슈발리에, 레지옹 도뇌르 오피시에, 크루아 드 게르, 야자 잎이 달린 크루아 드 게르, 100프랑 기념 주화, 메네 드 파리 메달, 리옹 생텍쥐페리 공항, 리옹 생텍쥐페리 역, 생텍쥐페리 동상, 앙투안 드 생텍쥐페리 거리",answer,
+13,nonabstain,short,1689,qwen,kch_000734,1,d,en,Michigan State University,False,answer_section,,1,답변: New Zealand,answer,
+14,nonabstain,short,1689,qwen,kch_000313,0,a,ko,연세대학교,True,answer_section_short,,1,답변: 연세대학교,answer,
+15,nonabstain,normal,106,qwen,kch_000754,0,a,ko,노벨 문학상,True,answer_section,,1,"답변: 국제 부커상, 노벨 문학상, 한국소설문학상, 오늘의 젊은 예술가상, 이상문학상 대상",answer,
+16,nonabstain,short,1689,qwen,kch_000910,0,c,ko,밸브 코퍼레이션,True,answer_section_short,,1,답변: 밸브 코퍼레이션,answer,
+17,nonabstain,normal,106,qwen,kch_000929,0,b,en,Olivia Wilde,True,answer_section,,1,"답변: Yara Shahidi, Jennifer Garner, Ty Burrell, Olivia Wilde, Rob Corddry, Ashley Greene, Alicia Silverstone, Hugh Jackman",answer,
+18,nonabstain,short,1689,qwen,kch_000283,1,c,en,Italy,True,fallback_short,,0,이탈리아,answer,
+19,nonabstain,normal,106,qwen,kch_000668,1,c,en,Norwegian Nobel Committee,False,answer_section,,1,"답변: 라프토 기금, 유엔, 미국 국립 헌법센터, 국제인권연맹, 북미주 한국인권연합, 조지 미니 기금, 브루노 크라이스키 기금",answer,
+20,nonabstain,short,1689,qwen,kch_000374,0,c,ko,소노 시온,True,answer_section_short,,1,답변: 소노 시온,answer,
+21,nonabstain,short,1689,qwen,kch_000152,1,b,ko,도요나카시,True,answer_section_short,,1,답변: 오사카부 도요나카시,answer,
+22,nonabstain,normal,106,qwen,kch_000438,0,b,en,Lotus Cars,True,answer_section,,1,답변: 중국-owned British sports car manufacturer Lotus Cars,answer,
+23,nonabstain,short,1689,qwen,kch_000324,1,a,ko,푸스발-분데스리가,False,fallback_short,,0,K리그2,answer,
+24,nonabstain,short,1689,qwen,kch_000351,1,d,en,Jon Burton,True,answer_section,,1,답변: Jon Burton and Andy Ingram,answer,
+25,nonabstain,short,1689,qwen,kch_000757,1,b,ko,마운트버넌,True,answer_section,,1,"답변: 잉글랜드, 뉴욕주, 일리노이주",answer,
+26,nonabstain,normal,106,qwen,kch_000820,0,d,en,Gary Lockwood,True,answer_section,,1,"답변: Keir Dullea, Gary Lockwood, William Sylvester, Douglas Rain",answer,
+27,nonabstain,normal,106,qwen,kch_000948,1,b,ko,엔초 페라리,False,fallback_cleaned,,0,"이탈리아의 설립자는 **이탈리아 왕국**(Regno d'Italia)은 1861년에 설립되었으며, 이탈리아 통일을 이끌었던 **프레스코바치오 공화국**(Repubblica Presburgese)의 정치적, 군사적 노력과 **카리노 디 캄포베로**(Camillo di Cavour)와 같은 정치가들의 역할로 인해 형성되었다. 그러나 구체적으로 ""설립자""라는 개념은 명확하지 않으며,",unclear,
+28,nonabstain,normal,106,qwen,kch_000602,0,b,en,Gary Lockwood,True,answer_section,,1,"답변: Keir Dullea, Gary Lockwood, William Sylvester, Douglas Rain",answer,
+29,nonabstain,short,1689,qwen,kch_000492,0,c,ko,밀피타스,False,answer_section,,1,답변: 미국 캘리포니아주 밀피터스,answer,
+30,nonabstain,short,1689,qwen,kch_000352,0,d,en,New Taipei,True,answer_section,,1,"답변: 타이완, 신타이베이에 위치한 타이완 본사",answer,
+31,nonabstain,short,1689,qwen,kch_000065,1,a,ko,미즈구치 데쓰야,True,answer_section_short,,1,답변: 미즈구치 데쓰야,answer,
+32,nonabstain,normal,106,qwen,kch_000497,0,d,en,William Monroe Trotter,True,answer_section,,1,"답변: W. E. B. Du Bois, William Monroe Trotter, Mary Burnett Talbert",answer,
+33,nonabstain,normal,106,qwen,kch_000263,1,a,ko,내셔널 북 어워드,True,fallback_cleaned,,0,앙투안 드 생텍쥐페리가 받은 상은 **레지옹 도뇌르 훈장**입니다. 그는 1930년 프랑스 정부로부터 첫 레지옹 도뇌르 훈장을 받았습니다. 이는 사하라 부족에게 인질로 잡힌 추락한 비행사들의 안전한 석방 협상이라는 위험한 임무를 수행한 공로로 수여되었습니다.,answer,
+34,nonabstain,normal,106,qwen,kch_000034,1,a,ko,마이클 모하임,True,fallback_cleaned,,0,오버워치의 개발사인 블리자드 엔터테인먼트의 설립자는 조던 블리즈(Jordan Blum)와 브라이언 블리즈(Brian Blizz)입니다.,answer,
+35,nonabstain,normal,106,qwen,kch_000479,0,c,ko,하비에르 바르뎀,False,answer_section,,1,"답변: 지니퍼 굿윈, 제이슨 베이트먼, 키호이콴, 앤디 샘버그, 데이비드 스트러세언, 이드리스 엘바, 샤키라, 대니 트레호, 네이트 토렌스, 보니 헌트, 돈 레이크, 제니 슬레이트, 레이먼드 퍼시, 콜슨 베이커, 모드 선, 제이크 빌라, 가타",answer,
+36,nonabstain,short,1689,qwen,kch_000628,1,d,en,Russian Empire,True,fallback_short,,0,러시아,answer,
+37,nonabstain,short,1689,qwen,kch_000856,1,d,en,Hosei University,True,fallback_cleaned,,0,Hosei University,answer,
+38,nonabstain,normal,106,qwen,kch_000845,1,a,ko,페루치오 람보르기니,False,fallback_cleaned,,0,"이탈리아의 설립자는 **이탈리아 왕국**(Regno d'Italia)은 1861년에 설립되었으며, 이탈리아 통일을 이끌었던 **프레스코바치오 공화국**(Repubblica Presburgese)의 정치적, 군사적 노력과 **카리노 디 캄포베로**(Camillo di Cavour)와 같은 정치가들의 역할로 인해 형성되었다. 그러나 구체적으로 ""설립자""라는 개념은 명확하지 않으며,",unclear,
+39,nonabstain,normal,106,qwen,kch_000939,0,d,en,Jayne Brook,True,answer_section,,1,"답변: 마이클 모딘, 랜디 쿼이드, 폴 리저, 제인 앤 라 가로파로, 앰리 브렌나맨, 엘리자 다쉬쿠, 로브 리너, 앰버 벨슨, 린다 크라우스",answer,
+40,nonabstain,short,1689,qwen,kch_000421,0,b,en,Waterville,True,answer_section_short,,1,"답변: 웨트리빌, 메인주",answer,
+41,nonabstain,normal,106,qwen,kch_000336,1,b,ko,서울특별시,True,fallback_cleaned,,0,"Yonsei University, University of California, San Diego, APLN, Global Asia",answer,
+42,nonabstain,short,1689,qwen,kch_000841,1,b,ko,일리노이 대학교 어배너-섐페인,False,answer_section_short,,1,답변: 일리노이 대학교,answer,
+43,nonabstain,normal,106,qwen,kch_000211,0,d,en,Yonsei University,True,answer_section,,1,"답변: Yonsei University, University of California, San Diego, APLN, Global Asia",answer,
+44,nonabstain,normal,106,qwen,kch_000019,1,a,ko,옥스퍼드,False,answer_section,,1,"답변: 코코 솔로 공군기지, 캘리포니아주 샌루이스오비스포, 하트퍼드, 코네티컷, 코네티컷, 노던 버지니아",answer,
+45,nonabstain,normal,106,qwen,kch_000122,0,b,en,University of Queensland,False,answer_section,,1,"답변: Yonsei University, Institute for Basic Science (IBS), Max Planck–Yonsei IBS Center for Nanomedicine Deep Tissue Control (MPYIC)",answer,
+46,nonabstain,short,1689,qwen,kch_000402,1,b,ko,슈투트가르트,True,answer_section_short,,1,답변: 독일 슈투트가르트,answer,
+47,nonabstain,short,1689,qwen,kch_000021,1,c,en,Tim Sweeney,True,answer_section_short,,1,답변: 타임 스weeney,answer,
+48,nonabstain,short,1689,qwen,kch_000914,1,c,en,Brigham Young University,False,answer_section,,1,답변: Brown University,answer,
+49,nonabstain,normal,106,qwen,kch_000304,0,b,en,Valentina Cervi,True,answer_section,,1,"답변: Pierfrancesco Favino, Valentina Cervi, Derek Luke, Michael Ealy, Laz Alonso, Omar Benson Miller, John Turturro, Joseph Gordon Levitt, John Leguizamo, D.B. Sweeney, Kerry Washington",answer,
+50,nonabstain,normal,106,qwen,kch_000240,1,b,ko,솔트레이크시티,True,fallback_cleaned,,0,Avalanche Software의 본사는 미국 유타주 솔트레이크시티이다.,answer,

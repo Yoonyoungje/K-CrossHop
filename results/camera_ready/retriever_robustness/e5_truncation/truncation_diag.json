@@ -1,0 +1,122 @@
+{
+  "limit": 512,
+  "model": "intfloat/multilingual-e5-large",
+  "passage_prefix": "passage: ",
+  "c0_channel_b_present": false,
+  "c0_evidence": "04_build_faiss.py:60-69 meta['text']=passages 원문; 05_pilot_runner.py:88 / gold_entity_retrieval_diag.py:92 가 meta['text']를 판정에 사용. 절단은 model.encode 내부에서만 발생.",
+  "mapping_granularity": "page-level (구축 단계 lexical 검사와 같은 페이지 단위 매핑)",
+  "alias_logic": "utils.retrieval_success.build_alias_set / build_alias_surfaces",
+  "c1": {
+    "all": {
+      "ko": {
+        "n_evidence_passages": 618,
+        "n_truncated": 99,
+        "truncated_ratio": 0.1602,
+        "visible_among_truncated": 0.9091,
+        "n_at_risk": 9,
+        "at_risk_ratio_of_evidence": 0.0146
+      },
+      "en": {
+        "n_evidence_passages": 1098,
+        "n_truncated": 139,
+        "truncated_ratio": 0.1266,
+        "visible_among_truncated": 0.9712,
+        "n_at_risk": 4,
+        "at_risk_ratio_of_evidence": 0.0036
+      }
+    },
+    "hop0": {
+      "ko": {
+        "n_evidence_passages": 334,
+        "n_truncated": 35,
+        "truncated_ratio": 0.1048,
+        "visible_among_truncated": 0.9143,
+        "n_at_risk": 3,
+        "at_risk_ratio_of_evidence": 0.009
+      },
+      "en": {
+        "n_evidence_passages": 549,
+        "n_truncated": 64,
+        "truncated_ratio": 0.1166,
+        "visible_among_truncated": 0.9844,
+        "n_at_risk": 1,
+        "at_risk_ratio_of_evidence": 0.0018
+      }
+    },
+    "hop1": {
+      "ko": {
+        "n_evidence_passages": 284,
+        "n_truncated": 64,
+        "truncated_ratio": 0.2254,
+        "visible_among_truncated": 0.9062,
+        "n_at_risk": 6,
+        "at_risk_ratio_of_evidence": 0.0211
+      },
+      "en": {
+        "n_evidence_passages": 549,
+        "n_truncated": 75,
+        "truncated_ratio": 0.1366,
+        "visible_among_truncated": 0.96,
+        "n_at_risk": 3,
+        "at_risk_ratio_of_evidence": 0.0055
+      }
+    }
+  },
+  "c2": {
+    "ko": {
+      "corpus": {
+        "n_truncated": 8436,
+        "loss_tokens_median": 223.0,
+        "loss_tokens_p90": 439.0,
+        "loss_ratio_median": 0.3034
+      },
+      "evidence": {
+        "n_truncated": 99,
+        "loss_tokens_median": 187.0,
+        "loss_tokens_p90": 363.6,
+        "loss_ratio_median": 0.2675
+      }
+    },
+    "en": {
+      "corpus": {
+        "n_truncated": 22688,
+        "loss_tokens_median": 25.0,
+        "loss_tokens_p90": 79.0,
+        "loss_ratio_median": 0.0466
+      },
+      "evidence": {
+        "n_truncated": 139,
+        "loss_tokens_median": 21.0,
+        "loss_tokens_p90": 59.60000000000001,
+        "loss_ratio_median": 0.0394
+      }
+    }
+  },
+  "c4": {
+    "ko": {
+      "n_own_first_chunks": 376,
+      "n_surface_found": 360,
+      "surface_visible_ratio": 1.0,
+      "truncated_ratio": 0.117
+    },
+    "en": {
+      "n_own_first_chunks": 376,
+      "n_surface_found": 364,
+      "surface_visible_ratio": 1.0,
+      "truncated_ratio": 0.1489
+    }
+  },
+  "n_hop_jobs": 2000,
+  "n_hops_without_surface": 0,
+  "match_method_counts": {
+    "raw": 1691,
+    "normalized": 25
+  },
+  "verdict": "LOW",
+  "at_risk_ratio": {
+    "ko": 0.0146,
+    "en": 0.0036,
+    "gap_pp": 1.1
+  },
+  "heavier_side": "KO"
+}

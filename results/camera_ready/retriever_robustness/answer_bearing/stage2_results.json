@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "routing_observed": {
+      "a-hop0": [
+        "ko"
+      ],
+      "a-hop1": [
+        "ko"
+      ],
+      "b-hop0": [
+        "en"
+      ],
+      "b-hop1": [
+        "ko"
+      ],
+      "c-hop0": [
+        "ko"
+      ],
+      "c-hop1": [
+        "en"
+      ],
+      "d-hop0": [
+        "en"
+      ],
+      "d-hop1": [
+        "en"
+      ]
+    },
+    "routing_matches_pattern_def": true,
+    "b2_construction_failures": [],
+    "identical_top5_cells": 32,
+    "identical_top5_verdict_match": 32,
+    "identical_top5_mismatches": [],
+    "n_hops": 2000,
+    "n_clusters": 250,
+    "unique_query_index_pairs": {
+      "bge-m3": 1571,
+      "e5": 1571
+    },
+    "bootstrap": {
+      "B": 10000,
+      "seed": 42,
+      "cluster_unit": "triple (path_id minus _pat_X)"
+    },
+    "matcher": "§4.1 answer-bearing (utils/retrieval_success.py check_answer_bearing_hit)",
+    "alias_cache": "data/retrieval/alias_cache.json",
+    "routing_source": "pipeline/05_pilot_runner.py resolve_hop_query",
+    "top_k": 5
+  },
+  "arms": {
+    "bge-m3": {
+      "point": {
+        "same": 0.908,
+        "cross": 0.764,
+        "gap": 0.14400000000000002,
+        "cross_A2": 0.932,
+        "recovery": 0.16800000000000004,
+        "recovery_ratio": 1.1666666666666667,
+        "B1": 0.836,
+        "B2": 0.82,
+        "B3": 0.988,
+        "template_language": -0.016000000000000014,
+        "bridge_surface": 0.16800000000000004
+      },
+      "ci": {
+        "same": [
+          0.872,
+          0.944
+        ],
+        "cross": [
+          0.712,
+          0.816
+        ],
+        "gap": [
+          0.08799999999999997,
+          0.20000000000000007
+        ],
+        "cross_A2": [
+          0.9,
+          0.96
+        ],
+        "recovery": [
+          0.12,
+          0.21600000000000008
+        ],
+        "recovery_ratio": [
+          0.9464165057915058,
+          1.5769230769230764
+        ],
+        "B1": [
+          0.788,
+          0.88
+        ],
+        "B2": [
+          0.772,
+          0.868
+        ],
+        "B3": [
+          0.972,
+          1.0
+        ],
+        "template_language": [
+          -0.04400000000000004,
+          0.01200000000000001
+        ],
+        "bridge_surface": [
+          0.12,
+          0.21599999999999997
+        ]
+      },
+      "n": {
+        "same": 500,
+        "cross": 500,
+        "b": 500
+      }
+    },
+    "e5": {
+      "point": {
+        "same": 0.916,
+        "cross": 0.56,
+        "gap": 0.356,
+        "cross_A2": 0.916,
+        "recovery": 0.356,
+        "recovery_ratio": 1.0,
+        "B1": 0.704,
+        "B2": 0.736,
+        "B3": 0.992,
+        "template_language": 0.03200000000000003,
+        "bridge_surface": 0.256
+      },
+      "ci": {
+        "same": [
+          0.88,
+          0.948
+        ],
+        "cross": [
+          0.5,
+          0.62
+        ],
+        "gap": [
+          0.29200000000000004,
+          0.42000000000000004
+        ],
+        "cross_A2": [
+          0.88,
+          0.948
+        ],
+        "recovery": [
+          0.29600000000000004,
+          0.41600000000000004
+        ],
+        "recovery_ratio": [
+          0.9072164948453607,
+          1.1071428571428572
+        ],
+        "B1": [
+          0.644,
+          0.76
+        ],
+        "B2": [
+          0.68,
+          0.792
+        ],
+        "B3": [
+          0.98,
+          1.0
+        ],
+        "template_language": [
+          -0.016000000000000014,
+          0.08000000000000007
+        ],
+        "bridge_surface": [
+          0.19999999999999996,
+          0.31199999999999994
+        ]
+      },
+      "n": {
+        "same": 500,
+        "cross": 500,
+        "b": 500
+      }
+    }
+  }
+}

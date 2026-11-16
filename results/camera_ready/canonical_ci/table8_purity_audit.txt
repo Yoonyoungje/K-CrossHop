@@ -1,0 +1,109 @@
+======================================================================
+Stage-2 Purity Audit — dynamic_ablation_normalized (QMC stage-2)
+======================================================================
+qa_pairs: 1000 qids (hop1 라벨)
+
+----------------------------------------------------------------------
+[aya]  rows=1000 → 분석대상 1000 → hop1 1000
+  normalization_status 분포 (hop1):
+    success_gold_bridge_alias      337   33.7%
+    failed_unlinked                663   66.3%
+    skipped_abstain                  0    0.0%
+  prev_answer_abstained (hop0 기권):       14    1.4%
+  success 중 실효 정규화(문자열 변경):    125   37.1% of success
+  success 중 no-op(이미 target 표면):     212   62.9% of success
+  success 발동 same/cross (gold_lang):   same(ko)=128 cross(en)=209
+  실효 정규화 same/cross (gold_lang):    same(ko)=1 cross(en)=124
+  >> Identity purity: oracle_gold_bridge_forced=0  | identity 위반(success 비-gold)=0
+  >> 판정: PURE — 정규화가 gold 엔티티의 KO↔EN 표면만 교체, 정체성 변경 없음
+
+----------------------------------------------------------------------
+[exaone]  rows=1000 → 분석대상 1000 → hop1 1000
+  normalization_status 분포 (hop1):
+    success_gold_bridge_alias      317   31.7%
+    failed_unlinked                683   68.3%
+    skipped_abstain                  0    0.0%
+  prev_answer_abstained (hop0 기권):       72    7.2%
+  success 중 실효 정규화(문자열 변경):    102   32.2% of success
+  success 중 no-op(이미 target 표면):     215   67.8% of success
+  success 발동 same/cross (gold_lang):   same(ko)=107 cross(en)=210
+  실효 정규화 same/cross (gold_lang):    same(ko)=1 cross(en)=101
+  >> Identity purity: oracle_gold_bridge_forced=0  | identity 위반(success 비-gold)=0
+  >> 판정: PURE — 정규화가 gold 엔티티의 KO↔EN 표면만 교체, 정체성 변경 없음
+
+----------------------------------------------------------------------
+[llama]  rows=1000 → 분석대상 1000 → hop1 1000
+  normalization_status 분포 (hop1):
+    success_gold_bridge_alias      413   41.3%
+    failed_unlinked                587   58.7%
+    skipped_abstain                  0    0.0%
+  prev_answer_abstained (hop0 기권):       10    1.0%
+  success 중 실효 정규화(문자열 변경):    153   37.0% of success
+  success 중 no-op(이미 target 표면):     260   63.0% of success
+  success 발동 same/cross (gold_lang):   same(ko)=156 cross(en)=257
+  실효 정규화 same/cross (gold_lang):    same(ko)=0 cross(en)=153
+  >> Identity purity: oracle_gold_bridge_forced=0  | identity 위반(success 비-gold)=0
+  >> 판정: PURE — 정규화가 gold 엔티티의 KO↔EN 표면만 교체, 정체성 변경 없음
+
+----------------------------------------------------------------------
+[qwen]  rows=1000 → 분석대상 1000 → hop1 1000
+  normalization_status 분포 (hop1):
+    success_gold_bridge_alias      377   37.7%
+    failed_unlinked                623   62.3%
+    skipped_abstain                  0    0.0%
+  prev_answer_abstained (hop0 기권):       26    2.6%
+  success 중 실효 정규화(문자열 변경):    149   39.5% of success
+  success 중 no-op(이미 target 표면):     228   60.5% of success
+  success 발동 same/cross (gold_lang):   same(ko)=152 cross(en)=225
+  실효 정규화 same/cross (gold_lang):    same(ko)=1 cross(en)=148
+  >> Identity purity: oracle_gold_bridge_forced=0  | identity 위반(success 비-gold)=0
+  >> 판정: PURE — 정규화가 gold 엔티티의 KO↔EN 표면만 교체, 정체성 변경 없음
+
+----------------------------------------------------------------------
+[sonnet]  rows=1000 → 분석대상 1000 → hop1 1000
+  normalization_status 분포 (hop1):
+    success_gold_bridge_alias      421   42.1%
+    failed_unlinked                579   57.9%
+    skipped_abstain                  0    0.0%
+  prev_answer_abstained (hop0 기권):       49    4.9%
+  success 중 실효 정규화(문자열 변경):    168   39.9% of success
+  success 중 no-op(이미 target 표면):     253   60.1% of success
+  success 발동 same/cross (gold_lang):   same(ko)=174 cross(en)=247
+  실효 정규화 same/cross (gold_lang):    same(ko)=1 cross(en)=167
+  >> Identity purity: oracle_gold_bridge_forced=0  | identity 위반(success 비-gold)=0
+  >> 판정: PURE — 정규화가 gold 엔티티의 KO↔EN 표면만 교체, 정체성 변경 없음
+
+----------------------------------------------------------------------
+[gemini]  rows=1000 → 분석대상 1000 → hop1 1000
+  normalization_status 분포 (hop1):
+    success_gold_bridge_alias      423   42.3%
+    failed_unlinked                577   57.7%
+    skipped_abstain                  0    0.0%
+  prev_answer_abstained (hop0 기권):       48    4.8%
+  success 중 실효 정규화(문자열 변경):    186   44.0% of success
+  success 중 no-op(이미 target 표면):     237   56.0% of success
+  success 발동 same/cross (gold_lang):   same(ko)=190 cross(en)=233
+  실효 정규화 same/cross (gold_lang):    same(ko)=1 cross(en)=185
+  >> Identity purity: oracle_gold_bridge_forced=0  | identity 위반(success 비-gold)=0
+  >> 판정: PURE — 정규화가 gold 엔티티의 KO↔EN 표면만 교체, 정체성 변경 없음
+
+======================================================================
+집계 (hop1 기준)
+======================================================================
+model            n   success  failed_unl  skip_abs  prev_abst  eff_norm  viol  oracle
+-------------------------------------------------------------------------------------
+aya           1000   337/ 33.7%   663/ 66.3%    0/  0.0%   14/  1.4%   125         0       0
+exaone        1000   317/ 31.7%   683/ 68.3%    0/  0.0%   72/  7.2%   102         0       0
+llama         1000   413/ 41.3%   587/ 58.7%    0/  0.0%   10/  1.0%   153         0       0
+qwen          1000   377/ 37.7%   623/ 62.3%    0/  0.0%   26/  2.6%   149         0       0
+sonnet        1000   421/ 42.1%   579/ 57.9%    0/  0.0%   49/  4.9%   168         0       0
+gemini        1000   423/ 42.3%   577/ 57.7%    0/  0.0%   48/  4.8%   186         0       0
+
+열 설명:
+  success     = success_gold_bridge_alias (정규화 발동)
+  failed_unl  = failed_unlinked = linking-failure rate (§7 PENDING)
+  skip_abs    = skipped_abstain (prev_answer 비어있음)
+  prev_abst   = prev_answer_abstained=True (hop0 기권, abstention-without-useful-bridge)
+  eff_norm    = success 중 bridge 문자열 실제 변경(실효 정규화) 건수
+  viol        = identity 위반(success인데 gold 라벨 아님) — 0이어야 PURE
+  oracle      = oracle_gold_bridge_forced — 0이어야 함

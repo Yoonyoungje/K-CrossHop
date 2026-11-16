@@ -1,0 +1,28 @@
+[llama/E5/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.209   [+0.168, +0.251] (*)
+  stage1       +0.159   [+0.120, +0.200] (*)
+  stage2       +0.048   [+0.032, +0.064] (*)
+  residual     +0.002   [-0.026, +0.030]
+  항등 stage1+stage2+residual = +0.209  (= YL_ctrl +0.209)
+[llama/BGE/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.115   [+0.079, +0.152] (*)
+  stage1       +0.086   [+0.051, +0.121] (*)
+  stage2       +0.031   [+0.014, +0.049] (*)
+  residual     -0.002   [-0.031, +0.027]
+  항등 stage1+stage2+residual = +0.115  (= YL_ctrl +0.115)
+[sonnet/E5/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.232   [+0.193, +0.272] (*)
+  stage1       +0.180   [+0.144, +0.217] (*)
+  stage2       +0.048   [+0.032, +0.064] (*)
+  residual     +0.004   [-0.020, +0.029]
+  항등 stage1+stage2+residual = +0.232  (= YL_ctrl +0.232)
+[sonnet/BGE/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.093   [+0.060, +0.128] (*)
+  stage1       +0.075   [+0.045, +0.105] (*)
+  stage2       +0.027   [+0.012, +0.044] (*)
+  residual     -0.009   [-0.035, +0.018]
+  항등 stage1+stage2+residual = +0.093  (= YL_ctrl +0.093)

@@ -1,0 +1,30 @@
+{
+  "task": "parser",
+  "annotators": [
+    "Annotator A",
+    "Annotator B",
+    "Annotator C"
+  ],
+  "n_complete": 80,
+  "n_dropped_partial": 835,
+  "fleiss_calibration": 0.8581461650789234,
+  "fleiss_calibration_abstain": 0.8814814814814814,
+  "fleiss_calibration_answer": 0.8639359365034369,
+  "fleiss_calibration_unclear": -0.00840336134453917,
+  "cohen_pairwise": {
+    "Annotator A|Annotator B": 0.9501867995018679,
+    "Annotator A|Annotator C": 0.8234552332912988,
+    "Annotator B|Annotator C": 0.8011804908356633
+  },
+  "n_gold": 79,
+  "n_tie": 1,
+  "parser_dist": {
+    "abstain": 44,
+    "answer": 35
+  },
+  "kappa_gate": {
+    "kappa": 0.8581461650789234,
+    "gate": 0.6,
+    "pass": true
+  }
+}

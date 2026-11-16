@@ -1,0 +1,26 @@
+# Pinned to the versions installed when the reported runs were executed.
+# Install the CUDA build of torch separately:
+#   pip install torch==2.12.0 --index-url https://download.pytorch.org/whl/cu126
+
+# Wikidata / Wikipedia
+SPARQLWrapper==2.0.0
+Wikipedia-API==0.15.0
+
+# Embeddings and index
+torch==2.12.0
+transformers==5.0.0
+sentence-transformers==5.5.1
+faiss-cpu==1.14.2
+
+# LLM APIs
+anthropic==0.105.2
+google-genai==2.8.0
+openai==2.41.1
+
+# Utilities
+numpy==2.4.6
+scipy==1.17.1
+tqdm==4.67.3
+PyYAML==6.0.3
+requests==2.34.2
+python-dotenv==1.2.2

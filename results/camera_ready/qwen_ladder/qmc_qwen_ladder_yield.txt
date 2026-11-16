@@ -1,0 +1,35 @@
+[qwen3:8b Q4 (정본)/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.110   [+0.072, +0.149] (*)
+  stage1       +0.062   [+0.028, +0.097] (*)
+  stage2       +0.030   [+0.011, +0.049] (*)
+  residual     +0.018   [-0.015, +0.051]
+  항등 stage1+stage2+residual = +0.110  (= YL_ctrl +0.110)
+[qwen3:1.7b/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.056   [+0.012, +0.101] (*)
+  stage1       +0.133   [+0.092, +0.177] (*)
+  stage2       +0.021   [+0.005, +0.038] (*)
+  residual     -0.098   [-0.140, -0.056] (*)
+  항등 stage1+stage2+residual = +0.056  (= YL_ctrl +0.056)
+[qwen3:4b-q4_K_M/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.093   [+0.052, +0.135] (*)
+  stage1       +0.091   [+0.056, +0.126] (*)
+  stage2       +0.022   [+0.006, +0.038] (*)
+  residual     -0.020   [-0.055, +0.014]
+  항등 stage1+stage2+residual = +0.093  (= YL_ctrl +0.093)
+[qwen3:14b/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.084   [+0.046, +0.123] (*)
+  stage1       +0.065   [+0.035, +0.096] (*)
+  stage2       +0.027   [+0.012, +0.042] (*)
+  residual     -0.008   [-0.037, +0.021]
+  항등 stage1+stage2+residual = +0.084  (= YL_ctrl +0.084)
+[qwen3:8b-fp16/yield]  공통 QID 1000  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.108   [+0.069, +0.148] (*)
+  stage1       +0.083   [+0.050, +0.118] (*)
+  stage2       +0.023   [+0.009, +0.038] (*)
+  residual     +0.002   [-0.032, +0.036]
+  항등 stage1+stage2+residual = +0.108  (= YL_ctrl +0.108)

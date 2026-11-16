@@ -1,0 +1,50 @@
+# Data licensing
+
+The **code** in this release is MIT (see LICENSE). The **data** divides by
+provenance as follows.
+
+## CC BY-SA 4.0 (required)
+
+Everything derived from Wikipedia. Wikipedia article text is CC BY-SA 4.0, so
+this is not a choice.
+
+- `trajectories/*.jsonl` — contain the full text of the retrieved passages
+- `annotated/*.jsonl` — contain passage quotations
+- `human_audit/*` — the audit sheets contain passage excerpts
+
+(The standalone `corpus/passages.jsonl`, in the dataset repository, is under
+the same terms.)
+
+Sources: https://ko.wikipedia.org , https://en.wikipedia.org
+Full licence: https://creativecommons.org/licenses/by-sa/4.0/
+
+Redistribution and derivative works must preserve the ShareAlike condition and
+attribute the source.
+
+## CC0 1.0
+
+Structured data originating from Wikidata, which is released under CC0.
+
+- `dataset/triples.jsonl` — (Subject, Bridge, Answer) triples
+- `retrieval/alias_cache.json` — Wikidata label / alias / sitelink cache
+
+Source: https://www.wikidata.org
+Full licence: https://creativecommons.org/publicdomain/zero/1.0/
+
+## Mixed
+
+- `dataset/qa_pairs.jsonl` — the question templates are our own work (MIT); the
+  entity surface forms filled into them originate from Wikidata (CC0). The file
+  as a whole is distributed under CC BY-SA 4.0.
+
+## Model outputs
+
+The `generated_text` fields in `trajectories/` were produced under each
+provider's terms of service. Redistribution here is for research use;
+commercial use requires checking the terms of each provider.
+
+The four open-weight models carry their own licences, which the stored
+generations inherit — Aya Expanse: CC BY-NC 4.0 plus the C4AI Acceptable Use
+Policy (non-commercial); EXAONE 3.5: EXAONE AI Model License Agreement 1.1
+(research use); Llama 3.1: Llama 3.1 Community License; Qwen3: Apache-2.0.
+No model weights are redistributed.

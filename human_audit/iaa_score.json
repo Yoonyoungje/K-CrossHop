@@ -1,0 +1,42 @@
+{
+  "task": "iaa",
+  "annotators": [
+    "Annotator A",
+    "Annotator B",
+    "Annotator C"
+  ],
+  "n_complete": 121,
+  "n_dropped_partial": 0,
+  "fleiss_calibration": 0.5818815331010452,
+  "fleiss_main": 0.5310897583960827,
+  "fleiss_main_supported": 0.6188103864734299,
+  "fleiss_main_unsupported": 0.5217338513841668,
+  "fleiss_main_contradicted": 0.3024460431654659,
+  "cohen_pairwise": {
+    "Annotator A|Annotator B": 0.6381369426751592,
+    "Annotator A|Annotator C": 0.497011952191235,
+    "Annotator B|Annotator C": 0.45796064400715575
+  },
+  "n_gold": 118,
+  "n_tie": 3,
+  "judge_agreement": {
+    "n": 98,
+    "agree": 88,
+    "rate": 0.8979591836734694,
+    "ci": [
+      0.8222706682871846,
+      0.9436246043715325
+    ],
+    "cohen_kappa": 0.7618469015795869
+  },
+  "judge_agreement_binary": {
+    "n": 101,
+    "agree": 89,
+    "rate": 0.8811881188118812,
+    "ci": [
+      0.8037278011033379,
+      0.9307134893767768
+    ],
+    "cohen_kappa": 0.7119771863117871
+  }
+}

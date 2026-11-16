@@ -1,0 +1,1 @@
+잘림 홉(증거 언어별) {'ko': 100} · 제외 qid 38 · 남은 QA 962/1000 → data/camera_ready/qwen_no_trunc/qa_no_trunc_qwen3-1.7b.jsonl

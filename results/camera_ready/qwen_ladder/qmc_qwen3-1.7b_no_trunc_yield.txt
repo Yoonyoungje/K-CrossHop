@@ -1,0 +1,7 @@
+[qwen3:1.7b/yield/잘림 경로 제외]  공통 QID 962  (n_boot=10000, α=0.05, seed=42, path_cluster_id 250 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.060   [+0.016, +0.105] (*)
+  stage1       +0.129   [+0.089, +0.170] (*)
+  stage2       +0.024   [+0.007, +0.041] (*)
+  residual     -0.093   [-0.133, -0.051] (*)
+  항등 stage1+stage2+residual = +0.060  (= YL_ctrl +0.060)
