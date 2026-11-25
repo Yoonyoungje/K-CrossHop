@@ -1,0 +1,42 @@
+[aya/person]  공통 QID 440  (n_boot=10000, α=0.05, seed=42, path_cluster_id 110 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.080   [+0.020, +0.139] (*)
+  stage1       +0.084   [+0.023, +0.145] (*)
+  stage2       +0.057   [+0.027, +0.089] (*)
+  residual     -0.061   [-0.111, -0.009] (*)
+  항등 stage1+stage2+residual = +0.080  (= YL_ctrl +0.080)
+[exaone/person]  공통 QID 440  (n_boot=10000, α=0.05, seed=42, path_cluster_id 110 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.111   [+0.043, +0.180] (*)
+  stage1       +0.134   [+0.080, +0.189] (*)
+  stage2       +0.034   [+0.007, +0.061] (*)
+  residual     -0.057   [-0.105, -0.007] (*)
+  항등 stage1+stage2+residual = +0.111  (= YL_ctrl +0.111)
+[llama/person]  공통 QID 440  (n_boot=10000, α=0.05, seed=42, path_cluster_id 110 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.125   [+0.064, +0.186] (*)
+  stage1       +0.098   [+0.043, +0.155] (*)
+  stage2       +0.050   [+0.018, +0.082] (*)
+  residual     -0.023   [-0.066, +0.023]
+  항등 stage1+stage2+residual = +0.125  (= YL_ctrl +0.125)
+[qwen/person]  공통 QID 440  (n_boot=10000, α=0.05, seed=42, path_cluster_id 110 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.159   [+0.095, +0.223] (*)
+  stage1       +0.073   [+0.018, +0.127] (*)
+  stage2       +0.070   [+0.039, +0.102] (*)
+  residual     +0.016   [-0.041, +0.073]
+  항등 stage1+stage2+residual = +0.159  (= YL_ctrl +0.159)
+[sonnet/person]  공통 QID 440  (n_boot=10000, α=0.05, seed=42, path_cluster_id 110 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.103   [+0.042, +0.163] (*)
+  stage1       +0.069   [+0.019, +0.120] (*)
+  stage2       +0.049   [+0.019, +0.080] (*)
+  residual     -0.015   [-0.062, +0.030]
+  항등 stage1+stage2+residual = +0.103  (= YL_ctrl +0.103)
+[gemini/person]  공통 QID 440  (n_boot=10000, α=0.05, seed=42, path_cluster_id 110 joint)
+  지표              점추정   95% CI
+  YL_ctrl      +0.143   [+0.080, +0.205] (*)
+  stage1       +0.068   [+0.018, +0.118] (*)
+  stage2       +0.066   [+0.034, +0.098] (*)
+  residual     +0.009   [-0.041, +0.059]
+  항등 stage1+stage2+residual = +0.143  (= YL_ctrl +0.143)

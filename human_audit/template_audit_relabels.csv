@@ -1,0 +1,4 @@
+annotator,id,label_before,label_after,date
+Annotator A,t07,unnatural_ko,scope_mismatch,2026-09-18
+Annotator A,t09,unnatural_ko,scope_mismatch,2026-09-18
+Annotator A,t21,unnatural_ko,scope_mismatch,2026-09-18

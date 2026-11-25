@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "K-CrossHop"
+type: software
+authors:
+  - family-names: Yoon
+    given-names: Young Je
+    affiliation: "Ulsan National Institute of Science and Technology (UNIST)"
+  - family-names: Shin
+    given-names: Tae Joo
+    affiliation: "Ulsan National Institute of Science and Technology (UNIST)"
+repository-code: "https://github.com/Yoonyoungje/K-CrossHop"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "K-CrossHop: A Two-Stage Decomposition of Query-Side Cross-Lingual Failures in Korean–English Two-Hop RAG"
+  authors:
+    - family-names: Yoon
+      given-names: Young Je
+      affiliation: "Ulsan National Institute of Science and Technology (UNIST)"
+    - family-names: Shin
+      given-names: Tae Joo
+      affiliation: "Ulsan National Institute of Science and Technology (UNIST)"
+  collection-title: "Findings of the Association for Computational Linguistics: EACL 2027"
+  year: 2027

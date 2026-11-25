@@ -1,0 +1,104 @@
+
+모델: sonnet_ecological  (annotated=1000, hit_hop0=1000, hit_hop1=1000)
+
+==============================================================
+1. hop0/hop1 answer_bearing_hit 분포 (패턴별)
+==============================================================
+패턴         N   hop0 succ%   hop1 succ%
+--------------------------------------
+  a      250        90.8%        79.2%
+  b      250        76.4%        61.6%
+  c      250        90.8%        67.2%
+  d      250        76.4%        65.6%
+  전체   1000        83.6%        68.4%
+
+==============================================================
+2. H1: LSHD_conditioned — hop0 same-index vs cross-index
+==============================================================
+
+조건                        same-index FR   cross-index FR     LSHD
+------------------------------------------------------------------
+  전체 (무조건)                0.964 (n=472)    0.959 (n=393)   +0.005
+  v3 success=True         0.966 (n=446)    0.969 (n=355)   -0.003
+  v3 success=False         0.923 (n=26)     0.868 (n=38)   +0.055
+
+  해석: LSHD_conditioned > 0 → retrieval 확보 후에도 cross-index grounding 취약 (H1b)
+        LSHD_conditioned ≈ 0 → end2end 손실의 주 원인은 retrieval failure (H1a)
+
+==============================================================
+3. H1: LSHD_conditioned — hop1 same-index vs cross-index
+==============================================================
+
+조건                        same-index FR   cross-index FR     LSHD
+------------------------------------------------------------------
+  전체 (무조건)                0.883 (n=354)    0.897 (n=331)   -0.015
+  v3 success=True         0.960 (n=312)    0.966 (n=298)   -0.007
+  v3 success=False         0.310 (n=42)     0.273 (n=33)   +0.037
+
+  해석: LSHD_conditioned > 0 → retrieval 확보 후에도 cross-index grounding 취약 (H1b)
+        LSHD_conditioned ≈ 0 → end2end 손실의 주 원인은 retrieval failure (H1a)
+
+==============================================================
+2-B. H1: Yield-LSHD_conditioned — hop0 same-index vs cross-index  (yield 축, 착시 보정)
+==============================================================
+
+조건                        same-index YR   cross-index YR  Yield-LSHD
+---------------------------------------------------------------------
+  전체 (무조건)                0.912 (n=500)    0.758 (n=499)      +0.154
+  v3 success=True         0.952 (n=454)    0.906 (n=381)      +0.046
+  v3 success=False         0.522 (n=46)    0.280 (n=118)      +0.242
+
+  해석: Yield-LSHD_conditioned > 0 → retrieval 확보 후에도 cross-index 기권 잔존 (yield 손실)
+        ≈ 0 → cross yield 손실이 retrieval failure로 설명됨
+
+==============================================================
+3-B. H1: Yield-LSHD_conditioned — hop1 same-index vs cross-index  (yield 축, 착시 보정)
+==============================================================
+
+조건                        same-index YR   cross-index YR  Yield-LSHD
+---------------------------------------------------------------------
+  전체 (무조건)                0.627 (n=499)    0.595 (n=499)      +0.032
+  v3 success=True         0.855 (n=351)    0.870 (n=331)      -0.015
+  v3 success=False        0.088 (n=148)    0.054 (n=168)      +0.034
+
+  해석: Yield-LSHD_conditioned > 0 → retrieval 확보 후에도 cross-index 기권 잔존 (yield 손실)
+        ≈ 0 → cross yield 손실이 retrieval failure로 설명됨
+
+==============================================================
+4. H2/CLEPR — 패턴별 direction + answer_bearing_hit 조건부
+==============================================================
+  primary: 패턴별 direction  |  secondary: switch vs same aggregate
+
+  [전체 (무조건)]
+    패턴  direction        CLEPR     n
+  ----------------------------------
+    a        KO→KO   0.167 (n=6)
+    b        EN→KO   0.200 (n=5)
+    c        KO→EN   0.000 (n=4)
+    d        EN→EN   0.250 (n=8)
+  switch(b+c)            0.111 (n=9)
+  same  (a+d)           0.214 (n=14)
+  ΔCLEPR = -0.103  
+
+  [v3 success=True]
+    패턴  direction        CLEPR     n
+  ----------------------------------
+    a        KO→KO   0.167 (n=6)
+    b        EN→KO   0.250 (n=4)
+    c        KO→EN   0.000 (n=3)
+    d        EN→EN   0.000 (n=5)
+  switch(b+c)            0.143 (n=7)
+  same  (a+d)           0.091 (n=11)
+  ΔCLEPR = +0.052  ← H2 지지
+
+  [v3 success=False]
+    패턴  direction        CLEPR     n
+  ----------------------------------
+    a        KO→KO         N/A  
+    b        EN→KO   0.000 (n=1)
+    c        KO→EN   0.000 (n=1)
+    d        EN→EN   0.667 (n=3)
+  switch(b+c)            0.000 (n=2)
+  same  (a+d)            0.667 (n=3)
+  ΔCLEPR = -0.667  
+

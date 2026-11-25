@@ -1,0 +1,58 @@
+로드: data/annotated/sonnet_ecological.jsonl  (1000개 궤적)
+  (필터 미적용 — --trajectories 또는 --multi-annotated 미지정)
+
+==============================================================
+패턴별 FaithRate / PDR  (gold_lang 기준)
+==============================================================
+  same-index  = KO retrieval query → KO index  (gold_lang=ko)
+  cross-index = KO retrieval query → EN index  (gold_lang=en)
+
+패턴     인덱스유형          FaithRate        PDR   Contra     n
+------------------------------------------------------
+a(KO→KO→) same-index         0.922      0.067    0.010   430
+b(KO→EN→) same-index         0.891      0.100    0.009   160
+b(KO→EN→) cross-index        0.962      0.028    0.010   196
+  └ 패턴내 LSHD=-0.071  ΔPDR=-0.072
+c(KO→KO→) same-index         0.968      0.025    0.006   236
+c(KO→KO→) cross-index        0.921      0.067    0.012   164
+  └ 패턴내 LSHD=+0.047  ΔPDR=+0.042
+d(KO→EN→) cross-index        0.919      0.073    0.008   364
+
+  LSHD_end2end  = same FR - cross FR    = -0.002  (n_same=826, n_cross=724)
+  ΔPDR_end2end  = cross PDR - same PDR  = -0.002
+  Yield-LSHD    = same YR - cross YR    = +0.093  (n_same=999, n_cross=998, 기권 포함)
+
+==============================================================
+CLEPR 패턴별 direction  (H2 primary)
+==============================================================
+  P(hop1 hallu | hop0 hallu) per transition direction
+
+  패턴  direction            CLEPR    n(분모)
+------------------------------------------
+  a        KO→KO        0.167 (n=6)
+  b        EN→KO        0.200 (n=5)
+  c        KO→EN        0.000 (n=4)
+  d        EN→EN        0.250 (n=8)
+------------------------------------------
+  switch (b+c)                   0.111 (n=9)
+  same   (a+d)                  0.214 (n=14)
+
+  ΔCLEPR (switch - same) = -0.103  ← H2 불지지
+
+==============================================================
+AFR (기권율)
+==============================================================
+패턴                        AFR      기권홉      전체홉
+----------------------------------------------
+a(KO→KO→KO)     13.8%       69      499
+b(KO→EN→KO)     28.7%      143      499
+c(KO→KO→EN)     20.0%      100      500
+d(KO→EN→EN)     27.1%      135      499
+
+==============================================================
+요약 (H1 / H2)
+==============================================================
+  H1 LSHD_end2end = -0.002  ← H1 불지지
+     ΔPDR_end2end = -0.002
+  H2 ΔCLEPR (switch - same) = -0.103  ← H2 불지지
+

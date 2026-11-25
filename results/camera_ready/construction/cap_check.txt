@@ -1,0 +1,37 @@
+## 기록된 cap 결과 점검 (규칙: dataset/apply_caps.py)
+  입력 410 · cap 출력(복원) 263 · 탈락 147 · 최종 250
+  대체 1건은 cap 탈락 쪽에 있었나: True · 수동 제거 14건 ⊂ cap 출력: True · cap 출력 ⊂ 입력: True
+  기록의 탈락 목록 160 = cap 탈락 147 + 62 표본 수동 제거 13: True (수리 단계의 제거 1·대체 1 전 상태)
+
+[cap 출력 263] n = 263
+  answer_qid  ≤ 3: 최대 3 · 위반 0
+  subj_qid    ≤ 2: 최대 2 · 위반 0
+  bridge_qid  ≤ 2: 최대 2 · 위반 0
+  p178_group             ≤ 20%: 49/263 = 18.6% · OK
+  location_answer_group  ≤ 35%: 66/263 = 25.1% · OK
+  (보고용) query_type 최다 product_manufacturer_founder_b 33/263 = 12.5% · 기준 25%
+  (보고용) answer_type 최다 location 66/263 = 25.1% · 기준 35%
+
+[최종 250] n = 250
+  answer_qid  ≤ 3: 최대 3 · 위반 0
+  subj_qid    ≤ 2: 최대 2 · 위반 0
+  bridge_qid  ≤ 2: 최대 2 · 위반 0
+  p178_group             ≤ 20%: 46/250 = 18.4% · OK
+  location_answer_group  ≤ 35%: 61/250 = 24.4% · OK
+  (보고용) query_type 최다 product_manufacturer_founder_b 33/250 = 13.2% · 기준 25%
+  (보고용) answer_type 최다 location 61/250 = 24.4% · 기준 35%
+
+[탈락 147] cap 출력에서 개체 cap 에 막힘 142 · 개체 cap 은 아니고 그룹 소속(그룹 cap 탈락 가능) 5 · 설명 불가 0
+  그룹 cap 후보의 그룹: {'p178_group': 5, 'location_answer_group': 4}
+
+## 순서 무관 cap (dataset/apply_caps.py — triple ID 정렬 후 seed 42)
+  410 → 266 · 기록된 cap 출력 263 과 공통 224 · 순서 무관 쪽에만 42 · 기록 쪽에만 39
+
+[순서 무관 cap 출력 266] n = 266
+  answer_qid  ≤ 3: 최대 3 · 위반 0
+  subj_qid    ≤ 2: 최대 2 · 위반 0
+  bridge_qid  ≤ 2: 최대 2 · 위반 0
+  p178_group             ≤ 20%: 53/266 = 19.9% · OK
+  location_answer_group  ≤ 35%: 70/266 = 26.3% · OK
+  (보고용) query_type 최다 product_manufacturer_founder_b 32/266 = 12.0% · 기준 25%
+  (보고용) answer_type 최다 location 70/266 = 26.3% · 기준 35%

@@ -1,0 +1,253 @@
+{
+  "task": "proxy",
+  "annotators": [
+    "Annotator A",
+    "Annotator B",
+    "Annotator C"
+  ],
+  "n_complete": 106,
+  "n_dropped_partial": 0,
+  "fleiss_calibration": 0.40000000000000013,
+  "fleiss_calibration_parts": {
+    "p_o": 0.7083333333333334,
+    "p_e": 0.5138888888888888,
+    "n": 16,
+    "ci": null
+  },
+  "fleiss_main": 0.4975105138492772,
+  "fleiss_main_parts": {
+    "p_o": 0.7148148148148148,
+    "p_e": 0.4324554183813443,
+    "n": 90,
+    "ci": [
+      0.35740729858376974,
+      0.6204194514865178
+    ]
+  },
+  "fleiss_main_proxy_fp": 0.4389610389610385,
+  "fleiss_main_proxy_fp_parts": {
+    "p_o": 0.7333333333333332,
+    "p_e": 0.5246913580246915,
+    "ci": [
+      0.29613400632314735,
+      0.5711764705882354
+    ]
+  },
+  "fleiss_main_overabstain": 0.3772279303837279,
+  "fleiss_main_overabstain_parts": {
+    "p_o": 0.9185185185185184,
+    "p_e": 0.8691632373113853,
+    "ci": [
+      0.030230469919183683,
+      0.6413813459267994
+    ]
+  },
+  "fleiss_main_ambiguous": 0.3518518518518509,
+  "fleiss_main_ambiguous_parts": {
+    "p_o": 0.7925925925925924,
+    "p_e": 0.6800000000000002,
+    "ci": [
+      0.17720934527657306,
+      0.513696060037524
+    ]
+  },
+  "fleiss_main_parser_fp": 0.9290966386554615,
+  "fleiss_main_parser_fp_parts": {
+    "p_o": 0.985185185185185,
+    "p_e": 0.7910562414266118,
+    "ci": [
+      0.7882352941176468,
+      1.0
+    ]
+  },
+  "cohen_pairwise": {
+    "Annotator A|Annotator B": 0.4959159859976662,
+    "Annotator A|Annotator C": 0.46723044397463,
+    "Annotator B|Annotator C": 0.5584772370486656
+  },
+  "n_gold": 99,
+  "n_tie": 7,
+  "proxy_dist": {
+    "parser_fp": 10,
+    "proxy_fp": 55,
+    "ambiguous": 16,
+    "overabstain": 4
+  },
+  "proxy_fp_rate": {
+    "k": 55,
+    "n": 59,
+    "rate": 0.9322033898305084,
+    "ci": [
+      0.8382425011833289,
+      0.9733218129016085
+    ]
+  },
+  "proxy_rates": {
+    "parser_fp": {
+      "k": 10,
+      "n": 90,
+      "rate": 0.1111111111111111,
+      "ci": [
+        0.0,
+        0.2604166666666667
+      ]
+    },
+    "proxy_fp": {
+      "k": 55,
+      "n": 80,
+      "rate": 0.6875,
+      "ci": [
+        0.5301204819277109,
+        0.8108108108108109
+      ]
+    },
+    "overabstain": {
+      "k": 4,
+      "n": 80,
+      "rate": 0.05,
+      "ci": [
+        0.01098901098901099,
+        0.10975609756097561
+      ]
+    },
+    "dist": {
+      "parser_fp": 10,
+      "proxy_fp": 55,
+      "ambiguous": 16,
+      "tie": 5,
+      "overabstain": 4
+    },
+    "n_clusters": 49
+  },
+  "overabstain_rules": {
+    "unanimous": 2,
+    "majority": 4,
+    "any_vote": 13,
+    "adversarial_upper": 25,
+    "denom": 80
+  },
+  "proxy_by_model": {
+    "aya": {
+      "parser_fp": 2,
+      "proxy_fp": 8,
+      "_adv": 0,
+      "_real": 8
+    },
+    "exaone": {
+      "parser_fp": 2,
+      "proxy_fp": 18,
+      "ambiguous": 6,
+      "split": 2,
+      "_adv": 8,
+      "_real": 26
+    },
+    "gemini": {
+      "ambiguous": 8,
+      "proxy_fp": 12,
+      "split": 2,
+      "_adv": 10,
+      "_real": 22
+    },
+    "llama": {
+      "parser_fp": 2,
+      "proxy_fp": 8,
+      "_adv": 0,
+      "_real": 8
+    },
+    "qwen": {
+      "parser_fp": 2,
+      "overabstain": 4,
+      "proxy_fp": 4,
+      "_adv": 4,
+      "_real": 8
+    },
+    "sonnet": {
+      "split": 1,
+      "parser_fp": 2,
+      "proxy_fp": 5,
+      "ambiguous": 2,
+      "_adv": 3,
+      "_real": 8
+    }
+  },
+  "pair_confusion": {
+    "Annotator A|Annotator B": {
+      "proxy_fp": {
+        "proxy_fp": 49,
+        "overabstain": 2,
+        "ambiguous": 19,
+        "parser_fp": 0
+      },
+      "overabstain": {
+        "proxy_fp": 2,
+        "overabstain": 2,
+        "ambiguous": 1,
+        "parser_fp": 0
+      },
+      "ambiguous": {
+        "proxy_fp": 0,
+        "overabstain": 0,
+        "ambiguous": 5,
+        "parser_fp": 0
+      },
+      "parser_fp": {
+        "proxy_fp": 0,
+        "overabstain": 0,
+        "ambiguous": 0,
+        "parser_fp": 10
+      }
+    },
+    "Annotator A|Annotator C": {
+      "proxy_fp": {
+        "proxy_fp": 43,
+        "overabstain": 6,
+        "ambiguous": 19,
+        "parser_fp": 2
+      },
+      "overabstain": {
+        "proxy_fp": 1,
+        "overabstain": 4,
+        "ambiguous": 0,
+        "parser_fp": 0
+      },
+      "ambiguous": {
+        "proxy_fp": 0,
+        "overabstain": 0,
+        "ambiguous": 5,
+        "parser_fp": 0
+      },
+      "parser_fp": {
+        "proxy_fp": 0,
+        "overabstain": 0,
+        "ambiguous": 0,
+        "parser_fp": 10
+      }
+    },
+    "Annotator B|Annotator C": {
+      "proxy_fp": {
+        "proxy_fp": 37,
+        "overabstain": 6,
+        "ambiguous": 8,
+        "parser_fp": 0
+      },
+      "overabstain": {
+        "proxy_fp": 2,
+        "overabstain": 2,
+        "ambiguous": 0,
+        "parser_fp": 0
+      },
+      "ambiguous": {
+        "proxy_fp": 5,
+        "overabstain": 2,
+        "ambiguous": 16,
+        "parser_fp": 2
+      },
+      "parser_fp": {
+        "proxy_fp": 0,
+        "overabstain": 0,
+        "ambiguous": 0,
+        "parser_fp": 10
+      }
+    }
+  }
+}

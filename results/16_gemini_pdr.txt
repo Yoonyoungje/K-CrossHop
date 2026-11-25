@@ -1,0 +1,18 @@
+
+모델: gemini_ecological
+  trajectory=1000, v3=2000, annotated=1000
+
+==============================================================
+PDR: P(gold entity in gen_text | v3=False, non-abstained)  (§10.10)
+==============================================================
+  정의: 검색 실패(v3=False) + 비기권 홉 중 생성 텍스트에 gold entity/alias 포함 비율
+  ΔPDR = PDR(cross-index) − PDR(same-index)
+
+  구분             same-index PDR      cross-index PDR     ΔPDR
+  ------------------------------------------------------------
+  hop0             0.077 (n=26)         0.000 (n=38)   -0.077
+  hop1             0.083 (n=36)         0.061 (n=49)   -0.022
+  전체               0.081 (n=62)         0.034 (n=87)   -0.046
+
+  ※ alias-aware: Wikidata label/wiki_title/aliases (KO+EN)
+  ※ 기권(abstained / ambiguous_answer_marker) 홉 제외

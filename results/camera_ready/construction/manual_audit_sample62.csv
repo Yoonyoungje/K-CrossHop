@@ -1,0 +1,63 @@
+sample_no,stratum,path_id,schema,outcome,removal_reason,note
+01,risk,Q106838911_Q28556_Q103360,film_director_award,removed_multi_answer,,
+02,risk,Q1980812_Q2568920_Q6270460,game_developer_founder,removed_multi_answer,,
+03,risk,Q473673_Q193559_Q347418,game_developer_founder,removed_multi_answer,,
+04,risk,Q1416880_Q286774_Q845401,software_developer_founder,kept_final,,
+05,risk,Q1053245_Q686915_Q241257,album_performer_award,kept_final,,
+06,risk,Q1115707_Q2908_Q572316,book_author_award,kept_final,,
+07,risk,Q101426457_Q313039_Q49114,film_director_educated_at,kept_final,,
+08,risk,Q1260606_Q285493_Q17144,company_founder_award,kept_final,,
+09,risk,Q15139655_Q178824_Q52994,game_developer_founder,removed_multi_answer,,
+10,risk,Q1052260_Q19794_Q1179189,film_actor_award,removed_multi_answer,,
+11,risk,Q1124867_Q50764_Q209459,film_director_award,removed_manual,granularity,Golden Lion vs career/honorary Golden Lion
+12,risk,Q125823861_Q713418_Q4745214,product_manufacturer_founder,kept_final,,
+13,risk,Q1049357_Q219772_Q501876,album_performer_award,kept_final,,
+14,risk,Q207885_Q178824_Q52994,game_developer_founder,removed_multi_answer,,
+15,risk,Q18918071_Q201580_Q424160,book_author_award,removed_multi_answer,,
+16,risk,Q101542263_Q713418_Q4745214,product_manufacturer_founder,dropped_second_cap,,
+17,risk,Q1074272_Q219772_Q501876,album_performer_award,removed_multi_answer,,
+18,risk,Q25338_Q2908_Q572316,book_author_award,removed_manual,duplicate_bridge_answer,same bridge-answer pair as sample 06
+19,risk,Q1213811_Q23434_Q37922,book_author_award,dropped_second_cap,,
+20,risk,Q31285_Q81685_Q37922,book_author_award,dropped_second_cap,,
+21,risk,Q1041905_Q41187_Q310845,product_manufacturer_founder,removed_multi_answer,,
+22,risk,Q1186048_Q41187_Q310845,product_manufacturer_founder,removed_multi_answer,,
+23,risk,Q111918059_Q313039_Q49114,film_director_educated_at,removed_manual,duplicate_bridge_answer,same bridge-answer pair as sample 07
+24,risk,Q1153145_Q266676_Q241257,album_performer_award,removed_multi_answer,,
+25,risk,Q105549749_Q171745_Q1011547,film_actor_award,removed_multi_answer,,
+26,risk,Q112912_Q2568920_Q6270460,game_developer_founder,removed_multi_answer,,
+27,risk,Q274897_Q193559_Q347418,game_developer_founder,removed_multi_answer,,
+28,risk,Q1057784_Q686915_Q241257,album_performer_award,removed_manual,duplicate_bridge_answer,same bridge-answer pair as sample 05; award subtype wording also unstable
+29,risk,Q1247929_Q9364_Q37922,book_author_award,dropped_second_cap,,
+30,risk,Q83945397_Q102427_Q212329,person_award_org,removed_multi_answer,,
+31,risk,Q105702167_Q134895_Q106291,film_actor_award,kept_final,,
+32,risk,Q18209661_Q152864_Q1867,software_developer_hq,removed_manual,granularity,city vs district (gate predicted Beitou District)
+33,random,Q1041839_Q106175_Q462799,film_actor_birthplace,kept_final,,
+34,random,Q1192488_Q1323347_Q46747,film_director_birthplace,dropped_second_cap,,
+35,random,Q104522419_Q2617855_Q38283,game_developer_hq,kept_final,,
+36,random,Q1093620_Q6746_Q219842,product_manufacturer_founder,kept_final,,
+37,random,Q14389650_Q20718_Q20714,software_developer_hq,removed_manual,granularity,city vs district (gate predicted Yeongtong District)
+38,random,Q45785_Q35637_Q946621,person_award_org,kept_final,,
+39,random,Q1022805_Q126666_Q1022,software_developer_hq,kept_final,,
+40,random,Q10466944_Q484569_Q2386334,athlete_team_league_domestic,dropped_second_cap,,
+41,random,Q16970498_Q3566785_Q1319893,game_developer_hq,removed_manual,label_instability,"answer type labelled other (Valencia, California)"
+42,random,Q101440388_Q1033016_Q37320,film_actor_birthplace,kept_final,,
+43,random,Q1044821_Q248_Q241735,product_manufacturer_founder,removed_multi_answer,,
+44,random,Q930132_Q1138941_Q81856,software_developer_hq,kept_final,,
+45,random,Q1061627_Q14641_Q772,org_hq_admin,kept_final,,
+46,random,Q15709637_Q907357_Q936768,game_developer_hq,kept_final,,
+47,random,Q1002100_Q117899_Q38,film_actor_country,kept_final,,
+48,random,Q16234741_Q105254_Q82595,athlete_team_league,dropped_second_cap,,
+49,random,Q1129778_Q72717_Q30,film_director_country,dropped_second_cap,,
+50,random,Q1053326_Q927510_Q110739,org_hq_admin,kept_final,,
+51,random,Q16084454_Q626783_Q16520,person_employer_admin,removed_multi_answer,,
+52,random,Q11663968_Q56143_Q41283,person_employer_admin,removed_manual,granularity,city vs district (gate predicted Dong-gu)
+53,random,Q1142731_Q549189_Q212446,product_manufacturer_founder,kept_final,,
+54,random,Q1211898_Q51491_Q1781,film_director_birthplace,kept_final,,
+55,random,Q1081154_Q416131_Q190088,org_hq_admin,kept_final,,
+56,random,Q1139458_Q740758_Q1490,film_director_birthplace,removed_manual,granularity,city vs ward (gate predicted Nerima)
+57,random,Q1048495_Q612_Q613,org_hq_admin,removed_manual,ambiguity,Dubai city vs Emirate of Dubai
+58,random,Q483070_Q1061696_Q1140581,athlete_team_league,removed_manual,granularity,J2 League vs J.League (Korean gate answer broader)
+59,random,Q14622847_Q2617855_Q38283,game_developer_hq,removed_manual,duplicate_bridge_answer,same bridge-answer pair as sample 35
+60,random,Q1001644_Q16506_Q213,org_hq_country,kept_final,,
+61,random,Q102180106_Q129591_Q3130,film_actor_birthplace,kept_final,,
+62,random,Q105557_Q191642_Q175,org_hq_admin,removed_manual,ambiguity,Sao Paulo city vs state

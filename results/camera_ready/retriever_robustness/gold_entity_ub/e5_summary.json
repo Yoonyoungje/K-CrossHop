@@ -1,0 +1,55 @@
+{
+  "label": "e5",
+  "model": "intfloat/multilingual-e5-large",
+  "query_prefix": "query: ",
+  "index_dir": "data/camera_ready/index_e5",
+  "device": "cuda:0",
+  "dtype": "torch.float32",
+  "max_seq_length": 512,
+  "query_encode_sec": 1.8,
+  "gold_entity_ub_overall": 0.993,
+  "hit_v3_overall": 0.984,
+  "verdict": "PASS",
+  "per_key": {
+    "a-hop0-ko": {
+      "ub": 0.992,
+      "ub_v3": 0.984,
+      "n": 250
+    },
+    "a-hop1-ko": {
+      "ub": 0.988,
+      "ub_v3": 0.96,
+      "n": 250
+    },
+    "d-hop0-en": {
+      "ub": 1.0,
+      "ub_v3": 1.0,
+      "n": 250
+    },
+    "d-hop1-en": {
+      "ub": 0.992,
+      "ub_v3": 0.992,
+      "n": 250
+    },
+    "c-hop0-ko": {
+      "ub": 0.992,
+      "ub_v3": 0.984,
+      "n": 250
+    },
+    "c-hop1-en": {
+      "ub": 0.992,
+      "ub_v3": 0.992,
+      "n": 250
+    },
+    "b-hop0-en": {
+      "ub": 1.0,
+      "ub_v3": 1.0,
+      "n": 250
+    },
+    "b-hop1-ko": {
+      "ub": 0.988,
+      "ub_v3": 0.96,
+      "n": 250
+    }
+  }
+}

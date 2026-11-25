@@ -1,0 +1,6 @@
+# data/ is downloaded from the Hugging Face dataset repository (see README)
+data/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,3 @@
+id,section,reference,human_majority,votes
+c02,calibration,relation_mismatch,TIE,equivalent|scope_mismatch|relation_mismatch
+c06,calibration,scope_mismatch,equivalent,equivalent|equivalent|scope_mismatch

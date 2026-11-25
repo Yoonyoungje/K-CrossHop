@@ -1,0 +1,38 @@
+id,hop,relation,ko_template,en_template,section,label_A,label_B,label_C,majority,author_draft
+c01,0,(미사용 schema),{0}의 배급사는 어디인가?,Which distributor distributed {0}?,calibration,equivalent,equivalent,equivalent,equivalent,equivalent
+c02,0,(미사용 schema),{0}의 배급사는 어디인가?,Which company published {0}?,calibration,equivalent,scope_mismatch,relation_mismatch,tie,relation_mismatch
+c03,0,(미사용 schema),{0}이(가) 소속된 단체는 무엇인가?,What organization is {0} a member of?,calibration,equivalent,equivalent,equivalent,equivalent,equivalent
+c04,0,(미사용 schema),{0}이(가) 소속된 상위 단체는 무엇인가?,What organization is {0} a member of?,calibration,equivalent,scope_mismatch,scope_mismatch,scope_mismatch,scope_mismatch
+c05,0,(미사용 schema),{0}의 발행사는 어디인가?,Who publishes {0}?,calibration,equivalent,scope_mismatch,scope_mismatch,scope_mismatch,scope_mismatch
+c06,0,(미사용 schema),{0}이(가) 맡은 직위는 무엇인가?,What position did {0} hold?,calibration,equivalent,equivalent,scope_mismatch,equivalent,scope_mismatch
+c07,1,(미사용 schema),{1}이(가) 개최된 국가는 어디인가?,What country hosted {1}?,calibration,equivalent,equivalent,equivalent,equivalent,equivalent
+c08,0,(미사용 schema),{0}의 출판사는 어디인가?,Which publisher published {0}?,calibration,equivalent,equivalent,equivalent,equivalent,equivalent
+c09,0,(미사용 schema),{0}의 홈 경기장은 어디인가?,What is {0}'s home venue?,calibration,equivalent,unnatural_en,equivalent,equivalent,equivalent
+c10,1,(미사용 schema),{1}이(가) 속한 대륙은 어디인가?,What continent is {1} on?,calibration,equivalent,equivalent,equivalent,equivalent,equivalent
+t01,0,P57,{0}을(를) 감독한 사람은 누구인가?,Who directed {0}?,main,equivalent,equivalent,equivalent,equivalent,
+t02,0,P178,{0}의 개발사는 어디인가?,Which company developed {0}?,main,equivalent,equivalent,equivalent,equivalent,
+t03,0,P112,{0}의 설립자는 누구인가?,Who founded {0}?,main,equivalent,equivalent,equivalent,equivalent,
+t04,0,P161,{0}에 출연한 배우는 누구인가?,Who appeared in {0}?,main,equivalent,equivalent,scope_mismatch,equivalent,
+t05,0,P54,{0}이(가) 소속된 팀은 어디인가?,What team does {0} play for?,main,equivalent,equivalent,equivalent,equivalent,
+t06,0,P137,{0}의 운영기관은 어디인가?,Which organization operates {0}?,main,equivalent,equivalent,equivalent,equivalent,
+t07,0,P175,{0}을(를) 발매한 아티스트는 누구인가?,Who released {0}?,main,scope_mismatch,scope_mismatch,scope_mismatch,scope_mismatch,
+t08,0,P50,{0}의 저자는 누구인가?,Who wrote {0}?,main,equivalent,equivalent,scope_mismatch,equivalent,
+t09,0,P84,{0}을(를) 설계한 건축가는 누구인가?,Who designed {0}?,main,scope_mismatch,scope_mismatch,scope_mismatch,scope_mismatch,
+t10,0,P61,{0}을(를) 발명한 사람은 누구인가?,Who invented {0}?,main,equivalent,equivalent,equivalent,equivalent,
+t11,0,P159,{0}의 본사는 어디에 있는가?,Where is {0}'s headquarters?,main,equivalent,equivalent,equivalent,equivalent,
+t12,0,P159,{0}의 본사는 어디에 있는가?,Where is {0}'s headquarters located?,main,equivalent,equivalent,equivalent,equivalent,
+t13,0,P166,{0}이(가) 받은 상은 무엇인가?,What award did {0} receive?,main,equivalent,equivalent,equivalent,equivalent,
+t14,0,P108,{0}이(가) 근무한 기관은 어디인가?,Where did {0} work?,main,equivalent,equivalent,equivalent,equivalent,
+t15,0,P176,{0}의 제조사는 어디인가?,Which company manufactured {0}?,main,equivalent,equivalent,equivalent,equivalent,
+t16,1,P166,{1}이(가) 받은 상은 무엇인가?,What award did {1} receive?,main,equivalent,equivalent,equivalent,equivalent,
+t17,1,P27,{1}의 국적은 어디인가?,What is the nationality of {1}?,main,equivalent,equivalent,equivalent,equivalent,
+t18,1,P112,{1}의 설립자는 누구인가?,Who founded {1}?,main,equivalent,equivalent,equivalent,equivalent,
+t19,1,P118,{1}이(가) 속한 리그는 무엇인가?,What league is {1} in?,main,equivalent,equivalent,equivalent,equivalent,
+t20,1,P19,{1}의 출생지는 어디인가?,Where was {1} born?,main,equivalent,equivalent,equivalent,equivalent,
+t21,1,P69,{1}이(가) 졸업한 학교는 어디인가?,Which university did {1} graduate from?,main,scope_mismatch,scope_mismatch,scope_mismatch,scope_mismatch,
+t22,1,P159,{1}의 본사는 어디인가?,Where is {1}'s headquarters located?,main,equivalent,equivalent,equivalent,equivalent,
+t23,1,P17,{1}이(가) 속한 국가는 어디인가?,What country is {1} based in?,main,equivalent,relation_mismatch,equivalent,equivalent,
+t24,1,P131,{1}이(가) 위치한 행정구역은 어디인가?,What administrative region is {1} in?,main,equivalent,equivalent,equivalent,equivalent,
+t25,1,P17,{1}이(가) 속한 국가는 어디인가?,What country is {1} in?,main,equivalent,relation_mismatch,equivalent,equivalent,
+t26,1,P1027,{1}을(를) 수여하는 기관은 어디인가?,What organization awards {1}?,main,equivalent,equivalent,equivalent,equivalent,
+t27,1,P131,{1}이(가) 속한 행정구역은 어디인가?,What administrative region is {1} in?,main,equivalent,equivalent,equivalent,equivalent,

@@ -1,0 +1,189 @@
+[입력] QA 1000 궤적 / triple 250개 (패턴 a–d 완비)
+[입력] 패턴↔gold_lang 불일치: 0건
+
+==============================================================================
+Aya Expanse 8B
+==============================================================================
+  annotated : data/annotated/aya_ecological.jsonl
+  hits      : data/retrieval/aya_ecological_hits.jsonl
+  trajectory: data/trajectories/aya_ecological.jsonl
+
+[0c] 패턴 간 동일성 (250 triple 당)
+   hop0_ac: query≠ 0  passages≠ 0  generated_text≠ 5 R≠ 0
+   hop0_bd: query≠ 0  passages≠ 0  generated_text≠ 4 R≠ 0
+   hop1_ac: query≠ 5  passages≠ 250  generated_text≠ 228 bridge≠ 5
+   hop1_bd: query≠ 4  passages≠ 250  generated_text≠ 233 bridge≠ 4
+[0a'] hop0 hop단위 Δf (R=1, 전체 triple) = +0.025 (448/372)   원고 = +0.025 (448/372)
+[0a'] hop1 hop단위 Δf (R=1, 전체 triple) = +0.002 (351/336)   원고 = +0.002 (351/336)
+[0a'] hop0 hop단위 Δy (R=1, 전체 triple) = +0.037 (454/382)   원고 §5.3 = 보고 없음(비유의)
+
+[1] hop0 R=1 triple: KO쪽 227 / EN쪽 191 / 양쪽 180  (양쪽 R=1 triple의 side 중 패턴 2개 사용 360, 1개 사용 0)
+    기권·ambiguous로 side 전체가 빠진 triple: KO쪽 1 / EN쪽 5 (ambiguous 포함 side 0) → n=174
+    matched Δf = +0.043 [+0.003, +0.086] (n=174)*      원고 Table 3 hop0 = +0.025 (448/372)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δf = +0.050, 홉 358/350)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δy = +0.069, 홉 360/360)
+[2] hop0 matched Δy (같은 R=1 짝 집합, 기권=0) = +0.069 [+0.022, +0.117] (n=180)*      원고 §5.3 hop0 R=1 yield 잔차 = n.s.
+
+[3] hop1 matched (bridge 고정)
+    짝 ac: 양쪽 R=1 153 / bridge 불일치 제외 2 / 기권 제외 0 → Δf 짝 151, Δy 짝 151
+    짝 bd: 양쪽 R=1 150 / bridge 불일치 제외 3 / 기권 제외 3 → Δf 짝 144, Δy 짝 147
+    matched Δf hop1 = +0.014 [-0.031, +0.059] (n=178)      원고 Table 3 hop1 = +0.002 (351/336)
+    matched Δy hop1 = +0.019 [-0.028, +0.067] (n=180)
+
+==============================================================================
+EXAONE 3.5 8B
+==============================================================================
+  annotated : data/annotated/exaone_ecological.jsonl
+  hits      : data/retrieval/exaone_ecological_hits.jsonl
+  trajectory: data/trajectories/exaone_ecological.jsonl
+
+[0c] 패턴 간 동일성 (250 triple 당)
+   hop0_ac: query≠ 0  passages≠ 0  generated_text≠ 0 R≠ 0
+   hop0_bd: query≠ 0  passages≠ 0  generated_text≠ 0 R≠ 0
+   hop1_ac: query≠ 0  passages≠ 250  generated_text≠ 215 bridge≠ 0
+   hop1_bd: query≠ 0  passages≠ 250  generated_text≠ 194 bridge≠ 0
+[0a'] hop0 hop단위 Δf (R=1, 전체 triple) = +0.028 (424/354)   원고 = +0.028 (424/354)
+[0a'] hop1 hop단위 Δf (R=1, 전체 triple) = -0.001 (308/294)   원고 = -0.001 (308/294)
+[0a'] hop0 hop단위 Δy (R=1, 전체 triple) = +0.034 (454/382)   원고 §5.3 = 보고 없음(비유의)
+
+[1] hop0 R=1 triple: KO쪽 227 / EN쪽 191 / 양쪽 180  (양쪽 R=1 triple의 side 중 패턴 2개 사용 360, 1개 사용 0)
+    기권·ambiguous로 side 전체가 빠진 triple: KO쪽 11 / EN쪽 13 (ambiguous 포함 side 0) → n=159
+    matched Δf = +0.042 [+0.003, +0.085] (n=159)*      원고 Table 3 hop0 = +0.028 (424/354)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δf = +0.029, 홉 338/334)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δy = +0.039, 홉 360/360)
+[2] hop0 matched Δy (같은 R=1 짝 집합, 기권=0) = +0.039 [-0.014, +0.092] (n=180)      원고 §5.3 hop0 R=1 yield 잔차 = n.s.
+
+[3] hop1 matched (bridge 고정)
+    짝 ac: 양쪽 R=1 150 / bridge 불일치 제외 0 / 기권 제외 21 → Δf 짝 129, Δy 짝 150
+    짝 bd: 양쪽 R=1 148 / bridge 불일치 제외 0 / 기권 제외 25 → Δf 짝 123, Δy 짝 147
+    matched Δf hop1 = +0.008 [-0.025, +0.042] (n=165)      원고 Table 3 hop1 = -0.001 (308/294)
+    matched Δy hop1 = -0.021 [-0.070, +0.024] (n=187)
+
+==============================================================================
+Llama 3.1 8B
+==============================================================================
+  annotated : data/annotated/llama_ecological.jsonl
+  hits      : data/retrieval/llama_ecological_hits.jsonl
+  trajectory: data/trajectories/llama_ecological.jsonl
+
+[0c] 패턴 간 동일성 (250 triple 당)
+   hop0_ac: query≠ 0  passages≠ 0  generated_text≠ 6 R≠ 0
+   hop0_bd: query≠ 0  passages≠ 0  generated_text≠ 0 R≠ 0
+   hop1_ac: query≠ 4  passages≠ 250  generated_text≠ 233 bridge≠ 4
+   hop1_bd: query≠ 0  passages≠ 250  generated_text≠ 233 bridge≠ 0
+[0a'] hop0 hop단위 Δf (R=1, 전체 triple) = +0.026 (454/372)   원고 = +0.026 (454/372)
+[0a'] hop1 hop단위 Δf (R=1, 전체 triple) = +0.025 (338/313)   원고 = +0.025 (338/313)
+[0a'] hop0 hop단위 Δy (R=1, 전체 triple) = +0.050 (454/382)   원고 §5.3 = +0.050 (유의)
+
+[1] hop0 R=1 triple: KO쪽 227 / EN쪽 191 / 양쪽 180  (양쪽 R=1 triple의 side 중 패턴 2개 사용 360, 1개 사용 0)
+    기권·ambiguous로 side 전체가 빠진 triple: KO쪽 0 / EN쪽 5 (ambiguous 포함 side 0) → n=175
+    matched Δf = +0.026 [-0.026, +0.077] (n=175)      원고 Table 3 hop0 = +0.026 (454/372)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δf = +0.028, 홉 360/350)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δy = +0.053, 홉 360/360)
+[2] hop0 matched Δy (같은 R=1 짝 집합, 기권=0) = +0.053 [+0.000, +0.108] (n=180)      원고 §5.3 hop0 R=1 yield 잔차 = +0.050 (유의)
+
+[3] hop1 matched (bridge 고정)
+    짝 ac: 양쪽 R=1 147 / bridge 불일치 제외 2 / 기권 제외 1 → Δf 짝 144, Δy 짝 145
+    짝 bd: 양쪽 R=1 141 / bridge 불일치 제외 0 / 기권 제외 4 → Δf 짝 137, Δy 짝 141
+    matched Δf hop1 = +0.025 [-0.014, +0.066] (n=183)      원고 Table 3 hop1 = +0.025 (338/313)
+    matched Δy hop1 = +0.035 [-0.005, +0.076] (n=184)
+
+==============================================================================
+Qwen3 8B
+==============================================================================
+  annotated : data/annotated/qwen_ecological.jsonl
+  hits      : data/retrieval/qwen_ecological_hits.jsonl
+  trajectory: data/trajectories/qwen_ecological.jsonl
+
+[0c] 패턴 간 동일성 (250 triple 당)
+   hop0_ac: query≠ 0  passages≠ 0  generated_text≠ 4 R≠ 0
+   hop0_bd: query≠ 0  passages≠ 0  generated_text≠ 2 R≠ 0
+   hop1_ac: query≠ 3  passages≠ 250  generated_text≠ 211 bridge≠ 3
+   hop1_bd: query≠ 2  passages≠ 250  generated_text≠ 221 bridge≠ 2
+[0a'] hop0 hop단위 Δf (R=1, 전체 triple) = +0.004 (452/372)   원고 = +0.004 (452/372)
+[0a'] hop1 hop단위 Δf (R=1, 전체 triple) = +0.012 (329/291)   원고 = +0.012 (329/291)
+[0a'] hop0 hop단위 Δy (R=1, 전체 triple) = +0.022 (454/382)   원고 §5.3 = 보고 없음(비유의)
+
+[1] hop0 R=1 triple: KO쪽 227 / EN쪽 191 / 양쪽 180  (양쪽 R=1 triple의 side 중 패턴 2개 사용 360, 1개 사용 0)
+    기권·ambiguous로 side 전체가 빠진 triple: KO쪽 1 / EN쪽 5 (ambiguous 포함 side 0) → n=174
+    matched Δf = +0.009 [-0.037, +0.055] (n=174)      원고 Table 3 hop0 = +0.004 (452/372)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δf = +0.010, 홉 358/350)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δy = +0.031, 홉 360/360)
+[2] hop0 matched Δy (같은 R=1 짝 집합, 기권=0) = +0.031 [-0.022, +0.083] (n=180)      원고 §5.3 hop0 R=1 yield 잔차 = n.s.
+
+[3] hop1 matched (bridge 고정)
+    짝 ac: 양쪽 R=1 138 / bridge 불일치 제외 0 / 기권 제외 3 → Δf 짝 135, Δy 짝 138
+    짝 bd: 양쪽 R=1 135 / bridge 불일치 제외 1 / 기권 제외 10 → Δf 짝 124, Δy 짝 134
+    matched Δf hop1 = +0.032 [-0.015, +0.078] (n=172)      원고 Table 3 hop1 = +0.012 (329/291)
+    matched Δy hop1 = +0.034 [-0.017, +0.084] (n=178)
+
+==============================================================================
+Claude Sonnet 4.6
+==============================================================================
+  annotated : data/annotated/sonnet_ecological.jsonl
+  hits      : data/retrieval/sonnet_ecological_hits.jsonl
+  trajectory: data/trajectories/sonnet_ecological.jsonl
+
+[0c] 패턴 간 동일성 (250 triple 당)
+   hop0_ac: query≠ 0  passages≠ 0  generated_text≠ 8 R≠ 0
+   hop0_bd: query≠ 0  passages≠ 0  generated_text≠ 9 R≠ 0
+   hop1_ac: query≠ 8  passages≠ 250  generated_text≠ 201 bridge≠ 8
+   hop1_bd: query≠ 9  passages≠ 250  generated_text≠ 171 bridge≠ 9
+[0a'] hop0 hop단위 Δf (R=1, 전체 triple) = -0.003 (446/355)   원고 = -0.003 (446/355)
+[0a'] hop1 hop단위 Δf (R=1, 전체 triple) = -0.007 (312/298)   원고 = -0.007 (312/298)
+[0a'] hop0 hop단위 Δy (R=1, 전체 triple) = +0.046 (454/381)   원고 §5.3 = +0.046 (유의)
+
+[1] hop0 R=1 triple: KO쪽 227 / EN쪽 191 / 양쪽 180  (양쪽 R=1 triple의 side 중 패턴 2개 사용 360, 1개 사용 0)
+    기권·ambiguous로 side 전체가 빠진 triple: KO쪽 3 / EN쪽 12 (ambiguous 포함 side 1) → n=166
+    matched Δf = +0.012 [-0.012, +0.036] (n=166)      원고 Table 3 hop0 = -0.003 (446/355)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δf = +0.002, 홉 354/335)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δy = +0.050, 홉 360/359)
+[2] hop0 matched Δy (같은 R=1 짝 집합, 기권=0) = +0.053 [+0.014, +0.094] (n=180)*      원고 §5.3 hop0 R=1 yield 잔차 = +0.046 (유의)
+
+[3] hop1 matched (bridge 고정)
+    짝 ac: 양쪽 R=1 155 / bridge 불일치 제외 5 / 기권 제외 16 → Δf 짝 134, Δy 짝 149
+    짝 bd: 양쪽 R=1 141 / bridge 불일치 제외 0 / 기권 제외 12 → Δf 짝 129, Δy 짝 140
+    matched Δf hop1 = -0.017 [-0.050, +0.015] (n=164)      원고 Table 3 hop1 = -0.007 (312/298)
+    matched Δy hop1 = -0.033 [-0.072, +0.006] (n=181)
+
+==============================================================================
+Gemini 3.5 Flash
+==============================================================================
+  annotated : data/annotated/gemini_ecological.jsonl
+  hits      : data/retrieval/gemini_ecological_hits.jsonl
+  trajectory: data/trajectories/gemini_ecological.jsonl
+
+[0c] 패턴 간 동일성 (250 triple 당)
+   hop0_ac: query≠ 0  passages≠ 0  generated_text≠ 0 R≠ 0
+   hop0_bd: query≠ 0  passages≠ 0  generated_text≠ 0 R≠ 0
+   hop1_ac: query≠ 0  passages≠ 250  generated_text≠ 207 bridge≠ 0
+   hop1_bd: query≠ 0  passages≠ 250  generated_text≠ 190 bridge≠ 0
+[0a'] hop0 hop단위 Δf (R=1, 전체 triple) = -0.003 (446/360)   원고 = -0.003 (446/360)
+[0a'] hop1 hop단위 Δf (R=1, 전체 triple) = +0.005 (336/292)   원고 = +0.005 (336/292)
+[0a'] hop0 hop단위 Δy (R=1, 전체 triple) = +0.036 (454/382)   원고 §5.3 = +0.036 (유의)
+
+[1] hop0 R=1 triple: KO쪽 227 / EN쪽 191 / 양쪽 180  (양쪽 R=1 triple의 side 중 패턴 2개 사용 360, 1개 사용 0)
+    기권·ambiguous로 side 전체가 빠진 triple: KO쪽 2 / EN쪽 10 (ambiguous 포함 side 0) → n=169
+    matched Δf = +0.009 [-0.024, +0.041] (n=169)      원고 Table 3 hop0 = -0.003 (446/360)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δf = -0.001, 홉 356/340)
+    (대조: 같은 양쪽 R=1 triple 180개의 hop단위 비페어링 Δy = +0.042, 홉 360/360)
+[2] hop0 matched Δy (같은 R=1 짝 집합, 기권=0) = +0.042 [+0.000, +0.083] (n=180)      원고 §5.3 hop0 R=1 yield 잔차 = +0.036 (유의)
+
+[3] hop1 matched (bridge 고정)
+    짝 ac: 양쪽 R=1 151 / bridge 불일치 제외 0 / 기권 제외 10 → Δf 짝 141, Δy 짝 151
+    짝 bd: 양쪽 R=1 141 / bridge 불일치 제외 0 / 기권 제외 10 → Δf 짝 131, Δy 짝 141
+    matched Δf hop1 = +0.018 [+0.000, +0.042] (n=166)      원고 Table 3 hop1 = +0.005 (336/292)
+    matched Δy hop1 = +0.034 [+0.003, +0.068] (n=176)*
+
+==============================================================================
+[4] 요약 표
+==============================================================================
+model | hop0_both_R1 | hop0_abstain_drop | hop0_n | hop0_df | tab3_hop0 | hop0_dy | hop1_bridge_diff | hop1_pairs_f | hop1_n | hop1_df | hop1_dy
+Aya Expanse 8B | 180 | 1/5 | 174 | +0.043 [+0.003, +0.086]* | +0.025 (448/372) | +0.069 [+0.022, +0.117]* | 5 | 295 | 178 | +0.014 [-0.031, +0.059] | +0.019 [-0.028, +0.067]
+EXAONE 3.5 8B | 180 | 11/13 | 159 | +0.042 [+0.003, +0.085]* | +0.028 (424/354) | +0.039 [-0.014, +0.092] | 0 | 252 | 165 | +0.008 [-0.025, +0.042] | -0.021 [-0.070, +0.024]
+Llama 3.1 8B | 180 | 0/5 | 175 | +0.026 [-0.026, +0.077] | +0.026 (454/372) | +0.053 [+0.000, +0.108] | 2 | 281 | 183 | +0.025 [-0.014, +0.066] | +0.035 [-0.005, +0.076]
+Qwen3 8B | 180 | 1/5 | 174 | +0.009 [-0.037, +0.055] | +0.004 (452/372) | +0.031 [-0.022, +0.083] | 1 | 259 | 172 | +0.032 [-0.015, +0.078] | +0.034 [-0.017, +0.084]
+Claude Sonnet 4.6 | 180 | 3/12 | 166 | +0.012 [-0.012, +0.036] | -0.003 (446/355) | +0.053 [+0.014, +0.094]* | 5 | 263 | 164 | -0.017 [-0.050, +0.015] | -0.033 [-0.072, +0.006]
+Gemini 3.5 Flash | 180 | 2/10 | 169 | +0.009 [-0.024, +0.041] | -0.003 (446/360) | +0.042 [+0.000, +0.083] | 0 | 272 | 166 | +0.018 [+0.000, +0.042] | +0.034 [+0.003, +0.068]*
+
+저장: matched_subset_pairs.csv (1500행)

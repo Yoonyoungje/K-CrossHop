@@ -1,0 +1,49 @@
+유형별 부분집합 (궤적 / entity path)
+  person         440 / 110
+  organization   460 / 115
+  location        92 /  23
+  award            8 /   2
+
+hop1 bridge 문자열이 정규화로 바뀐 비율 (유형별, hop1 index 언어별)
+  model      type                KO-index       EN-index
+  aya        person           1/220   0.5%   70/220  31.8%
+  aya        organization     2/230   0.9%   46/230  20.0%
+  aya        location         0/46    0.0%    8/46   17.4%
+  aya        award            0/4     0.0%    0/4     0.0%
+  exaone     person           0/220   0.0%   75/220  34.1%
+  exaone     organization     1/230   0.4%   48/230  20.9%
+  exaone     location         0/46    0.0%   12/46   26.1%
+  exaone     award            0/4     0.0%    0/4     0.0%
+  llama      person           0/220   0.0%   79/220  35.9%
+  llama      organization     0/230   0.0%   56/230  24.3%
+  llama      location         0/46    0.0%   16/46   34.8%
+  llama      award            0/4     0.0%    2/4    50.0%
+  qwen       person           0/220   0.0%   84/220  38.2%
+  qwen       organization     4/230   1.7%   50/230  21.7%
+  qwen       location         0/46    0.0%   14/46   30.4%
+  qwen       award            0/4     0.0%    1/4    25.0%
+  sonnet     person          14/220   6.4%   99/220  45.0%
+  sonnet     organization    10/230   4.3%   71/230  30.9%
+  sonnet     location         2/46    4.3%   19/46   41.3%
+  sonnet     award            1/4    25.0%    1/4    25.0%
+  gemini     person           0/220   0.0%  104/220  47.3%
+  gemini     organization     1/230   0.4%   62/230  27.0%
+  gemini     location         0/46    0.0%   17/46   37.0%
+  gemini     award            0/4     0.0%    2/4    50.0%
+
+개체 단위 확인: bridge 개체 P31 에 Q5(human)가 있는가 (entity path 수)
+  person        human 109   nonhuman   1
+  organization  human   0   nonhuman 115
+  location      human   0   nonhuman  23
+  award         human   0   nonhuman   2
+  스키마 유형과 어긋난 bridge (person 인데 human 아님 / person 이 아닌데 human):
+    Q1053245_Q686915_Q241257       P175  Q686915    P31=Q215380
+
+개체 단위 부분집합 (궤적 / entity path)
+  human          436 / 109
+  nonhuman       564 / 141
+  human_P166      56 /  14
+  human_P19      128 /  32
+  human_P27       96 /  24
+  human_P69      156 /  39
+  human_noP69    280 /  70

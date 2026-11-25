@@ -1,0 +1,79 @@
+idx,parser_class,stratum,stratum_pop,config,qid,hop,pattern,gold_lang,gold_entity,gold_in_passages,parser_source,parse_issue,marker_count,generated_text,human_label,notes
+1,nonabstain,normal,121,sonnet,kch_000498,0,d,en,Robert Schwartzman,True,answer_section,,1,"답변: Anne Hathaway, Julie Andrews, Héctor Elizondo, Heather Matarazzo, Mandy Moore, Caroline Goodall, Robert Schwartzman",answer,
+2,nonabstain,normal,121,sonnet,kch_000634,0,a,ko,뉴캐슬 유나이티드 제츠 FC,True,answer_section,,1,답변: 송진형은 2020 시즌을 끝으로 은퇴하였으므로 현재 소속 팀은 없습니다.,answer,
+3,nonabstain,short,1429,sonnet,kch_000618,0,a,ko,네덜란드,True,answer_section_short,,1,답변: 네덜란드,answer,
+4,nonabstain,normal,121,sonnet,kch_000014,0,d,en,Mojang Studios,True,answer_section,,1,답변: Mojang Studios와 Blackbird Interactive,answer,
+5,nonabstain,short,1429,sonnet,kch_000778,0,a,ko,스페이스X,True,answer_section_short,,1,답변: 스페이스X,answer,
+6,nonabstain,short,1429,sonnet,kch_000845,1,a,ko,페루치오 람보르기니,True,answer_section_short,,1,답변: 페루치오 람보르기니,answer,
+7,nonabstain,short,1429,sonnet,kch_000734,1,d,en,Michigan State University,True,answer_section,,1,답변: Michigan State University,answer,
+8,nonabstain,normal,121,sonnet,kch_000382,1,b,ko,글렌데일,False,answer_section,,1,"문서에서 확인할 수 있는 출생지:
+
+- **Liam Hemsworth**: 문서에 출생지 미기재
+- **Russell Crowe**: 뉴질랜드 웰링턴
+- **Luke Hemsworth**: 문서에 출생지 미기재
+- **Ricky Whittle**: 문서에 정보 없음
+- **Milo Ventimiglia**: 문서에 정보 없음
+
+답변: Russell Crowe - 뉴질랜드 웰링턴 (나머지는 문서에서 확인 불가)",abstain,
+9,nonabstain,normal,121,sonnet,kch_000126,0,b,en,Hugh Jackman,True,answer_section,,1,"답변: Ryan Reynolds, Hugh Jackman, Brianna Hildebrand, Karan Soni, Dafne Keen, Rob Delaney",answer,
+10,nonabstain,short,1429,sonnet,kch_000260,1,a,ko,마쓰시타 고노스케,True,answer_section_short,,1,답변: 마쓰시타 고노스케,answer,
+11,nonabstain,normal,121,sonnet,kch_000242,1,c,en,Hironobu Sakaguchi,True,answer_section,,1,"답변: 미스트워커는 히로노부 사카구치, 아툰은 나오토 오시마와 요지 이시이",answer,
+12,nonabstain,short,1429,sonnet,kch_000954,1,d,en,Yokohama National University,True,answer_section_short,,1,답변: 요코하마 국립대학교,answer,
+13,nonabstain,normal,121,sonnet,kch_000651,1,c,en,Michael Morhaime,True,answer_section,,1,"답변: Michael Morhaime, Allen Adham, Frank Pearce",answer,
+14,nonabstain,short,1429,sonnet,kch_000719,0,d,en,Nobel Peace Prize,True,answer_section,,1,답변: 2000년 노벨 평화상,answer,
+15,nonabstain,normal,121,sonnet,kch_000187,0,b,en,Chris Pine,True,answer_section,,1,"답변: 플로렌스 퓨, 해리 스타일스, 올리비아 와일드, 젬마 찬, 키키 레인, 닉 크롤, 크리스 파인",answer,
+16,nonabstain,normal,121,sonnet,kch_000001,0,a,ko,하비에르 바르뎀,False,answer_section,,1,"답변: 굿 보스는 스페인 영화로, 문서에 출연 배우 정보가 직접 명시되어 있지 않습니다. 다만 한국어 더빙 성우진으로 전해리, 정재헌, 전태열, 엄상현, 이종혁, 한복현, 한경화, 송준석, 최석필, 김율, 임채헌, 조예신, 심규혁, 김아롱, 권창욱이 나열되어 있습니다.",answer,
+17,nonabstain,short,1429,sonnet,kch_000427,0,d,en,Milpitas,True,answer_section,,1,"답변: 밀피타스, 캘리포니아",answer,
+18,nonabstain,normal,121,sonnet,kch_000754,1,a,ko,스웨덴 아카데미,False,answer_section,,1,"문서에서 확인할 수 있는 내용:
+
+- 이상문학상: 문학사상사
+- 국제 부커상: 부커 그룹(Book Trust 후원)
+- 한국소설문학상: 한국소설가협회
+- 오늘의 젊은 예술가상: 문화관광부
+- 노벨 문학상: 문서에 수여 기관 명시 없음
+
+답변: 한국소설가협회(한국소설문학상), 문화관광부(오늘의 젊은 예술가상), 문학사상사(이상문학상 대상), 부커 그룹(국제 부커상), 노벨 문학상 수여 기관은 문서에서 확인 불가",abstain,
+19,nonabstain,short,1429,sonnet,kch_000327,1,a,ko,헨리 포드,True,answer_section_short,,1,답변: 헨리 포드,answer,
+20,nonabstain,short,1429,sonnet,kch_000371,0,c,ko,스티브 잡스,True,answer_section_short,,1,답변: 스티브 잡스,answer,
+21,nonabstain,normal,121,sonnet,kch_000157,1,d,en,Gothenburg,True,answer_section,,1,"답변: Ghost Games는 Gothenburg(스웨덴), Criterion Games는 Guildford(영국)",answer,
+22,nonabstain,normal,121,sonnet,kch_000262,0,b,en,Nintendo Software Planning & Development,False,answer_section,,1,답변: Nintendo SPD Production Group 1 및 TNX,answer,
+23,nonabstain,normal,121,sonnet,kch_000817,1,b,ko,레드먼드,True,answer_section,,1,"답변: 343 Industries는 워싱턴주 레드먼드, Creative Assembly는 잉글랜드 웨스트서식스주",answer,
+24,nonabstain,normal,121,sonnet,kch_000180,0,d,en,Colin MacLaurin,True,answer_section,,1,"답변: Joseph Black, William Cullen, John Walker",answer,
+25,nonabstain,short,1429,sonnet,kch_000357,1,d,en,Jade Raymond,False,answer_section,,1,답변: Yves Guillemot,answer,
+26,nonabstain,normal,121,sonnet,kch_000328,0,b,en,Richard Harris,True,answer_section,,1,"답변: Daniel Radcliffe, Rupert Grint, Emma Watson",answer,
+27,nonabstain,normal,121,sonnet,kch_000003,0,d,en,Johnny Depp,True,answer_section,,1,"답변: Johnny Depp, Morgan Freeman, Rebecca Hall, Paul Bettany, Kate Mara, Cillian Murphy, Cole Hauser",answer,
+28,nonabstain,short,1429,sonnet,kch_000142,1,a,ko,도요나카시,True,answer_section_short,,1,답변: 오사카부 도요나카시,answer,
+29,nonabstain,short,1429,sonnet,kch_000468,0,d,en,Shinji Aoyama,True,answer_section,,1,답변: 신지 아오야마 (Shinji Aoyama),answer,
+30,nonabstain,short,1429,sonnet,kch_000220,0,c,ko,로버트 슈워츠먼,False,answer_section,,1,"답변: 앤 해서웨이, 줄리 앤드루스, 보니 에런스",answer,
+31,nonabstain,normal,121,sonnet,kch_000881,1,b,ko,머큐리상,True,answer_section,,1,"답변: 머큐리상 (2001년, 2011년), NME 어워드 (2011년), MBE 음악공로상 (2013년)",answer,
+32,nonabstain,normal,121,sonnet,kch_000861,1,d,en,California Institute of the Arts,True,answer_section,,1,답변: California Institute of the Arts (CalArts),answer,
+33,nonabstain,normal,121,sonnet,kch_000003,1,d,en,Owensboro,True,answer_section,,1,"문서에서 확인된 출생지:
+
+- **Johnny Depp**: Owensboro, Kentucky
+- Morgan Freeman: 모르겠습니다
+- Rebecca Hall: 모르겠습니다
+- Paul Bettany: 모르겠습니다
+- Kate Mara: 모르겠습니다
+- Cillian Murphy: 모르겠습니다
+- Cole Hauser: 모르겠습니다
+
+답변: Johnny Depp - Owensboro, Kentucky (나머지는 문서에서 확인 불가)",answer,
+34,nonabstain,short,1429,sonnet,kch_000823,1,b,ko,레이쥔,True,answer_section_short,,1,답변: 레이쥔,answer,
+35,nonabstain,short,1429,sonnet,kch_000336,1,b,ko,서울특별시,False,answer_section_short,,1,답변: 샌디에고군,answer,
+36,nonabstain,normal,121,sonnet,kch_000221,1,d,en,Redmond,True,answer_section,,1,"답변: 343 Industries는 Redmond, Washington / Creative Assembly는 Horsham",answer,
+37,nonabstain,short,1429,sonnet,kch_000325,0,a,ko,343 인더스트리,True,answer_section_short,,1,답변: 343 인더스트리,answer,
+38,nonabstain,short,1429,sonnet,kch_000097,1,c,en,K League 1,False,answer_section,,1,답변: 프리미어 리그 (Malaysian Premier League),answer,
+39,nonabstain,short,1429,sonnet,kch_000852,0,c,ko,파레스 파레스,True,answer_section_short,,1,답변: 파레스 파레스,answer,
+40,nonabstain,short,1429,sonnet,kch_000931,0,b,en,Colombo,True,answer_section_short,,1,답변: 스리랑카 콜롬보,answer,
+41,nonabstain,short,1429,sonnet,kch_000253,0,b,en,SpaceX,True,answer_section_short,,1,답변: SpaceX,answer,
+42,nonabstain,normal,121,sonnet,kch_000533,0,b,en,Jayne Brook,True,answer_section,,1,"답변: Matthew Modine, Randy Quaid, Paul Reiser, Janeane Garofalo, Amy Brenneman, Eliza Dushku, Rob Reiner, Amber Benson, Lindsay Crouse, Jayne Brook, Ed Flanders",answer,
+43,nonabstain,normal,121,sonnet,kch_000939,0,d,en,Jayne Brook,True,answer_section,,1,"답변: Matthew Modine, Randy Quaid, Paul Reiser, Janeane Garofalo, Amy Brenneman, Eliza Dushku, Rob Reiner, Amber Benson, Lindsay Crouse, Jayne Brook, Ed Flanders",answer,
+44,nonabstain,short,1429,sonnet,kch_000806,1,b,ko,싱가포르,True,answer_section_short,,1,답변: 싱가포르,answer,
+45,nonabstain,short,1429,sonnet,kch_000733,1,d,en,Kōnosuke Matsushita,True,answer_section_short,,1,답변: 마쓰시타 고노스케,answer,
+46,nonabstain,normal,121,sonnet,kch_000097,0,c,ko,FC 포항 스틸러스,False,answer_section,,1,"답변: 정석민은 은퇴 후 현재 축구 팀에 소속되어 있지 않으며, 울산에서 스크린 골프 사업을 하고 있습니다.
+
+(마지막 소속팀은 피낭 FA)",answer,
+47,nonabstain,short,1429,sonnet,kch_000648,0,d,en,SpaceX,True,answer_section_short,,1,답변: SpaceX,answer,
+48,nonabstain,short,1429,sonnet,kch_000135,1,c,en,Baltimore,True,answer_section_short,,1,"답변: 볼티모어, 메릴랜드",answer,
+49,nonabstain,normal,121,sonnet,kch_000282,0,d,en,Nintendo Software Planning & Development,False,answer_section,,1,답변: Nintendo SPD Production Group 1 및 TNX,answer,
+50,nonabstain,normal,121,sonnet,kch_000303,1,a,ko,요코하마시,True,answer_section,,1,"답변: 아크 시스템 웍스 - 일본 가나가와현 요코하마시, 에이팅 - 도쿄 시나가와구, 네오플 - 문서에 본사 위치 없음",answer,

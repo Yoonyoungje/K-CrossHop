@@ -1,0 +1,290 @@
+idx,parser_class,stratum,stratum_pop,config,qid,hop,pattern,gold_lang,gold_entity,gold_in_passages,parser_source,parse_issue,marker_count,generated_text,human_label,notes
+1,abstain,gold_in_passage,91,sonnet,kch_000715,1,d,en,Bundesliga,True,fallback_abstain,,0,모르겠습니다,abstain,
+2,abstain,gold_in_passage,91,sonnet,kch_000009,0,c,ko,항공자위대,True,fallback_abstain,,0,모르겠습니다.,abstain,
+3,abstain,clean,322,sonnet,kch_000459,1,c,en,Jack Northrop,False,fallback_abstain,,0,모르겠습니다,abstain,
+4,abstain,gold_in_passage,91,sonnet,kch_000855,1,a,ko,서울특별시,True,fallback_abstain,,0,모르겠습니다,abstain,
+5,abstain,gold_in_passage,91,sonnet,kch_000788,1,c,en,August Horch,True,fallback_abstain,,0,모르겠습니다,abstain,
+6,abstain,long,32,sonnet,kch_000025,1,c,en,Mount Vernon,False,answer_section_abstain,,1,"문서에서 밥 호스킨스의 출생지는 Bury St Edmunds로 확인됩니다. 그러나 덴절 워싱턴의 출생지는 문서에서 확인할 수 없습니다.
+
+답변: 밥 호스킨스 - Bury St Edmunds, 덴절 워싱턴 - 모르겠습니다",answer,
+7,abstain,gold_in_passage,91,sonnet,kch_000745,1,d,en,Pacific League,True,answer_section_abstain,,1,"답변: 모르겠습니다
+
+(문서에는 오릭스 버팔로스와 후쿠오카 소프트뱅크 호크스가 일본 프로야구 리그 소속임은 언급되나, 롯데 자이언츠와 시애틀 매리너스의 리그 소속은 확인되지 않습니다.)",abstain,
+8,abstain,gold_in_passage,91,sonnet,kch_000564,0,b,en,Hayao Miyazaki,True,fallback_abstain,,0,모르겠습니다,abstain,
+9,abstain,gold_in_passage,91,sonnet,kch_000840,1,b,ko,중화인민공화국,True,fallback_abstain,,0,모르겠습니다,abstain,
+10,abstain,clean,322,sonnet,kch_000662,0,b,en,PSV Eindhoven,False,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+11,abstain,long,32,sonnet,kch_000873,1,c,en,Los Angeles,False,answer_section_abstain,,1,"답변: 플로렌스 퓨는 옥스퍼드 출생이며, 해리 스타일스, 크리스 파인, 제마 챈의 출생지는 문서에서 확인할 수 없습니다.",abstain,
+12,abstain,gold_in_passage,91,sonnet,kch_000710,1,a,ko,프리미어리그,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+13,abstain,gold_in_passage,91,sonnet,kch_000362,1,c,en,Yokohama,True,answer_section_abstain,,1,"문서에서 아크 시스템 웍스의 본사는 요코하마(Yokohama)로 확인되지만, 에이팅과 네오플의 본사는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 모르겠습니다",abstain,
+14,abstain,clean,322,sonnet,kch_000731,1,d,en,Pacific League,False,fallback_abstain,,0,모르겠습니다,abstain,
+15,abstain,gold_in_passage,91,sonnet,kch_000755,1,c,en,Liga Portugal,True,fallback_abstain,,0,모르겠습니다,abstain,
+16,abstain,long,32,sonnet,kch_000594,1,a,ko,마운트버넌,False,fallback_abstain,,0,"문서에서 밥 호스킨스의 출생지는 나와 있지 않으며, 덴절 워싱턴의 출생지도 제공된 문서에 없습니다.
+
+모르겠습니다",abstain,
+17,abstain,gold_in_passage,91,sonnet,kch_000364,1,a,ko,와세다 대학,True,fallback_abstain,,0,모르겠습니다,abstain,
+18,abstain,gold_in_passage,91,sonnet,kch_000345,1,a,ko,지요다구,True,fallback_abstain,,0,"문서에서 게임 아츠의 본사는 도쿄 지요다구로 확인되지만, 스튜디오 알렉스에 대한 정보는 문서에 없습니다.
+
+모르겠습니다",abstain,
+19,abstain,gold_in_passage,91,sonnet,kch_000998,0,b,en,Madhav Kumar Nepal,True,fallback_abstain,,0,모르겠습니다,abstain,
+20,abstain,gold_in_passage,91,sonnet,kch_000812,0,d,en,Nobel Prize in Literature,True,fallback_abstain,,0,모르겠습니다,abstain,
+21,abstain,clean,322,sonnet,kch_000557,1,b,ko,일본 레코드 대상,False,fallback_abstain,,0,모르겠습니다,abstain,
+22,abstain,gold_in_passage,91,sonnet,kch_000619,0,d,en,BioWare,True,fallback_abstain,,0,모르겠습니다,abstain,
+23,abstain,gold_in_passage,91,sonnet,kch_000493,1,a,ko,나콘빠톰,True,answer_section_abstain,,1,"답변: 와치라윗 치와아리는 태국 나콘빠톰, 메타윈 오파이암카천의 출생지는 문서에 나와 있지 않습니다.",answer,
+24,abstain,gold_in_passage,91,sonnet,kch_000782,1,b,ko,스톡홀름,True,answer_section_abstain,,1,"문서에서 Mojang Studios의 본사는 스웨덴 스톡홀름으로 확인되지만, Blackbird Interactive에 대한 정보는 제공된 문서에 없습니다.
+
+답변: 모르겠습니다",answer,
+25,abstain,long,32,sonnet,kch_000820,1,d,en,Van Nuys,False,answer_section_abstain,,1,"문서에서 Keir Dullea의 출생지는 Cleveland, Ohio로 확인됩니다. 그러나 Gary Lockwood, William Sylvester, Douglas Rain의 출생지는 제공된 문서에서 확인할 수 없습니다.
+
+답변: Keir Dullea - Cleveland, Ohio; Gary Lockwood, William Sylvester, Douglas Rain - 모르겠습니다",abstain,
+26,abstain,gold_in_passage,91,sonnet,kch_000070,1,b,ko,오스트레일리아,True,fallback_abstain,,0,모르겠습니다,abstain,
+27,abstain,long,32,sonnet,kch_000027,1,c,en,Stockholm,False,answer_section_abstain,,1,"문서에서 Blackbird Interactive의 본사는 Vancouver, British Columbia(캐나다)라고 확인됩니다. 그러나 모장 스튜디오(Mojang Studios)의 본사 위치는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 블랙버드 인터랙티브는 밴쿠버(브리티시컬럼비아), 모장 스튜디오는 모르겠습니다.",abstain,
+28,abstain,gold_in_passage,91,sonnet,kch_000363,1,a,ko,아우구스트 호르히,True,fallback_abstain,,0,모르겠습니다,abstain,
+29,abstain,long,32,sonnet,kch_000755,0,c,ko,SC 브라가,False,answer_section_abstain,,1,"답변: 모르겠습니다 (문서에 여러 명의 김동현이 등장하며, 특정 김동현의 현재 소속팀을 확인할 수 없습니다)",abstain,
+30,abstain,long,32,sonnet,kch_000627,1,a,ko,노르웨이 노벨 위원회,False,answer_section_abstain,,1,"문서에서 각 상의 수여 기관을 확인할 수 없습니다(노벨 평화상 수여 기관 정보 제외).
+
+답변: 모르겠습니다",abstain,
+31,abstain,gold_in_passage,91,sonnet,kch_000127,0,d,en,Hayao Miyazaki,True,fallback_abstain,,0,모르겠습니다,abstain,
+32,abstain,gold_in_passage,91,sonnet,kch_000597,1,c,en,Seoul,True,answer_section_abstain,,1,"답변: 대전 (KAIST와 IBS는 대전에 위치하나, 연세대학교의 행정구역은 문서에서 확인할 수 없습니다)
+
+단, 문서에서 확인 가능한 정보만으로 답하면: KAIST와 IBS는 **대전**에 위치합니다. 연세대학교의 위치는 문서에 없습니다.",abstain,
+33,abstain,gold_in_passage,91,sonnet,kch_000516,0,d,en,David S. Ward,True,fallback_abstain,,0,모르겠습니다.,abstain,
+34,abstain,clean,322,sonnet,kch_000111,1,d,en,National Book Award,False,fallback_abstain,,0,모르겠습니다,abstain,
+35,abstain,gold_in_passage,91,sonnet,kch_000605,1,a,ko,오스트리아,True,answer_section_abstain,,1,"문서에서 안톤 차일링거는 오스트리아 국적임이 확인되나, 다니엘 그린버거와 마이클 혼의 국적은 문서에 나와 있지 않습니다.
+
+답변: 차일링거는 오스트리아, 그린버거와 혼의 국적은 모르겠습니다.",abstain,
+36,abstain,clean,322,sonnet,kch_000537,1,d,en,Barcelona,False,fallback_abstain,,0,모르겠습니다,abstain,
+37,abstain,gold_in_passage,91,sonnet,kch_000313,1,a,ko,서울특별시,True,answer_section_abstain,,1,"문서에서 KAIST는 대전광역시 대덕연구개발특구에 위치하고, 기초과학연구원(IBS)은 대전광역시 유성구에 위치한다고 나와 있습니다. 그러나 연세대학교의 행정구역은 문서에서 확인할 수 없습니다.
+
+답변: 모르겠습니다",abstain,
+38,abstain,gold_in_passage,91,sonnet,kch_000510,1,d,en,Yokohama,True,answer_section_abstain,,1,"문서에서 Arc System Works의 본사는 Yokohama(요코하마)로 확인됩니다. 그러나 Eighting과 Neople의 본사 위치는 제공된 문서에서 확인할 수 없습니다.
+
+답변: Arc System Works - 요코하마(Yokohama), Eighting과 Neople의 본사는 모르겠습니다.",answer,
+39,abstain,long,32,sonnet,kch_000712,1,a,ko,후쿠오카시,False,answer_section_abstain,,1,"답변: 후쿠오카현
+
+(문서에 치바 신이치의 출생지가 명시되어 있지 않습니다.)
+
+모르겠습니다",unclear,
+40,abstain,gold_in_passage,91,sonnet,kch_000554,0,b,en,Nobel Prize in Literature,True,fallback_abstain,,0,모르겠습니다,abstain,
+41,abstain,gold_in_passage,91,sonnet,kch_000950,0,c,ko,콜린 매클로린,True,answer_section_abstain,,1,"문서에 따르면 에딘버러 왕립학회는 1783년에 설립되었으며, 조지프 블랙, 윌리엄 쿨렌, 존 워커 등 에딘버러 대학교 교수들의 도움으로 에딘버러 철학 학회가 변모한 것입니다. 특정 단독 설립자는 명시되어 있지 않습니다.
+
+답변: 모르겠습니다",abstain,
+42,abstain,gold_in_passage,91,sonnet,kch_000102,1,c,en,Daejeon,True,answer_section_abstain,,1,"문서에서 동경대학은 센다이시(Sendai City), 포항공과대학교는 포항(Pohang)에 위치한다고 확인됩니다. 연세대학교의 행정구역은 문서에서 확인할 수 없습니다.
+
+답변: 동경대학 - 센다이시, 포항공과대학교 - 포항 (연세대학교는 모르겠습니다)",,
+43,abstain,gold_in_passage,91,sonnet,kch_000792,1,a,ko,아에로스파시알,True,answer_section_abstain,,1,"문서에 따르면 아에로스파시알은 1970년에 쉬드 아비아시옹과 노르 아비아시옹의 합병으로 설립되었으며, 특정 개인 설립자는 언급되어 있지 않습니다.
+
+답변: 모르겠습니다",abstain,
+44,abstain,long,32,sonnet,kch_000582,1,a,ko,밴나이스,False,fallback_abstain,,0,"게리 록우드: 밴나이즈, 윌리엄 실베스터: 캘리포니아주, 키어 둘리: 모르겠습니다",answer,
+45,abstain,gold_in_passage,91,sonnet,kch_000508,1,a,ko,레드먼드,True,answer_section_abstain,,1,"문서에서 343 인더스트리의 본사는 워싱턴주 레드먼드로 확인되지만, 크리에이티브 어셈블리에 대한 정보는 제공된 문서에 없습니다.
+
+답변: 모르겠습니다",abstain,
+46,abstain,gold_in_passage,91,sonnet,kch_000968,0,b,en,David S. Ward,True,fallback_abstain,,0,모르겠습니다.,abstain,
+47,abstain,gold_in_passage,91,sonnet,kch_000890,1,c,en,Seoul,True,answer_section_abstain,,1,"답변: 캘리포니아대학 샌디에이고 분교는 라호야(La Jolla) 지역, 샌디에이고, 캘리포니아에 위치합니다. 나머지 대학들의 행정구역은 제공된 문서에서 확인할 수 없습니다.",answer,
+48,abstain,gold_in_passage,91,sonnet,kch_000669,1,a,ko,로스앤젤레스,True,answer_section_abstain,,1,"문서에서 확인할 수 있는 정보:
+
+- 플로렌스 퓨: 잉글랜드 (구체적 도시는 문서에 없음)
+- 크리스 파인: 캘리포니아주 로스앤젤레스
+
+해리 스타일스와 제마 챈의 출생지는 문서에서 확인할 수 없습니다.
+
+답변: 플로렌스 퓨 - 잉글랜드, 크리스 파인 - 로스앤젤레스 (해리 스타일스, 제마 챈은 모르겠습니다)",answer,
+49,abstain,gold_in_passage,91,sonnet,kch_000922,0,d,en,BioWare,True,fallback_abstain,,0,모르겠습니다,abstain,
+50,abstain,clean,322,sonnet,kch_000058,1,d,en,Gakushuin University,False,fallback_abstain,,0,모르겠습니다,abstain,
+51,abstain,gold_in_passage,91,sonnet,kch_000146,1,a,ko,K리그1,True,fallback_abstain,,0,모르겠습니다,abstain,
+52,abstain,long,32,sonnet,kch_000706,1,c,en,Gothenburg,False,answer_section_abstain,,1,"문서에서 Criterion Games의 본사는 Guildford로 확인되지만, Ghost Games(고스트 게임스)에 대한 정보는 제공된 문서에 없습니다.
+
+답변: 모르겠습니다",abstain,
+53,abstain,long,32,sonnet,kch_000137,1,a,ko,조치 대학,False,fallback_abstain,,0,"문서에서 호소카와 모리히로의 졸업 학교에 대한 정보를 확인할 수 없습니다.
+
+모르겠습니다.",abstain,
+54,abstain,gold_in_passage,91,sonnet,kch_000317,1,a,ko,아일랜드,True,fallback_abstain,,0,모르겠습니다,abstain,
+55,abstain,gold_in_passage,91,sonnet,kch_000724,0,b,en,BioWare,True,fallback_abstain,,0,모르겠습니다,abstain,
+56,abstain,gold_in_passage,91,sonnet,kch_000682,1,b,ko,퍼시픽 리그,True,answer_section_abstain,,1,"답변: 오릭스 버팔로즈와 후쿠오카 소프트뱅크 호크스는 퍼시픽 리그, 시애틀 매리너스는 아메리칸 리그 서부 지구 소속이며, 롯데 자이언츠에 대한 리그 정보는 문서에서 확인할 수 없습니다.",abstain,
+57,abstain,gold_in_passage,91,sonnet,kch_000608,1,d,en,Mexico City,True,fallback_abstain,,0,모르겠습니다,abstain,
+58,abstain,gold_in_passage,91,sonnet,kch_000708,0,b,en,Ford Motor Company,True,fallback_abstain,,0,모르겠습니다,abstain,
+59,abstain,gold_in_passage,91,sonnet,kch_000340,1,b,ko,미국,True,fallback_abstain,,0,모르겠습니다,abstain,
+60,abstain,clean,322,sonnet,kch_000532,1,b,ko,바르셀로나,False,fallback_abstain,,0,모르겠습니다,abstain,
+61,abstain,clean,322,sonnet,kch_000541,0,d,en,John Ford,False,fallback_abstain,,0,모르겠습니다,abstain,
+62,abstain,long,32,sonnet,kch_000912,1,d,en,Glendale,False,answer_section_abstain,,1,"답변: Liam Hemsworth - Melbourne, Australia / Russell Crowe - Wellington, New Zealand / Luke Hemsworth - 모르겠습니다 / Ricky Whittle - 모르겠습니다 / Milo Ventimiglia - Ridgewood, Queens",abstain,
+63,abstain,gold_in_passage,91,sonnet,kch_000347,1,b,ko,일본,True,fallback_abstain,,0,모르겠습니다,abstain,
+64,abstain,clean,322,sonnet,kch_000517,1,b,ko,오클랜드 지방,False,fallback_abstain,,0,모르겠습니다,abstain,
+65,abstain,long,32,sonnet,kch_000808,1,d,en,University of North Carolina at Chapel Hill,False,fallback_abstain,,0,"문서에서 ""Reid""라는 인물이 University of Sussex, New York Film Academy, University of California Santa Barbara를 졸업했다고 나와 있지만, 이는 ""Peyton Reed""가 아닌 다른 인물에 관한 내용입니다. 문서에서 Peyton Reed의 졸업 학교를 확인할 수 없습니다.
+
+모르겠습니다",abstain,
+66,abstain,gold_in_passage,91,sonnet,kch_000009,1,c,en,Japan,True,fallback_abstain,,0,모르겠습니다,abstain,
+67,abstain,long,32,sonnet,kch_000131,0,a,ko,SC 브라가,False,answer_section_abstain,,1,"답변: 모르겠습니다 (문서에 여러 명의 김동현이 등장하며, 특정 김동현의 현재 소속팀을 확인할 수 없습니다)",abstain,
+68,abstain,gold_in_passage,91,sonnet,kch_000100,0,a,ko,콜롬보,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+69,abstain,long,32,sonnet,kch_000185,1,d,en,Sydney,False,answer_section_abstain,,1,"문서에서 Ryan Reynolds의 출생지는 Vancouver, British Columbia로 확인됩니다. 나머지 인물들(Hugh Jackman, Brianna Hildebrand, Karan Soni, Dafne Keen, Rob Delaney)의 출생지는 제공된 문서에서 확인할 수 없습니다.
+
+답변: Ryan Reynolds - Vancouver, British Columbia / 나머지는 모르겠습니다",unclear,
+70,abstain,long,32,sonnet,kch_000556,1,b,ko,클리블랜드,False,fallback_abstain,,0,"문서에서 샘 록웰(Sam Rockwell)의 출생지는 언급되어 있지 않습니다.
+
+모르겠습니다",abstain,
+71,abstain,clean,322,sonnet,kch_000281,1,b,ko,존 워녹,False,fallback_abstain,,0,모르겠습니다,abstain,
+72,abstain,long,32,sonnet,kch_000126,1,b,ko,시드니,False,answer_section_abstain,,1,"문서에는 Ryan Reynolds의 출생지(캐나다)만 간접적으로 언급되어 있으며(캐나다 배우로 소개), 나머지 인물들의 출생지는 문서에서 확인할 수 없습니다.
+
+답변: 모르겠습니다",abstain,
+73,abstain,clean,322,sonnet,kch_000583,1,c,en,Gakushuin University,False,fallback_abstain,,0,모르겠습니다,abstain,
+74,abstain,long,32,sonnet,kch_000791,1,c,en,Owensboro,False,answer_section_abstain,,1,"답변: 멤피스, 테네시 (모건 프리먼)
+
+※ 조니 뎁의 출생지는 제공된 문서에서 확인할 수 없습니다.",answer,
+75,abstain,gold_in_passage,91,sonnet,kch_000944,1,a,ko,일본,True,fallback_abstain,,0,모르겠습니다,abstain,
+76,abstain,gold_in_passage,91,sonnet,kch_000148,1,b,ko,하버드 대학교,True,answer_section_abstain,,1,"문서에서 William Monroe Trotter는 하버드 대학교를 졸업했다고 나와 있습니다. 그러나 W. E. B. Du Bois와 Mary Burnett Talbert의 졸업 학교는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 모르겠습니다",abstain,
+77,abstain,gold_in_passage,91,sonnet,kch_000517,0,b,en,Auckland,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+78,abstain,no_abstain_kw,2,sonnet,kch_000050,0,b,en,Unknown Worlds Entertainment,True,answer_section_abstain,,1,답변: Unknown Worlds Entertainment,answer,
+79,abstain,gold_in_passage,91,sonnet,kch_000040,1,c,en,Chiyoda,True,answer_section_abstain,,1,"문서에서 게임 아츠의 본사는 Chiyoda, Tokyo로 확인되지만, 스튜디오 알렉스에 대한 정보는 문서에 없습니다.
+
+답변: 모르겠습니다",abstain,
+80,abstain,gold_in_passage,91,sonnet,kch_000469,1,b,ko,나콘빠톰,True,answer_section_abstain,,1,"문서에서 Vachirawit Chivaaree(와치라윗 치와아리)의 출생지는 태국 나콘빠톰으로 확인됩니다. 나머지 인물들(Tontawan Tantivejakul, Jirawat Sutivanichsak, Metawin Opas-iamkajorn, Hirunkit Changkham)의 출생지는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 와치라윗 치와아리 - 나콘빠톰 (나머지는 모르겠습니다)",abstain,
+81,abstain,clean,322,sonnet,kch_000270,1,c,en,Santa Monica,False,fallback_abstain,,0,모르겠습니다,abstain,
+82,abstain,gold_in_passage,91,sonnet,kch_000121,1,a,ko,3. 리가,True,fallback_abstain,,0,"문서에서 확인할 수 있는 내용:
+- SV 다름슈타트 98: 2분데스리가 (승격/강등 기록 있음)
+- 할렐루야 축구단: K리그
+
+SV 발트호프 만하임과 대우 로얄즈가 속한 리그는 문서에서 확인할 수 없습니다.
+
+모르겠습니다",abstain,
+83,abstain,gold_in_passage,91,sonnet,kch_000068,1,a,ko,솔트레이크시티,True,answer_section_abstain,,1,"답변: 애벌랜치 소프트웨어의 본사는 미국 유타주 솔트레이크시티이며, 헤비 아이너 스튜디오의 본사는 문서에서 확인할 수 없습니다.",answer,
+84,abstain,gold_in_passage,91,sonnet,kch_000435,0,d,en,Ford Motor Company,True,fallback_abstain,,0,모르겠습니다,abstain,
+85,abstain,gold_in_passage,91,sonnet,kch_000729,1,a,ko,잉글랜드,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+86,abstain,gold_in_passage,91,sonnet,kch_000746,1,d,en,Kingdom of the Netherlands,True,fallback_abstain,,0,모르겠습니다,abstain,
+87,abstain,long,32,sonnet,kch_000189,1,a,ko,오웬즈버러,False,answer_section_abstain,,1,"문서에서 조니 뎁의 출생지는 켄터키주 오언즈버러로 확인됩니다. 그러나 모건 프리먼의 출생지는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 조니 뎁 - 켄터키주 오언즈버러 / 모건 프리먼 - 모르겠습니다",answer,
+88,abstain,gold_in_passage,91,sonnet,kch_000916,0,b,en,BioWare,True,fallback_abstain,,0,모르겠습니다,abstain,
+89,abstain,gold_in_passage,91,sonnet,kch_000947,0,d,en,Chengdu,True,fallback_abstain,,0,모르겠습니다,abstain,
+90,abstain,gold_in_passage,91,sonnet,kch_000978,1,b,ko,3. 리가,True,fallback_abstain,,0,모르겠습니다,abstain,
+91,abstain,gold_in_passage,91,sonnet,kch_000541,1,d,en,United States,True,fallback_abstain,,0,모르겠습니다,abstain,
+92,abstain,gold_in_passage,91,sonnet,kch_000347,0,b,en,Japan Air Self-Defense Force,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+93,abstain,gold_in_passage,91,sonnet,kch_000860,1,b,ko,요코하마시,True,answer_section_abstain,,1,"문서에서 확인된 정보:
+- Arc System Works: 일본 가나가와현 요코하마시
+- Eighting: 도쿄 시나가와구
+- Neople: 문서에 없음
+
+답변: Arc System Works는 일본 가나가와현 요코하마시, Eighting은 도쿄 시나가와구, Neople은 모르겠습니다.",abstain,
+94,abstain,clean,322,sonnet,kch_000718,0,b,en,Ernest Hemingway,False,fallback_abstain,,0,모르겠습니다,abstain,
+95,abstain,gold_in_passage,91,sonnet,kch_000464,1,b,ko,중화인민공화국,True,fallback_abstain,,0,모르겠습니다,abstain,
+96,abstain,gold_in_passage,91,sonnet,kch_000188,0,c,ko,콜롬보,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+97,abstain,long,32,sonnet,kch_000350,1,b,ko,제이드 레이먼드,False,fallback_abstain,,0,"문서에서 Ubisoft Montreal의 설립자에 대한 정보를 확인할 수 없습니다.
+
+모르겠습니다",abstain,
+98,abstain,long,32,sonnet,kch_000073,1,b,ko,로스앤젤레스,False,answer_section_abstain,,1,"문서에서 Anne Hathaway의 출생지는 뉴욕 브루클린으로 확인됩니다. 나머지 인물들(Julie Andrews, Héctor Elizondo, Heather Matarazzo, Mandy Moore, Caroline Goodall, Robert Schwartzman)의 출생지는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 뉴욕 브루클린 (Anne Hathaway); 나머지는 모르겠습니다",answer,
+99,abstain,long,32,sonnet,kch_000229,0,d,en,PSV Eindhoven,False,answer_section_abstain,,1,"답변: 모르겠습니다
+
+(문서에는 허정무가 전직 선수 및 감독이라는 정보만 있고, 특정 소속 팀에 대한 정보는 없습니다.)",abstain,
+100,abstain,gold_in_passage,91,sonnet,kch_000139,1,d,en,Japan,True,fallback_abstain,,0,모르겠습니다,abstain,
+101,abstain,clean,322,sonnet,kch_000036,1,b,ko,중화민국,False,fallback_abstain,,0,모르겠습니다,abstain,
+102,abstain,gold_in_passage,91,sonnet,kch_000163,1,a,ko,스톡홀름,True,fallback_abstain,,0,"문서에서 모장 스튜디오의 본사는 스웨덴 스톡홀름으로 확인되지만, 블랙버드 인터랙티브의 본사는 문서에서 확인할 수 없습니다.
+
+모르겠습니다",abstain,
+103,abstain,gold_in_passage,91,sonnet,kch_000139,0,d,en,Japan Air Self-Defense Force,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+104,abstain,gold_in_passage,91,sonnet,kch_000929,1,b,ko,아일랜드,True,fallback_abstain,,0,모르겠습니다,abstain,
+105,abstain,long,32,sonnet,kch_000692,1,c,en,Matsudo,False,answer_section_abstain,,1,"문서에서 시노하라 료코의 출생지는 명시되어 있지 않습니다.
+
+답변: 모르겠습니다",abstain,
+106,abstain,gold_in_passage,91,sonnet,kch_000787,1,c,en,Aérospatiale,True,answer_section_abstain,,1,"문서에 따르면 Aérospatiale는 1970년 Nord Aviation, SEREB, Sud Aviation 세 국영 항공우주 기업의 합병으로 설립되었으며, 특정 개인 설립자는 언급되어 있지 않습니다.
+
+답변: 모르겠습니다",abstain,
+107,abstain,long,32,sonnet,kch_000332,1,a,ko,클리블랜드,False,answer_section_abstain,,1,"문서에서 도널드 서덜랜드는 캐나다 출신이라고만 나와 있으며, 핼리 베리, 패트릭 윌슨, 마이클 페냐의 출생지는 문서에 없습니다.
+
+답변: 모르겠습니다",abstain,
+108,abstain,gold_in_passage,91,sonnet,kch_000944,0,a,ko,항공자위대,True,fallback_abstain,,0,모르겠습니다.,abstain,
+109,abstain,no_abstain_kw,2,sonnet,kch_000383,0,d,en,Unknown Worlds Entertainment,True,answer_section_abstain,,1,답변: Unknown Worlds Entertainment,answer,
+110,abstain,clean,322,sonnet,kch_000371,1,c,en,Reed College,False,fallback_abstain,,0,모르겠습니다,abstain,
+111,abstain,gold_in_passage,91,sonnet,kch_000929,0,b,en,Olivia Wilde,True,fallback_abstain,,0,모르겠습니다,abstain,
+112,abstain,long,32,sonnet,kch_000297,1,c,en,Van Nuys,False,answer_section_abstain,,1,"윌리엄 실베스터의 출생지는 문서에서 확인됩니다: 오클랜드, 캘리포니아.
+
+키어 둘리와 게리 록우드의 출생지는 문서에서 확인할 수 없습니다.
+
+답변: 윌리엄 실베스터 - 오클랜드, 캘리포니아 / 키어 둘리, 게리 록우드 - 모르겠습니다",abstain,
+113,abstain,gold_in_passage,91,sonnet,kch_000878,1,c,en,Swedish Academy,True,fallback_abstain,,0,"문서에서 국제 부커상은 부커상 재단(Booker Prize Foundation)이 수여하고, 노벨 문학상은 스웨덴 한림원(Swedish Academy)이 수여한다고 나와 있습니다. 그러나 한국소설문학상, 오늘의 젊은 예술가상, 이상문학상 대상을 수여하는 기관은 문서에서 확인할 수 없습니다.
+
+모르겠습니다",abstain,
+114,abstain,gold_in_passage,91,sonnet,kch_000497,1,d,en,Harvard University,True,answer_section_abstain,,1,"문서에서 William Monroe Trotter는 Harvard University를 졸업했다고 나와 있습니다. 그러나 W. E. B. Du Bois와 Mary Burnett Talbert가 졸업한 학교는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 모르겠습니다",abstain,
+115,abstain,gold_in_passage,91,sonnet,kch_000976,0,d,en,Madhav Kumar Nepal,True,fallback_abstain,,0,모르겠습니다,abstain,
+116,abstain,gold_in_passage,91,sonnet,kch_000783,1,a,ko,오스트레일리아,True,fallback_abstain,,0,모르겠습니다,abstain,
+117,abstain,long,32,sonnet,kch_000447,1,b,ko,오웬즈버러,False,answer_section_abstain,,1,"문서에서 확인할 수 있는 것은 Johnny Depp의 출생지뿐입니다.
+
+답변: Johnny Depp - 켄터키주 오언즈버러 / 나머지(Morgan Freeman, Rebecca Hall, Paul Bettany, Kate Mara, Cillian Murphy, Cole Hauser)는 모르겠습니다",answer,
+118,abstain,gold_in_passage,91,sonnet,kch_000683,1,d,en,Bundesliga,True,fallback_abstain,,0,모르겠습니다,abstain,
+119,abstain,clean,322,sonnet,kch_000731,0,d,en,Chiba Lotte Marines,False,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+120,abstain,gold_in_passage,91,sonnet,kch_000487,1,a,ko,오클랜드 지방,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+121,abstain,gold_in_passage,91,sonnet,kch_000576,1,c,en,Redmond,True,answer_section_abstain,,1,"문서에서 343 Industries의 본사는 Redmond, Washington으로 확인되지만, Creative Assembly의 본사는 제공된 문서에서 확인할 수 없습니다.
+
+답변: 343 Industries - Redmond, Washington / Creative Assembly - 모르겠습니다",abstain,
+122,abstain,gold_in_passage,91,sonnet,kch_000393,1,d,en,Nakhon Pathom,True,answer_section_abstain,,1,"문서에서 Vachirawit Chivaaree의 출생지는 Nakhon Chai Si, Nakhon Pathom Province, Thailand로 확인되지만, 나머지 인물들(Tontawan Tantivejakul, Jirawat Sutivanichsak, Metawin Opas-iamkajorn, Hirunkit Changkham)의 출생지는 문서에서 확인할 수 없습니다.
+
+답변: Vachirawit Chivaaree - Nakhon Chai Si, Nakhon Pathom Province, Thailand; 나머지는 모르겠습니다.",answer,
+123,abstain,long,32,sonnet,kch_000972,0,b,en,Oliver Otis Howard,False,fallback_abstain,,0,"모르겠습니다.
+
+(문서에는 Harvard University에 대한 내용은 있지만, ""하워드 대학교(Howard University)""의 설립자에 대한 정보는 없습니다.)",abstain,
+124,abstain,gold_in_passage,91,sonnet,kch_000093,1,a,ko,지요다구,True,fallback_abstain,,0,"문서에서 게임 아츠의 본사는 도쿄 지요다구로 확인되지만, 스튜디오 알렉스에 대한 정보는 제공된 문서에 없습니다.
+
+모르겠습니다",abstain,
+125,abstain,long,32,sonnet,kch_000664,1,a,ko,로스앤젤레스,False,answer_section_abstain,,1,"문서에서 확인할 수 있는 출생지:
+- 앤 해서웨이: 뉴욕, 브루클린
+- 보니 에런스: 미국 (구체적 도시 불명)
+- 줄리 앤드루스: 문서에 정보 없음
+
+답변: 앤 해서웨이 - 뉴욕 브루클린, 보니 에런스 - 미국, 줄리 앤드루스 - 모르겠습니다",unclear,
+126,abstain,gold_in_passage,91,sonnet,kch_000550,1,a,ko,일본,True,fallback_abstain,,0,모르겠습니다,abstain,
+127,abstain,long,32,sonnet,kch_000797,1,d,en,3. Liga,False,answer_section_abstain,,1,"답변: 모르겠습니다
+
+(세 클럽이 공통으로 속한 단일 리그는 문서에서 확인되지 않습니다)",abstain,
+128,abstain,clean,322,sonnet,kch_000377,1,c,en,Stanford University,False,fallback_abstain,,0,모르겠습니다,abstain,
+129,abstain,clean,322,sonnet,kch_000162,1,b,ko,요코하마 국립 대학,False,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+130,abstain,gold_in_passage,91,sonnet,kch_000679,1,a,ko,사카구치 히로노부,True,answer_section_abstain,,1,"문서에서 미스트워커의 설립자는 사카구치 히로노부로 확인되지만, 아툰(Artoon)의 설립자에 대한 정보는 제공된 문서에 없습니다.
+
+답변: 모르겠습니다",abstain,
+131,abstain,clean,322,sonnet,kch_000804,0,d,en,Kieran Darcy-Smith,False,fallback_abstain,,0,모르겠습니다,abstain,
+132,abstain,gold_in_passage,91,sonnet,kch_000346,0,d,en,Olivia Wilde,True,fallback_abstain,,0,모르겠습니다,abstain,
+133,abstain,clean,322,sonnet,kch_000718,1,b,ko,노벨 문학상,False,fallback_abstain,,0,모르겠습니다,abstain,
+134,abstain,gold_in_passage,91,sonnet,kch_000006,0,d,en,Auckland,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,
+135,abstain,gold_in_passage,91,sonnet,kch_000187,1,b,ko,로스앤젤레스,True,answer_section_abstain,,1,"답변: 크리스 파인의 출생지는 캘리포니아주 로스앤젤레스이며, 나머지 인물들의 출생지는 문서에서 확인할 수 없습니다.",answer,
+136,abstain,clean,322,sonnet,kch_000946,0,d,en,Q Entertainment,False,fallback_abstain,,0,모르겠습니다,abstain,
+137,abstain,long,32,sonnet,kch_000770,1,d,en,University of North Carolina at Chapel Hill,False,fallback_abstain,,0,"문서에서 ""Reid""라는 인물이 University of Sussex, New York Film Academy, University of California, Santa Barbara를 졸업했다고 나와 있으나, 이는 ""Peyton Reed""가 아닌 다른 인물에 관한 내용입니다. 문서에서 Peyton Reed의 졸업 학교를 확인할 수 없습니다.
+
+모르겠습니다",abstain,
+138,abstain,gold_in_passage,91,sonnet,kch_000858,1,b,ko,오스트리아,True,answer_section_abstain,,1,"문서에서 Anton Zeilinger는 오스트리아 국적임이 확인되지만, Daniel Greenberger와 Michael Horne의 국적은 문서에서 확인할 수 없습니다.
+
+답변: 모르겠습니다",abstain,
+139,abstain,gold_in_passage,91,sonnet,kch_000464,0,b,en,Chengdu,True,fallback_abstain,,0,모르겠습니다,abstain,
+140,abstain,long,32,sonnet,kch_000204,1,d,en,Brisbane,False,answer_section_abstain,,2,"답변: 서울특별시 (이화여자대학교는 서울에 위치함이 문서에서 확인되나, 서울대학교의 행정구역은 문서에서 확인 불가)
+
+— 문서에서 확인 가능한 범위: 이화여자대학교는 서울(Seoul)에 위치합니다. 서울대학교에 대한 정보는 제공된 문서에 없습니다.
+
+답변: 모르겠습니다 (서울대학교 관련 정보 없음; 이화여자대학교는 서울)",abstain,
+141,abstain,gold_in_passage,91,sonnet,kch_000762,1,c,en,Premier League,True,fallback_abstain,,0,모르겠습니다,abstain,
+142,abstain,gold_in_passage,91,sonnet,kch_000727,1,c,en,Chiyoda,True,answer_section_abstain,,1,"문서에서 게임 아츠의 본사는 Chiyoda, Tokyo로 확인되지만, 스튜디오 알렉스에 대한 정보는 문서에 없습니다.
+
+답변: 모르겠습니다",abstain,
+143,abstain,clean,322,sonnet,kch_000904,0,d,en,Isao Takahata,False,fallback_abstain,,0,모르겠습니다,abstain,
+144,abstain,gold_in_passage,91,sonnet,kch_000656,0,a,ko,콜린 매클로린,True,answer_section_abstain,,1,"문서에 따르면 에딘버러 왕립학회는 1783년에 설립되었으며, 조지프 블랙, 윌리엄 쿨렌, 존 워커 등 에딘버러 대학교 교수들의 도움으로 에딘버러 철학 학회가 변모한 것입니다. 특정 단독 설립자는 명시되어 있지 않습니다.
+
+답변: 모르겠습니다",abstain,
+145,abstain,gold_in_passage,91,sonnet,kch_000757,1,b,ko,마운트버넌,True,answer_section_abstain,,1,"문서에서 확인할 수 있는 정보:
+
+- Bob Hoskins: 잉글랜드 (구체적 출생지 미기재)
+- Denzel Washington: 뉴욕주 마운트버넌
+- Chloe Webb: 문서에 정보 없음
+
+답변: Bob Hoskins는 잉글랜드, Denzel Washington은 뉴욕주 마운트버넌, Chloe Webb의 출생지는 모르겠습니다.",abstain,
+146,abstain,gold_in_passage,91,sonnet,kch_000908,1,c,en,Barcelona,True,fallback_abstain,,0,모르겠습니다,abstain,
+147,abstain,clean,322,sonnet,kch_000614,1,c,en,Eredivisie,False,fallback_abstain,,0,모르겠습니다,abstain,
+148,abstain,clean,322,sonnet,kch_000783,0,a,ko,키런 다시스미스,False,fallback_abstain,,0,모르겠습니다.,abstain,
+149,abstain,long,32,sonnet,kch_000555,1,a,ko,호세이 대학,False,answer_section_abstain,,1,"문서에서 마루야마 마사오의 졸업 학교에 대한 정보는 확인되지 않습니다.
+
+답변: 모르겠습니다",abstain,
+150,abstain,gold_in_passage,91,sonnet,kch_000264,1,c,en,Auckland Region,True,answer_section_abstain,,1,답변: 모르겠습니다,abstain,

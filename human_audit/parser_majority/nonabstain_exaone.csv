@@ -1,0 +1,80 @@
+idx,parser_class,stratum,stratum_pop,config,qid,hop,pattern,gold_lang,gold_entity,gold_in_passages,parser_source,parse_issue,marker_count,generated_text,human_label,notes
+1,nonabstain,short,1306,exaone,kch_000454,1,a,ko,중화민국,True,fallback_short,,0,대만,answer,
+2,nonabstain,normal,248,exaone,kch_000220,0,c,ko,로버트 슈워츠먼,False,answer_section_short,,1,"앤 해서웨이, 줄리 앤드루스 여사 (2001년 버전에서의 역할 언급은 있으나 주요 주연 배우로는 앤 해서웨이가 더 강조됨) 
+
+답변: 앤 해서웨이",answer,
+3,nonabstain,normal,248,exaone,kch_000052,0,b,en,Chiba Lotte Marines,False,answer_section,,1,"KT Wiz (KBO League 언급되었으나, 가장 최근 정보로는 Jeonbuk Hyundai Motors) 
+
+답변: Jeonbuk Hyundai Motors",answer,
+4,nonabstain,normal,248,exaone,kch_000242,1,c,en,Hironobu Sakaguchi,True,fallback_cleaned,,0,"Hironobu Sakaguchi (Mistwalker), Naoto Ohshima and Yoji Ishii (Artoon)",answer,
+5,nonabstain,normal,248,exaone,kch_000789,1,c,en,Jade Raymond,True,answer_section,,1,"Yves Guillemot와 그의 형제들 (Claude, Michel, Gérard 및 Christian) - 유비소프트 창립자로 언급되었으나, 각 스튜디오의 특정 설립자 명시는 문서에서 명확하게 구분되지 않음. 
+
+답변: Yves Guillemot",answer,
+6,nonabstain,normal,248,exaone,kch_000514,0,d,en,Anton Zeilinger,True,answer_section,,1,"Greenberger, Horne, Zeilinger (GHZ) theorem 관련 인물 중 직접적인 발명자로 명시된 이름은 제공된 텍스트에서 명확하게 나타나지 않습니다. 그러나 핵심 인물들을 나열하면: Daniel Greenberger, Michael Horne, Anton Zeilinger 입니다. 가장 중심이 되는 개인으로 답을 제시한다면:
+
+답변: Daniel Greenberger",answer,
+7,nonabstain,normal,248,exaone,kch_000597,0,c,ko,연세대학교,True,fallback_cleaned,,0,"연세대학교 화학과 교수, 기초과학연구원 나노의학연구단장, 막스플랑크–연세 IBS 센터장",answer,
+8,nonabstain,short,1306,exaone,kch_000080,1,d,en,Beaverton,True,fallback_cleaned,,0,"Beaverton, Oregon",answer,
+9,nonabstain,short,1306,exaone,kch_000824,1,d,en,Royal Academy of Dramatic Art,True,fallback_cleaned,,0,Royal Academy of Dramatic Art (RADA),answer,
+10,nonabstain,short,1306,exaone,kch_000351,0,d,en,Traveller's Tales,True,fallback_cleaned,,0,Traveller's Tales,answer,
+11,nonabstain,normal,248,exaone,kch_000792,1,a,ko,아에로스파시알,True,fallback_cleaned,,0,아에로스파시알과 다임러 크라이슬러 에어로스페이스 합병 참여 기업들의 경영진 및 엔지니어 팀,answer,
+12,nonabstain,short,1306,exaone,kch_000137,0,a,ko,호소카와 모리히로,True,fallback_cleaned,,0,호소카와 모리히로 등,answer,
+13,nonabstain,short,1306,exaone,kch_000969,0,b,en,Sion Sono,True,fallback_cleaned,,0,Sion Sono,answer,
+14,nonabstain,short,1306,exaone,kch_000022,1,c,en,Japan,True,fallback_short,,0,일본인,answer,
+15,nonabstain,normal,248,exaone,kch_000670,1,d,en,Ligue 1,False,answer_section_short,,1,"K League 2 (역사적으로는 K League 1에서 활동했지만, 최근 언급된 정보로는 2023 시즌에 relegation되어 K League 2에 있음을 명시하지만, Seo의 재임 기간은 주로 K League 1에서 였음을 시사)  
+
+정확한 현재 리그 지위를 문서만으로 명확히 지정하기 어렵습니다. 하지만 주요 경력 시기에는:
+답변: K League 1",answer,
+16,nonabstain,normal,248,exaone,kch_000182,1,a,ko,미국,True,answer_section_short,,1,"미국 텍사스주 출신으로 언급되었지만, 정확한 출생지는 명시되어 있지 않습니다. 주어진 정보로는 정확히 특정 주를 지목하기 어렵습니다. 그러나 그의 활동과 배경을 고려할 때 미국 국적임은 확실합니다. 
+
+답변: 미국",answer,
+17,nonabstain,short,1306,exaone,kch_000251,1,a,ko,오사카 예술대학,True,fallback_cleaned,,0,오사카 예술대학 예술학부 영상학과,answer,
+18,nonabstain,normal,248,exaone,kch_000924,1,a,ko,J리그 디비전 1,False,fallback_cleaned,,0,카타르 세컨드 디비전 (QSD) 또는 카타르 스타스 리그(QSLD) 2부 리그,answer,
+19,nonabstain,short,1306,exaone,kch_000636,0,d,en,Northrop,True,fallback_cleaned,,0,Northrop Corporation,answer,
+20,nonabstain,short,1306,exaone,kch_000456,1,d,en,Thailand,True,fallback_short,,0,태국,answer,
+21,nonabstain,short,1306,exaone,kch_000217,1,b,ko,의회 명예 훈장,False,fallback_cleaned,,0,"의회 명예 황금 훈장, 런던 시의 프리맨 지위",answer,
+22,nonabstain,short,1306,exaone,kch_000084,0,c,ko,니키 카로,True,fallback_short,,0,니키 카로,answer,
+23,nonabstain,short,1306,exaone,kch_000659,0,c,ko,더 콜렉티브,True,fallback_cleaned,,0,더 콜렉티브에서 개발하고 루카스아츠에서 배급하였다.,answer,
+24,nonabstain,normal,248,exaone,kch_000535,0,b,en,Indy Eleven,False,fallback_cleaned,,0,"Jeonbuk Hyundai Motors (2022년 이후) 
+
+참고: 가장 최근의 정보를 바탕으로 답변 드리지만, 정확한 시점을 명시하기 위해서는 더 구체적인 시기가 필요합니다. 주어진 문서에서는 2022년 FIFA 월드컵 참가 후 Jeonbuk Hyundai Motors로 이적했다는 내용만 확인됩니다. 현재 단계 질문에 대한 가장 짧은 답변 형태로 제공하였습니다.",answer,
+25,nonabstain,short,1306,exaone,kch_000632,1,c,en,Edmonton,True,fallback_cleaned,,0,"에드먼턴, 앨버타",answer,
+26,nonabstain,short,1306,exaone,kch_000624,1,d,en,Santa Monica,True,answer_section,,1,"답변: Santa Monica, California",answer,
+27,nonabstain,short,1306,exaone,kch_000529,1,b,ko,미나토구,True,answer_section_short,,1,답변: 미나토구,answer,
+28,nonabstain,short,1306,exaone,kch_000362,0,c,ko,아크 시스템 웍스,True,fallback_cleaned,,0,"아크 시스템 웍스, 에이팅 및 네오플",answer,
+29,nonabstain,normal,248,exaone,kch_000057,1,c,en,Bowdoin College,True,fallback_cleaned,,0,"Bowdoin College, United States Military Academy",answer,
+30,nonabstain,short,1306,exaone,kch_000530,1,a,ko,오사카 예술대학,True,fallback_cleaned,,0,오사카 예술대학 예술학부 영상학과,answer,
+31,nonabstain,normal,248,exaone,kch_000187,0,b,en,Chris Pine,True,fallback_cleaned,,0,"Florence Pugh, Harry Styles, Olivia Wilde, Gemma Chan, KiKi Layne, Nick Kroll, Chris Pine",answer,
+32,nonabstain,short,1306,exaone,kch_000696,0,b,en,Shunji Iwai,True,fallback_cleaned,,0,Shunji Iwai,answer,
+33,nonabstain,short,1306,exaone,kch_000166,1,a,ko,요코하마 국립 대학,False,fallback_cleaned,,0,도쿄공업대학 공학부 정보공학과,answer,
+34,nonabstain,normal,248,exaone,kch_000712,1,a,ko,후쿠오카시,False,answer_section,,1,"일본 가나가와현 구로키 군 나카무라 (지금의 요코하마시) 또는 미국 캘리포니아주 로스앤젤레스 (배우 치바 신이치의 경우) 
+
+하지만 단일 출생지로 명확히 지정된 정보는 첫 번째 인물(치바 신이치 배우가 아닌 다른 인물로 오해의 소지가 있음에 주의 필요)이고, 명확한 답변을 위해:
+
+답변: 일본 가나가와현 (주로 알려진 치바 신이치 배우의 문맥에서) 또는 미국 캘리포니아주 로스앤젤레스",answer,
+35,nonabstain,short,1306,exaone,kch_000361,0,d,en,Citroën,True,fallback_cleaned,,0,프랑스 (Citroën),answer,
+36,nonabstain,normal,248,exaone,kch_000028,1,c,en,Michael Morhaime,True,fallback_cleaned,,0,"Michael Morhaime, Allen Adham, Frank Pearce",answer,
+37,nonabstain,normal,248,exaone,kch_000654,0,a,ko,스티브 잡스,True,answer_section_short,,1,"스티브 잡스, 로널드 웨인 (공동 창업자로 언급되나 macOS 직접 설립자로는 스티브 잡스 강조됨) 
+
+답변: 스티브 잡스",answer,
+38,nonabstain,short,1306,exaone,kch_000115,0,c,ko,파나소닉,True,fallback_short,,0,파나소닉,answer,
+39,nonabstain,short,1306,exaone,kch_000039,0,b,en,Leigh Whannell,True,fallback_cleaned,,0,Leigh Whannell,answer,
+40,nonabstain,normal,248,exaone,kch_000172,1,b,ko,K리그1,False,fallback_cleaned,,0,"K리그 (구체적인 리그 이름 미상, 하지만 한국 내 프로 축구 리그를 의미)",answer,
+41,nonabstain,short,1306,exaone,kch_000499,1,d,en,People's Republic of China,True,fallback_short,,0,중국,answer,
+42,nonabstain,normal,248,exaone,kch_000357,1,d,en,Jade Raymond,False,fallback_cleaned,,0,"Yves Guillemot, Claude Guillemot, Michel Guillemot, Gérard Guillemot, Christian Guillemot (혹은 간단히: Yves Guillemot와 그의 형제들)",answer,
+43,nonabstain,normal,248,exaone,kch_000664,0,a,ko,로버트 슈워츠먼,False,answer_section_short,,1,"앤 해서웨이, 줄리 앤드루스 여사 (2001년 버전에서의 역할 언급은 있으나 주요 주연 배우로는 앤 해서웨이가 더 강조됨) 
+
+답변: 앤 해서웨이",answer,
+44,nonabstain,normal,248,exaone,kch_000384,1,d,en,United States,True,answer_section_short,,1,"미국 시민권자, 미국 대통령 역임으로 보아 미국 텍사스 식민지 시대의 영국 국적에서 미국 독립 후 미국 시민권을 갖게 됨을 추론할 수 있으나, 가장 짧은 형태로 답하면:
+
+답변: 미국",answer,
+45,nonabstain,normal,248,exaone,kch_000410,1,a,ko,커클랜드,True,answer_section,,1,"미국 워싱턴주 커클랜드, 본사 위치는 명시되지 않았으나 모놀리스 프로덕션스의 경우 미국 워싱턴주 커클랜드에 있다고 언급됨. 워너 브라더스 인터랙티브 엔터테인먼트의 정확한 본사 위치는 문서에서 명확히 지정되어 있지 않음. 
+
+답변: 워싱턴주 커클랜드 (모놀리스 프로덕션스 기준)",answer,
+46,nonabstain,normal,248,exaone,kch_000652,0,b,en,Stellenbosch,True,fallback_cleaned,,0,"Stellenbosch, Western Cape province of South Africa",answer,
+47,nonabstain,normal,248,exaone,kch_000920,1,b,ko,중화민국,True,answer_section_short,,1,"대만 (Republic of China) 또는 중화 타이베이 (Chinese Taipei)로 국제적으로 인식되지만, 공식적인 국가 명칭은 중화민국(中華民國). 그러나 현대 국제 맥락에서는 주로 대만으로 지칭됨을 주의해야 합니다. 현재 단계의 간결한 답변:
+
+대만",answer,
+48,nonabstain,normal,248,exaone,kch_000303,1,a,ko,요코하마시,True,answer_section,,1,"답변: 아크 시스템 웍스 - 일본 가나가와현 요코하마시, 네오플 - 한국 서울시 강남구 대치동 (미래에셋타워 인수 관련 위치 언급), 에픽게임즈 - 미국 노스캐롤라이나주 캐리시",answer,
+49,nonabstain,normal,248,exaone,kch_000761,1,c,en,Congressional Gold Medal,True,fallback_cleaned,,0,"Congressional Gold Medal, Freeman of the City of London award, honorary doctorates from Harvard University and Oxford University",answer,
+50,nonabstain,short,1306,exaone,kch_000041,1,a,ko,페르디난트 포르셰,True,fallback_cleaned,,0,페르디난트 포르셰,answer,

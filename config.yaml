@@ -1,0 +1,45 @@
+# K-CrossHop 데이터 파이프라인 설정
+
+wikidata:            # 01_extract_paths.py
+  endpoint: "https://qlever.cs.uni-freiburg.de/api/wikidata"
+  user_agent: "K-CrossHop-Research/1.0 (research; hallucination study)"
+  timeout: 60        # seconds
+  max_retries: 3
+  sleep_between_requests: 2.0   # QLever 미러 사용 — rate limit 없음
+
+wikipedia:           # 02_fetch_passages.py
+  langs: ["ko", "en"]
+  chunk_size: 350    # tokens per passage (BGE-M3 max 512)
+  chunk_overlap: 50
+  min_passage_len: 40  # 단어 수 기준
+
+qa:                  # 03_generate_qa.py
+  llm_model: "claude-sonnet-4-6"
+  max_tokens: 512
+  per_pattern: 250   # 패턴당 QA 생성 수
+
+pilot:               # 05_pilot_runner.py
+  agent_model:    "claude-sonnet-4-6"
+  local_endpoint: "http://localhost:11434/v1/chat/completions"
+  seed:           42
+  per_pattern:    300      # 파일럿 실행 시 패턴당 샘플 수
+  top_k:          5        # 패시지 검색 수
+  retrieval_mode: "sub_q"  # gold_entity | sub_q
+  prompt_version: "v2.3"  # v1 | v2 | v2.2 | v2.3
+
+annotation:          # 06_annotate.py
+  judge_model:    "gpt-5.4-mini-2026-03-17"
+  max_concurrent: 20
+
+output:              # 단계별 파일 경로 (01→02→03→04→05→06 순)
+  raw_paths:       "data/corpus/wikidata_paths.jsonl"
+  passages:        "data/corpus/passages.jsonl"
+  faiss_index:     "data/faiss_index"
+  qa_pairs:        "data/dataset/qa_pairs.jsonl"
+  trajectories:    "data/trajectories/aya_ecological.jsonl"
+  annotated:       "data/annotated/aya_ecological.jsonl"
+  pilot_report:    "data/pilot_report.json"
+
+analysis:            # 08~15 분석 스크립트 공통 경로
+  alias_cache:     "data/retrieval/alias_cache.json"
+  analysis_dir:    "data/retrieval"

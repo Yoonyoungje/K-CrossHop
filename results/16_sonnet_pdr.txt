@@ -1,0 +1,18 @@
+
+모델: sonnet_ecological
+  trajectory=1000, v3=2000, annotated=1000
+
+==============================================================
+PDR: P(gold entity in gen_text | v3=False, non-abstained)  (§10.10)
+==============================================================
+  정의: 검색 실패(v3=False) + 비기권 홉 중 생성 텍스트에 gold entity/alias 포함 비율
+  ΔPDR = PDR(cross-index) − PDR(same-index)
+
+  구분             same-index PDR      cross-index PDR     ΔPDR
+  ------------------------------------------------------------
+  hop0             0.077 (n=26)         0.053 (n=38)   -0.024
+  hop1             0.095 (n=42)         0.000 (n=33)   -0.095
+  전체               0.088 (n=68)         0.028 (n=71)   -0.060
+
+  ※ alias-aware: Wikidata label/wiki_title/aliases (KO+EN)
+  ※ 기권(abstained / ambiguous_answer_marker) 홉 제외

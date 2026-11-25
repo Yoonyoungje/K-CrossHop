@@ -1,0 +1,107 @@
+model,qid,gold_entity,match_method,section,label_A,label_B,label_C,majority
+aya,kch_000050,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+aya,kch_000127,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+aya,kch_000280,Tottenham Hotspur F.C.,alias_exact,main,proxy_fp,overabstain,proxy_fp,proxy_fp
+aya,kch_000383,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+aya,kch_000445,Tottenham Hotspur F.C.,alias_exact,main,proxy_fp,overabstain,proxy_fp,proxy_fp
+aya,kch_000564,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+aya,kch_000682,Fukuoka SoftBank Hawks,alias_exact,main,proxy_fp,ambiguous,proxy_fp,proxy_fp
+aya,kch_000683,Eintracht Frankfurt,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+aya,kch_000745,Fukuoka SoftBank Hawks,alias_exact,main,proxy_fp,ambiguous,proxy_fp,proxy_fp
+aya,kch_000842,Eintracht Frankfurt,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000050,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+exaone,kch_000127,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000180,Colin MacLaurin,alias_exact,main,ambiguous,ambiguous,ambiguous,ambiguous
+exaone,kch_000193,Mohammed bin Salman Al Saud,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+exaone,kch_000262,Nintendo Software Planning & Development,alias_exact,main,proxy_fp,ambiguous,proxy_fp,proxy_fp
+exaone,kch_000273,RC Strasbourg Alsace,alias_exact,main,ambiguous,ambiguous,ambiguous,ambiguous
+exaone,kch_000282,Nintendo Software Planning & Development,alias_exact,main,proxy_fp,ambiguous,proxy_fp,proxy_fp
+exaone,kch_000379,Amsterdam,alias_exact,main,proxy_fp,ambiguous,parser_fp,tie
+exaone,kch_000383,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+exaone,kch_000435,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000464,Chengdu,alias_exact,main,proxy_fp,proxy_fp,overabstain,proxy_fp
+exaone,kch_000516,David S. Ward,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+exaone,kch_000554,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000564,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000569,Mohammed bin Salman Al Saud,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+exaone,kch_000619,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000653,Sam Altman,alias_exact,main,proxy_fp,proxy_fp,overabstain,proxy_fp
+exaone,kch_000670,RC Strasbourg Alsace,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+exaone,kch_000674,Colin MacLaurin,alias_exact,main,ambiguous,ambiguous,ambiguous,ambiguous
+exaone,kch_000708,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000736,Amsterdam,alias_exact,main,proxy_fp,ambiguous,parser_fp,tie
+exaone,kch_000812,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000813,Sam Altman,alias_exact,main,proxy_fp,proxy_fp,overabstain,proxy_fp
+exaone,kch_000916,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+exaone,kch_000947,Chengdu,alias_exact,main,proxy_fp,proxy_fp,overabstain,proxy_fp
+exaone,kch_000968,David S. Ward,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+exaone,kch_000976,Madhav Kumar Nepal,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+exaone,kch_000998,Madhav Kumar Nepal,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+gemini,kch_000088,Steve Jobs,alias_exact,main,ambiguous,ambiguous,ambiguous,ambiguous
+gemini,kch_000127,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000139,Japan Air Self-Defense Force,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+gemini,kch_000346,Olivia Wilde,alias_exact,main,proxy_fp,ambiguous,overabstain,tie
+gemini,kch_000347,Japan Air Self-Defense Force,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+gemini,kch_000435,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000436,Frank Gehry,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+gemini,kch_000465,Steve Jobs,alias_exact,main,ambiguous,ambiguous,ambiguous,ambiguous
+gemini,kch_000516,David S. Ward,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+gemini,kch_000554,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000564,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000619,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000708,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000724,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000743,Frank Gehry,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+gemini,kch_000812,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000916,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000922,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+gemini,kch_000929,Olivia Wilde,alias_exact,main,proxy_fp,ambiguous,overabstain,tie
+gemini,kch_000968,David S. Ward,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+gemini,kch_000976,Madhav Kumar Nepal,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+gemini,kch_000998,Madhav Kumar Nepal,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+llama,kch_000050,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+llama,kch_000127,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000383,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+llama,kch_000435,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000554,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000564,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000619,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000708,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000812,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+llama,kch_000916,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+qwen,kch_000050,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+qwen,kch_000383,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+qwen,kch_000384,Thomas Jefferson,alias_exact,main,overabstain,proxy_fp,overabstain,overabstain
+qwen,kch_000554,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+qwen,kch_000619,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+qwen,kch_000756,Thomas Jefferson,alias_exact,main,overabstain,proxy_fp,overabstain,overabstain
+qwen,kch_000812,Nobel Prize in Literature,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+qwen,kch_000865,David Oyelowo,alias_exact,main,overabstain,overabstain,overabstain,overabstain
+qwen,kch_000916,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+qwen,kch_000973,David Oyelowo,alias_exact,main,overabstain,overabstain,overabstain,overabstain
+sonnet,kch_000006,Auckland,alias_exact,main,overabstain,ambiguous,proxy_fp,tie
+sonnet,kch_000050,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+sonnet,kch_000127,Hayao Miyazaki,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000139,Japan Air Self-Defense Force,alias_exact,calibration,proxy_fp,ambiguous,ambiguous,ambiguous
+sonnet,kch_000346,Olivia Wilde,alias_exact,calibration,proxy_fp,ambiguous,overabstain,tie
+sonnet,kch_000347,Japan Air Self-Defense Force,alias_exact,calibration,proxy_fp,ambiguous,ambiguous,ambiguous
+sonnet,kch_000383,Unknown Worlds Entertainment,alias_exact,main,parser_fp,parser_fp,parser_fp,parser_fp
+sonnet,kch_000435,Ford Motor Company,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000436,Frank Gehry,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+sonnet,kch_000464,Chengdu,alias_exact,calibration,proxy_fp,proxy_fp,overabstain,proxy_fp
+sonnet,kch_000516,David S. Ward,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+sonnet,kch_000517,Auckland,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000554,Nobel Prize in Literature,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000564,Hayao Miyazaki,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000619,BioWare,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000708,Ford Motor Company,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000724,BioWare,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000743,Frank Gehry,alias_exact,main,proxy_fp,proxy_fp,ambiguous,proxy_fp
+sonnet,kch_000812,Nobel Prize in Literature,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000916,BioWare,alias_exact,main,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000922,BioWare,alias_exact,calibration,proxy_fp,proxy_fp,proxy_fp,proxy_fp
+sonnet,kch_000929,Olivia Wilde,alias_exact,calibration,proxy_fp,ambiguous,overabstain,tie
+sonnet,kch_000947,Chengdu,alias_exact,calibration,proxy_fp,proxy_fp,overabstain,proxy_fp
+sonnet,kch_000968,David S. Ward,alias_exact,main,proxy_fp,ambiguous,ambiguous,ambiguous
+sonnet,kch_000976,Madhav Kumar Nepal,alias_exact,calibration,ambiguous,ambiguous,ambiguous,ambiguous
+sonnet,kch_000998,Madhav Kumar Nepal,alias_exact,calibration,ambiguous,ambiguous,ambiguous,ambiguous
